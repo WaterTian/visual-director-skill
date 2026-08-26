@@ -51,6 +51,7 @@ PRODUCT_ROUTES = (
 )
 
 CHARACTER_ROUTES = (
+    ("documentary-music-rehearsal", ("music rehearsal", "rehearsal portrait", "cellist", "cello", "musician portrait", "音乐排练", "排练人像", "大提琴", "音乐家")),
     (
         "documentary-craft-portrait",
         (

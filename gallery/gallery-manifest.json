@@ -157,6 +157,18 @@
       "first_party": true,
       "input_assets": [],
       "status": "approved_public_gallery"
+    },
+    {
+      "case_id": 9,
+      "id": "documentary-music-rehearsal-elise-moreau",
+      "template_id": "documentary-music-rehearsal",
+      "image_path": "gallery/images/documentary-music-rehearsal-elise-moreau.png",
+      "prompt_path": "gallery/prompts/documentary-music-rehearsal-elise-moreau.md",
+      "image_sha256": "f38898f9be919dd3426f0ee28e40c1ebfa9a789fb0ec2245e176e4934cbbb1db",
+      "prompt_sha256": "9790b3a2f9f527278557afdc87edd9869c0e738d73c9ab7a89096c04b4e4dc3e",
+      "width": 864,
+      "height": 1821,
+      "format": "PNG", "mode": "RGB", "provider_path": "codex-built-in-imagegen", "paid_api": false, "first_party": true, "input_assets": [], "status": "approved_public_gallery"
     }
   ]
 }

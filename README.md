@@ -6,7 +6,7 @@ Visual Director 是一个可移植的 Codex 视觉生产 Skill。它把模糊的
 
 Visual Director is a portable visual-production skill for Codex. It turns an ambiguous image request into a testable Visual Brief, selects a reviewed first-party template, compiles a precise prompt, and protects formal assets with file checks, visual review, and approval gates.
 
-`v0.6.0` · `MIT` · `8 reviewed workflows` · `8 approved gallery assets` · `no paid API required`
+`v0.7.0` · `MIT` · `9 reviewed workflows` · `9 approved gallery assets` · `no paid API required`
 
 ## Gallery
 
@@ -39,6 +39,11 @@ Visual Director is a portable visual-production skill for Codex. It turns an amb
 |---|
 | ![ANIKA ROWAN documentary craft portrait](gallery/images/documentary-craft-portrait-anika-rowan.png) |
 | [Prompt + review / Prompt 与复核](gallery/prompts/documentary-craft-portrait-anika-rowan.md) |
+
+| Documentary Music Rehearsal / 写实音乐排练纪实人像 |
+|---|
+| ![ELISE MOREAU documentary music rehearsal](gallery/images/documentary-music-rehearsal-elise-moreau.png) |
+| [Prompt + review / Prompt 与复核](gallery/prompts/documentary-music-rehearsal-elise-moreau.md) |
 
 ## 中文
 

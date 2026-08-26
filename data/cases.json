@@ -1,12 +1,12 @@
 {
   "version": "0.1",
-  "source": {"kind": "first-party", "version": "0.6.0", "license": "MIT", "catalog_path": "data/cases.json"},
+  "source": {"kind": "first-party", "version": "0.7.0", "license": "MIT", "catalog_path": "data/cases.json"},
   "taxonomy": {
     "categories": ["Characters & People", "Products & E-commerce"],
     "styles": ["Character", "Documentary", "Editorial", "Fashion", "Illustration", "Motion", "Photography", "Product", "Realistic", "Technical"],
     "scenes": ["Commerce", "Creative", "Fashion", "Interior", "Story", "Tech", "Urban"]
   },
-  "summary": {"record_count": 8, "approved_count": 8},
+  "summary": {"record_count": 9, "approved_count": 9},
   "cases": [
     {
       "id": 1,
@@ -110,6 +110,19 @@
       "prompt_path": "gallery/prompts/documentary-craft-portrait-anika-rowan.md",
       "prompt_sha256": "810491bb52aeaf957d3c066a1a7b104459736416288ec7ff0725981b179634bd",
       "image": {"path": "gallery/images/documentary-craft-portrait-anika-rowan.png", "alt": "ANIKA ROWAN documentary craft portrait"},
+      "status": "approved_public_gallery"
+    },
+    {
+      "id": 9,
+      "title": "ELISE MOREAU Documentary Music Rehearsal",
+      "category": "Characters & People",
+      "styles": ["Photography", "Realistic", "Documentary"],
+      "scenes": ["Creative", "Interior"],
+      "featured": true,
+      "selection_text": "Photorealistic vertical documentary rehearsal portrait of one fictional adult cellist with one complete full-size cello and one bow, complete hands and shoes, credible instrument structure and scale, modest unbranded clothing, soft window daylight, natural wood and wool texture, and no text or brands.",
+      "prompt_path": "gallery/prompts/documentary-music-rehearsal-elise-moreau.md",
+      "prompt_sha256": "9790b3a2f9f527278557afdc87edd9869c0e738d73c9ab7a89096c04b4e4dc3e",
+      "image": {"path": "gallery/images/documentary-music-rehearsal-elise-moreau.png", "alt": "ELISE MOREAU documentary music rehearsal"},
       "status": "approved_public_gallery"
     }
   ]

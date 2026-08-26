@@ -67,6 +67,15 @@ This gallery contains only first-party results whose prompts were refined, gener
 - 864 × 1821, PNG/RGB, vertical complete-work frame / 竖幅完整工作构图
 - Adult identity, hands shaping one clay bowl, complete seated body and shoes, modest unbranded workwear, natural workshop materials, photorealism, and no-text requirements passed visual review / 成年身份、双手塑造单一陶碗、完整坐姿和鞋部、端庄无品牌工作服、自然工作室材质、写实感和无文字要求已通过视觉复核
 
+## Documentary Music Rehearsal / 写实音乐排练纪实人像
+
+![ELISE MOREAU documentary music rehearsal](images/documentary-music-rehearsal-elise-moreau.png)
+
+- [Final prompt and review / 最终 Prompt 与复核](prompts/documentary-music-rehearsal-elise-moreau.md)
+- New fictional adult identity with no real-person or external image reference / 全新虚构成年人物，不使用真人或外部图片参考
+- 864 × 1821, PNG/RGB, vertical figure-and-instrument frame / 竖幅人物与乐器构图
+- Adult identity, complete hands, bow, cello, shoes, credible instrument structure, natural rehearsal materials, photorealism, and no-text requirements passed visual review / 成年身份、完整双手、琴弓、大提琴、鞋部、可信乐器结构、自然排练材质、写实感和无文字要求已通过视觉复核
+
 ## Product Commerce Visual / 商品商业视觉
 
 ![AURORA MINI product commerce visual](images/product-commerce-visual-aurora-mini.png)

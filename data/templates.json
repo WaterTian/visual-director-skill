@@ -1,6 +1,6 @@
 {
   "version": "0.1",
-  "updated_at": "2026-08-26T13:08:11Z",
+  "updated_at": "2026-08-26T13:59:16Z",
   "templates": [
     {
       "id": "character-design-sheet",
@@ -206,6 +206,19 @@
       "pitfalls": {"en": ["fused fingers", "unclear object contact", "warped workpiece", "cropped shoes", "product-shot staging", "glamour posing"], "zh": ["手指粘连", "对象接触不清楚", "工件变形", "鞋部裁切", "产品展示化", "广告摆拍"]},
       "example_cases": [8],
       "provenance": {"kind": "first-party", "version": "0.6.0", "path": "gallery/prompts/documentary-craft-portrait-anika-rowan.md", "license": "MIT"}
+    },
+    {
+      "id": "documentary-music-rehearsal",
+      "title": {"en": "Documentary Music Rehearsal", "zh": "写实音乐排练纪实人像"},
+      "category": "Characters & People",
+      "styles": ["Photography", "Realistic", "Documentary"],
+      "scenes": ["Creative", "Interior"],
+      "tags": ["musician", "instrument", "cello", "hands", "full-body", "rehearsal"],
+      "use_when": {"en": "Use for a photorealistic observed portrait where one adult must interact credibly with one complex acoustic instrument, including complete body, hands, object scale, and instrument structure.", "zh": "用于需要一位成年人物与一件复杂原声乐器可信交互的写实纪实人像，并保证完整身体、双手、物体比例和乐器结构。"},
+      "guidance": {"en": ["Define one fictional adult, one instrument, and all complete parts that must remain readable.", "Specify both hands, the instrument contact points, full framing, and physical scale before choosing mood.", "Constrain construction details that establish instrument identity, then inspect them separately from the person.", "Keep rehearsal context observed and unbranded; avoid concert-poster lighting and album-cover glamour."], "zh": ["先定义一位虚构成年主体、一件乐器和必须清楚可见的完整部件。", "在选择情绪前，明确双手、人与乐器接触点、完整构图和物理比例。", "约束用于识别乐器的结构细节，并与人物质量分开检查。", "让排练环境保持被观察到且无品牌；避免演出海报灯光和专辑封面式摆拍。"]},
+      "pitfalls": {"en": ["warped instrument", "missing strings", "cropped endpin", "malformed bow grip", "duplicate instruments", "concert-poster glamour"], "zh": ["乐器变形", "琴弦缺失", "尾针裁切", "持弓畸形", "乐器重复", "演出海报化"]},
+      "example_cases": [9],
+      "provenance": {"kind": "first-party", "version": "0.7.0", "path": "gallery/prompts/documentary-music-rehearsal-elise-moreau.md", "license": "MIT"}
     },
     {
       "id": "realistic-photography",

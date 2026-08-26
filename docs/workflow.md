@@ -20,7 +20,7 @@ uv run python scripts/compile-prompt.py \
   --output work/compiled-prompt.json
 ```
 
-选择器只使用八个已验收第一方案例。分数用于缩小范围，不替代人工打开效果图比较。编译器只采用与 Brief 相符的通用结构线索，不复制案例主体、品牌或可见文字。
+选择器只使用九个已验收第一方案例。分数用于缩小范围，不替代人工打开效果图比较。编译器只采用与 Brief 相符的通用结构线索，不复制案例主体、品牌或可见文字。
 
 ### 3. 生成
 
@@ -85,7 +85,7 @@ uv run python scripts/compile-prompt.py \
   --output work/compiled-prompt.json
 ```
 
-The selector uses only eight reviewed first-party examples. Scores narrow the decision; they do not replace opening and comparing the images. The compiler adopts only generic structure cues supported by the Brief and does not copy subjects, brands, or visible copy.
+The selector uses only nine reviewed first-party examples. Scores narrow the decision; they do not replace opening and comparing the images. The compiler adopts only generic structure cues supported by the Brief and does not copy subjects, brands, or visible copy.
 
 ### 3. Generate
 

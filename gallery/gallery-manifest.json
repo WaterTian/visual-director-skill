@@ -1,0 +1,72 @@
+{
+  "version": "0.1",
+  "author": "WaterTian",
+  "license": "MIT",
+  "policy": {
+    "paid_api": false,
+    "first_party_only": true,
+    "allow_rejected_candidates": false,
+    "required_status": "approved_public_gallery"
+  },
+  "assets": [
+    {
+      "case_id": 1,
+      "id": "product-commerce-visual-aurora-mini",
+      "template_id": "product-commerce-visual",
+      "image_path": "gallery/images/product-commerce-visual-aurora-mini.png",
+      "prompt_path": "gallery/prompts/product-commerce-visual-aurora-mini.md",
+      "image_sha256": "733eea211d825686f89d737773132f59fd166069462030dbf5bec937aabc362b",
+      "prompt_sha256": "83693dd7b4a1f530abb690451c8885d4a6a826a6b89876061680358153f552fc",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "mode": "RGB",
+      "provider_path": "codex-built-in-imagegen",
+      "paid_api": false,
+      "first_party": true,
+      "input_assets": [],
+      "status": "approved_public_gallery"
+    },
+    {
+      "case_id": 2,
+      "id": "character-design-sheet-mara-venn",
+      "template_id": "character-design-sheet",
+      "image_path": "gallery/images/character-design-sheet-mara-venn.png",
+      "prompt_path": "gallery/prompts/character-design-sheet-mara-venn.md",
+      "image_sha256": "0f2ca7dd82270d1bf6c342908d0e652804e594a0bb0f8d53f9be00f7c41d96e3",
+      "prompt_sha256": "f341ab2ceaf630e907158993807f4f2bd7ccb2c1ef754a877eeae8a0602dea63",
+      "width": 1672,
+      "height": 941,
+      "format": "PNG",
+      "mode": "RGB",
+      "provider_path": "codex-built-in-imagegen",
+      "paid_api": false,
+      "first_party": true,
+      "input_assets": [],
+      "status": "approved_public_gallery"
+    },
+    {
+      "case_id": 3,
+      "id": "realistic-photography-mara-venn",
+      "template_id": "realistic-photography",
+      "image_path": "gallery/images/realistic-photography-mara-venn.png",
+      "prompt_path": "gallery/prompts/realistic-photography-mara-venn.md",
+      "image_sha256": "654ea248670e831a599f14ddd4c79c709c2d1be4bd2bbb1c7fc1ce6af0aaa6ae",
+      "prompt_sha256": "a9f3638bbece7471a946a9a5c4e87cbf80a5b14d8a12ad8f41aad0c2942100e6",
+      "width": 1122,
+      "height": 1402,
+      "format": "PNG",
+      "mode": "RGB",
+      "provider_path": "codex-built-in-imagegen",
+      "paid_api": false,
+      "first_party": true,
+      "input_assets": [
+        {
+          "path": "gallery/images/character-design-sheet-mara-venn.png",
+          "role": "project-created character identity and wardrobe reference"
+        }
+      ],
+      "status": "approved_public_gallery"
+    }
+  ]
+}

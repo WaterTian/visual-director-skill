@@ -1,0 +1,43 @@
+{
+  "version": "0.1",
+  "asset_id": "forest-guide-winter-edit",
+  "goal": "Place the established character in a winter scene without changing identity or outfit.",
+  "audience": "Players viewing a narrative quest card",
+  "deliverable": {
+    "type": "edit",
+    "width": 1536,
+    "height": 1024,
+    "format": "png",
+    "transparent_background": false
+  },
+  "content": {
+    "subject": "The same forest guide helping a squirrel beside a fallen snowy tree",
+    "exact_text": [],
+    "must_include": ["Same face", "Same green coat", "Same satchel", "Snowy forest"],
+    "must_avoid": ["Identity drift", "Outfit redesign", "Additional characters", "Watermarks"]
+  },
+  "art_direction": {
+    "style": "Identity-preserving children's watercolor illustration",
+    "palette": ["pine green", "snow white", "warm brown"],
+    "lighting": "Soft winter daylight",
+    "materials": ["watercolor paper", "soft pigment edges"]
+  },
+  "composition": {
+    "layout": "Character and squirrel centered with fallen tree forming a diagonal",
+    "viewpoint": "Medium-wide eye-level view",
+    "focal_hierarchy": ["Character identity", "Helping action", "Winter setting"]
+  },
+  "references": [
+    {
+      "uri": "fixture://forest-guide-anchor",
+      "role": "identity",
+      "notes": "Preserve face, proportions, coat, satchel, and watercolor style."
+    }
+  ],
+  "qa": {
+    "objective_checks": ["Output is 1536x1024 PNG", "No text appears"],
+    "visual_checks": ["Identity matches the anchor", "Outfit details are unchanged"],
+    "approval_required": true
+  }
+}
+

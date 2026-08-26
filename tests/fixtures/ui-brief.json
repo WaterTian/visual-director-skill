@@ -1,0 +1,37 @@
+{
+  "version": "0.1",
+  "asset_id": "market-mobile-home",
+  "goal": "Create a believable mobile home screen for browsing a neighborhood farmers market.",
+  "audience": "Shoppers using a mobile app",
+  "deliverable": {
+    "type": "ui",
+    "width": 1024,
+    "height": 1536,
+    "format": "png",
+    "transparent_background": false
+  },
+  "content": {
+    "subject": "High-fidelity mobile app home screen with vendor cards and daily specials",
+    "exact_text": ["GOOD MORNING", "TODAY'S MARKET", "VIEW ALL"],
+    "must_include": ["Status bar", "Search field", "Bottom tab bar", "Three vendor cards"],
+    "must_avoid": ["Device mockup frame", "Lorem ipsum", "Watermarks"]
+  },
+  "art_direction": {
+    "style": "Shippable modern mobile product UI",
+    "palette": ["cream", "leaf green", "tomato red"],
+    "lighting": "Flat interface rendering",
+    "materials": ["crisp UI surfaces", "natural food thumbnails"]
+  },
+  "composition": {
+    "layout": "Portrait mobile screen with card feed and bottom navigation",
+    "viewpoint": "Straight-on screen capture",
+    "focal_hierarchy": ["Today's market", "Vendor cards", "Bottom navigation"]
+  },
+  "references": [],
+  "qa": {
+    "objective_checks": ["Output is 1024x1536 PNG", "Three vendor cards are visible"],
+    "visual_checks": ["UI looks implementable", "Text hierarchy is clear"],
+    "approval_required": true
+  }
+}
+

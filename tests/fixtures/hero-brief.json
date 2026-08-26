@@ -1,0 +1,72 @@
+{
+  "version": "0.1",
+  "asset_id": "aurora-launch-hero",
+  "goal": "Create a launch-page hero that makes the compact device feel precise and premium.",
+  "audience": "Early adopters viewing a desktop product page",
+  "deliverable": {
+    "type": "hero",
+    "width": 1600,
+    "height": 900,
+    "format": "png",
+    "transparent_background": false
+  },
+  "content": {
+    "subject": "One compact matte-white desktop device",
+    "exact_text": [
+      "AURORA",
+      "Small form. Clear presence."
+    ],
+    "must_include": [
+      "One product only",
+      "Clean shadow grounding the product"
+    ],
+    "must_avoid": [
+      "Extra ports or controls",
+      "Watermarks",
+      "Placeholder text"
+    ]
+  },
+  "art_direction": {
+    "style": "Minimal premium product photography",
+    "palette": [
+      "warm white",
+      "soft graphite",
+      "subtle amber accent"
+    ],
+    "lighting": "Large soft key light from upper left with restrained rim light",
+    "materials": [
+      "matte polymer",
+      "fine anodized aluminum"
+    ]
+  },
+  "composition": {
+    "layout": "Product on right third with negative space for copy on left",
+    "viewpoint": "Slightly elevated three-quarter front view",
+    "focal_hierarchy": [
+      "Product silhouette",
+      "AURORA headline",
+      "Supporting line"
+    ]
+  },
+  "brand": {
+    "profile": "example-brand",
+    "rules": [
+      "Do not alter product geometry",
+      "Keep the amber accent below ten percent of the frame"
+    ]
+  },
+  "references": [],
+  "qa": {
+    "objective_checks": [
+      "Output is exactly 1600x900 PNG",
+      "Both exact text strings are present",
+      "Only one product is visible"
+    ],
+    "visual_checks": [
+      "Product edges are clean at 100 percent zoom",
+      "Text remains readable at intended page size",
+      "Lighting preserves matte material response"
+    ],
+    "approval_required": true
+  }
+}

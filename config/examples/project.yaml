@@ -1,0 +1,15 @@
+version: "0.1"
+id: "example-project"
+brand_profile: "./brand.yaml"
+paths:
+  references: ".visual-director/references"
+  candidates: "outputs/candidates"
+  approved: "outputs/approved"
+defaults:
+  format: "png"
+  approval_required: true
+generation:
+  allow_paid_api: false
+  preferred_mode: "codex-built-in-imagegen"
+  exact_size_fallback: "exact_canvas_composition"
+asset_naming: "{asset_id}-{revision}.{format}"

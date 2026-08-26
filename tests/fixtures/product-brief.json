@@ -1,0 +1,37 @@
+{
+  "version": "0.1",
+  "asset_id": "orbit-speaker-product",
+  "goal": "Create a clean catalog image that shows the compact speaker materials accurately.",
+  "audience": "Online shoppers comparing compact desktop speakers",
+  "deliverable": {
+    "type": "product",
+    "width": 1536,
+    "height": 1024,
+    "format": "png",
+    "transparent_background": false
+  },
+  "content": {
+    "subject": "One cylindrical graphite desktop speaker with a woven fabric grille",
+    "exact_text": ["ORBIT"],
+    "must_include": ["One speaker only", "Visible woven grille texture"],
+    "must_avoid": ["Extra controls", "Cables", "Watermarks"]
+  },
+  "art_direction": {
+    "style": "Premium catalog product photography",
+    "palette": ["graphite", "warm gray"],
+    "lighting": "Soft neutral studio lighting",
+    "materials": ["anodized aluminum", "woven acoustic fabric"]
+  },
+  "composition": {
+    "layout": "Centered product with generous padding",
+    "viewpoint": "Eye-level three-quarter view",
+    "focal_hierarchy": ["Speaker silhouette", "Material texture", "ORBIT label"]
+  },
+  "references": [],
+  "qa": {
+    "objective_checks": ["Output is 1536x1024 PNG", "Exactly one speaker is visible"],
+    "visual_checks": ["Grille texture remains realistic", "Edges are clean at full size"],
+    "approval_required": true
+  }
+}
+

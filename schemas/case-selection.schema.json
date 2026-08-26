@@ -1,0 +1,101 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/visual-director/case-selection.schema.json",
+  "title": "CaseSelection",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "asset_id", "request_sha256", "template", "policy", "source", "cases"],
+  "properties": {
+    "version": {"const": "0.1"},
+    "asset_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{2,63}$"},
+    "request_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "template": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "category"],
+      "properties": {
+        "id": {"type": "string", "minLength": 1},
+        "category": {"type": "string", "minLength": 1}
+      }
+    },
+    "policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["selection_basis", "max_cases", "prompt_text_included", "adoption", "visual_review_required", "forbidden_transfers"],
+      "properties": {
+        "selection_basis": {"const": "local_text_and_metadata"},
+        "max_cases": {"type": "integer", "minimum": 1, "maximum": 3},
+        "prompt_text_included": {"const": false},
+        "adoption": {"const": "generic_structure_cues_only"},
+        "visual_review_required": {"const": true},
+        "forbidden_transfers": {
+          "type": "array",
+          "minItems": 1,
+          "items": {"type": "string", "minLength": 1},
+          "uniqueItems": true
+        }
+      }
+    },
+    "source": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "version", "catalog_path", "catalog_sha256", "image_manifest_used"],
+      "properties": {
+        "kind": {"const": "first-party"},
+        "version": {"type": "string", "minLength": 1},
+        "catalog_path": {"const": "data/cases.json"},
+        "catalog_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "image_manifest_used": {"type": "boolean"}
+      }
+    },
+    "cases": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "items": {"$ref": "#/$defs/selectedCase"}
+    }
+  },
+  "$defs": {
+    "selectedCase": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "category", "score", "score_breakdown", "reasons", "matched_terms", "structure_cues", "prompt_sha256", "image"],
+      "properties": {
+        "id": {"type": "integer", "minimum": 1},
+        "title": {"type": "string", "minLength": 1},
+        "category": {"type": "string", "minLength": 1},
+        "score": {"type": "integer", "minimum": 0, "maximum": 100},
+        "score_breakdown": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["category", "template_example", "style", "scene", "deliverable_style", "structure", "lexical"],
+          "properties": {
+            "category": {"type": "integer", "minimum": 0, "maximum": 35},
+            "template_example": {"type": "integer", "minimum": 0, "maximum": 5},
+            "style": {"type": "integer", "minimum": 0, "maximum": 10},
+            "scene": {"type": "integer", "minimum": 0, "maximum": 5},
+            "deliverable_style": {"type": "integer", "minimum": 0, "maximum": 5},
+            "structure": {"type": "integer", "minimum": 0, "maximum": 20},
+            "lexical": {"type": "integer", "minimum": 0, "maximum": 20}
+          }
+        },
+        "reasons": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+        "matched_terms": {"type": "array", "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+        "structure_cues": {"type": "array", "minItems": 1, "maxItems": 10, "items": {"type": "string", "pattern": "^[a-z]+:[a-z0-9-]+$"}, "uniqueItems": true},
+        "prompt_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "image": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["path", "manifest_verified", "sha256", "width", "height"],
+          "properties": {
+            "path": {"type": "string", "pattern": "^gallery/images/[^/]+\\.png$"},
+            "manifest_verified": {"type": "boolean"},
+            "sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+            "width": {"type": ["integer", "null"], "minimum": 1},
+            "height": {"type": ["integer", "null"], "minimum": 1}
+          }
+        }
+      }
+    }
+  }
+}

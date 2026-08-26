@@ -1,0 +1,33 @@
+{
+  "version": "0.1",
+  "asset_id": "invalid-bad-format",
+  "goal": "Verify that an unsupported output format is rejected.",
+  "deliverable": {
+    "type": "product",
+    "width": 1024,
+    "height": 1024,
+    "format": "tiff"
+  },
+  "content": {
+    "subject": "Test product",
+    "must_include": ["One item"],
+    "must_avoid": ["Watermark"]
+  },
+  "art_direction": {
+    "style": "Test product style",
+    "palette": ["gray"],
+    "lighting": "Soft light",
+    "materials": ["metal"]
+  },
+  "composition": {
+    "layout": "Centered",
+    "viewpoint": "Front view",
+    "focal_hierarchy": ["Product"]
+  },
+  "qa": {
+    "objective_checks": ["Reject input"],
+    "visual_checks": ["Not applicable"],
+    "approval_required": true
+  }
+}
+

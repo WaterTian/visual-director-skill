@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/visual-director/material-request.schema.json",
+  "title": "MaterialRequest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "request_id", "asset_id", "status", "authorization", "provider_policy", "prompt", "prompt_sha256", "case_selection_sha256", "case_ids", "requirements", "candidate"],
+  "properties": {
+    "version": {"const": "0.1"},
+    "request_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{2,100}$"},
+    "asset_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{2,63}$"},
+    "status": {"enum": ["awaiting_authorization", "ready"]},
+    "authorization": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["required", "state", "scope", "authorized_by", "recorded_at"],
+      "properties": {
+        "required": {"const": true},
+        "state": {"enum": ["pending", "authorized"]},
+        "scope": {"const": "single_material"},
+        "authorized_by": {"type": ["string", "null"], "minLength": 1},
+        "recorded_at": {"type": ["string", "null"], "format": "date-time"}
+      }
+    },
+    "provider_policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["provider", "no_paid_api"],
+      "properties": {
+        "provider": {"const": "codex-built-in-imagegen"},
+        "no_paid_api": {"const": true}
+      }
+    },
+    "prompt": {"type": "string", "minLength": 80},
+    "prompt_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "case_selection_sha256": {"type": ["string", "null"], "pattern": "^[a-f0-9]{64}$"},
+    "case_ids": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {"type": "integer", "minimum": 1},
+      "uniqueItems": true
+    },
+    "requirements": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["role", "transparent_background", "no_text", "preserve_original"],
+      "properties": {
+        "role": {"const": "isolated_visual_material"},
+        "transparent_background": {"const": true},
+        "no_text": {"const": true},
+        "preserve_original": {"const": true}
+      }
+    },
+    "candidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["relative_path"],
+      "properties": {
+        "relative_path": {"type": "string", "minLength": 1}
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"status": {"const": "ready"}}},
+      "then": {
+        "properties": {
+          "authorization": {
+            "properties": {
+              "state": {"const": "authorized"},
+              "authorized_by": {"type": "string"},
+              "recorded_at": {"type": "string"}
+            }
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "authorization": {
+            "properties": {
+              "state": {"const": "pending"},
+              "authorized_by": {"type": "null"},
+              "recorded_at": {"type": "null"}
+            }
+          }
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "version": "0.1",
+  "provider": "codex-built-in-imagegen",
+  "model": null,
+  "operations": ["create", "edit"],
+  "output": {
+    "formats": ["png"],
+    "transparency": true,
+    "dimension_policy": "unverified",
+    "supported_sizes": [],
+    "dimension_constraints": null
+  },
+  "input_images": {
+    "supported": true,
+    "maximum": 5
+  },
+  "evidence": [
+    "Local create smoke test requested 1600x900 and returned 1672x941 on 2026-08-25",
+    "Exact output dimensions are not exposed as a built-in tool argument in the current project workflow"
+  ]
+}

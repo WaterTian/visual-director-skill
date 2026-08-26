@@ -1,0 +1,51 @@
+{
+  "version": "0.1",
+  "presets": [
+    {
+      "id": "left-copy-right-product-hero",
+      "description": "Landscape hero with one isolated product on the right and one or two deterministic copy lines on the left.",
+      "deliverable_types": ["hero"],
+      "aspect_ratio": {
+        "minimum": 1.5,
+        "maximum": 2.0
+      },
+      "exact_text": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "canvas": {
+        "format": "png",
+        "background": "#F6F3EC",
+        "transparent_background": false
+      },
+      "raster_box": {
+        "x": 0.4875,
+        "y": 0.088889,
+        "width": 0.45,
+        "height": 0.822222
+      },
+      "text_slots": [
+        {
+          "x": 0.08125,
+          "y": 0.333333,
+          "font_size": 0.131111,
+          "minimum_font_size": 48,
+          "maximum_font_size": 180,
+          "max_width": 0.36,
+          "fill": "#262624",
+          "anchor": "lt"
+        },
+        {
+          "x": 0.08625,
+          "y": 0.5,
+          "font_size": 0.046667,
+          "minimum_font_size": 20,
+          "maximum_font_size": 72,
+          "max_width": 0.36,
+          "fill": "#5A5750",
+          "anchor": "lt"
+        }
+      ]
+    }
+  ]
+}

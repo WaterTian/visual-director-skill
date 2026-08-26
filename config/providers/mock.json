@@ -1,0 +1,18 @@
+{
+  "version": "0.1",
+  "provider": "mock",
+  "model": "solid-fixture-v1",
+  "operations": ["create", "edit"],
+  "output": {
+    "formats": ["png", "jpeg", "webp"],
+    "transparency": true,
+    "dimension_policy": "exact",
+    "supported_sizes": [],
+    "dimension_constraints": null
+  },
+  "input_images": {
+    "supported": true,
+    "maximum": null
+  },
+  "evidence": ["Deterministic local adapter implementation and regression tests"]
+}

@@ -1,0 +1,102 @@
+{
+  "version": "0.1",
+  "updated_at": "2026-08-26T00:00:00Z",
+  "templates": [
+    {
+      "id": "character-design-sheet",
+      "title": {"en": "Character Design Sheet", "zh": "人物角色设定表"},
+      "category": "Characters & People",
+      "styles": ["Character", "Illustration"],
+      "scenes": ["Creative", "Story"],
+      "tags": ["identity", "turnaround", "expressions", "production-sheet"],
+      "use_when": {
+        "en": "Use for an original character sheet that must preserve identity, costume construction, proportions, and readable turnaround views.",
+        "zh": "用于需要稳定人物身份、服装结构、比例和多视图一致性的原创角色设定表。"
+      },
+      "guidance": {
+        "en": [
+          "Define a short set of unmistakable identity anchors before layout decisions.",
+          "Use a restrained editorial grid with consistent scale and baselines across views.",
+          "Specify exact labels and forbid all other visible text when typography matters.",
+          "Check anatomy, costume continuity, left-right orientation, and expression consistency separately."
+        ],
+        "zh": [
+          "先定义少量不可混淆的人物身份锚点，再决定版式。",
+          "使用克制的编辑网格，并保持各视图比例和基线一致。",
+          "文字重要时明确逐字标签，并禁止出现其他可见文字。",
+          "分别检查人体、服装连续性、左右方向和表情一致性。"
+        ]
+      },
+      "pitfalls": {
+        "en": ["identity drift", "mirrored details", "cropped feet", "decorative clutter", "pseudo-text"],
+        "zh": ["人物身份漂移", "细节镜像", "脚部裁切", "装饰过度", "伪文字"]
+      },
+      "example_cases": [2],
+      "provenance": {"kind": "first-party", "version": "0.1.0", "path": "gallery/prompts/character-design-sheet-mara-venn.md", "license": "MIT"}
+    },
+    {
+      "id": "product-commerce-visual",
+      "title": {"en": "Product Commerce Visual", "zh": "商品商业视觉"},
+      "category": "Products & E-commerce",
+      "styles": ["Product", "Photography", "Realistic"],
+      "scenes": ["Commerce", "Tech"],
+      "tags": ["launch", "product", "copy-space", "callouts", "materials"],
+      "use_when": {
+        "en": "Use for a finished product launch visual with controlled geometry, material rendering, copy space, and semantic annotations.",
+        "zh": "用于需要准确产品几何、材质表现、文案空间和语义标注的成品级商业发布视觉。"
+      },
+      "guidance": {
+        "en": [
+          "Lock object count, geometry, materials, and forbidden additions before styling.",
+          "Reserve copy space explicitly and keep the product silhouette dominant.",
+          "Connect each callout to the exact feature it describes.",
+          "Separate generated visual material from deterministic typography when exact pixels or text are required."
+        ],
+        "zh": [
+          "先锁定物体数量、几何、材质和禁止新增项，再处理风格。",
+          "明确预留文案空间，并保持产品轮廓为主视觉。",
+          "每条标注线都必须准确指向对应功能区域。",
+          "需要精确像素或文字时，将生成素材与确定性排版分离。"
+        ]
+      },
+      "pitfalls": {
+        "en": ["duplicate products", "invented ports", "generic callouts", "impossible reflections", "unreadable copy"],
+        "zh": ["重复产品", "虚构接口", "无意义标注", "不合理反射", "文字不可读"]
+      },
+      "example_cases": [1],
+      "provenance": {"kind": "first-party", "version": "0.1.0", "path": "gallery/prompts/product-commerce-visual-aurora-mini.md", "license": "MIT"}
+    },
+    {
+      "id": "realistic-photography",
+      "title": {"en": "Realistic Photography", "zh": "真实人物摄影"},
+      "category": "Characters & People",
+      "styles": ["Photography", "Realistic", "Character"],
+      "scenes": ["Creative", "Story"],
+      "tags": ["portrait", "identity", "environment", "natural-skin", "documentary"],
+      "use_when": {
+        "en": "Use for a believable photographic portrait that must preserve a fictional character's identity and wardrobe without looking like cosplay or concept art.",
+        "zh": "用于将原创虚构角色转化为可信摄影肖像，同时保持身份和服装，不呈现为角色扮演或概念图。"
+      },
+      "guidance": {
+        "en": [
+          "Declare the reference role and list identity and wardrobe invariants explicitly.",
+          "Use plausible camera, light, material wear, skin texture, and environmental context.",
+          "Keep hands, gaze, pose, and spatial skin color within the review checklist.",
+          "For canvas correction, isolate the edit to outpainting and preserve the subject exactly."
+        ],
+        "zh": [
+          "明确参考图角色，并逐项列出身份和服装不变量。",
+          "使用可信的相机、光线、材质磨损、皮肤纹理和环境语境。",
+          "将手部、视线、姿势和空间肤色纳入独立检查项。",
+          "修正画布时只扩展环境，并严格保持人物不变。"
+        ]
+      },
+      "pitfalls": {
+        "en": ["face drift", "plastic skin", "wardrobe redesign", "malformed hands", "cinematic overgrading"],
+        "zh": ["面部漂移", "塑料皮肤", "服装重设计", "手部畸形", "过度电影调色"]
+      },
+      "example_cases": [3],
+      "provenance": {"kind": "first-party", "version": "0.1.0", "path": "gallery/prompts/realistic-photography-mara-venn.md", "license": "MIT"}
+    }
+  ]
+}

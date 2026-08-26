@@ -1,0 +1,165 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/visual-director/generation-handoff.schema.json",
+  "title": "GenerationHandoff",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "handoff_id", "asset_id", "request_sha256", "status", "authorization", "operation", "prompt", "output", "input_images", "invariants", "candidate", "result", "capabilities_sha256", "capability_blockers", "capability_exception_reason"],
+  "properties": {
+    "version": {"const": "0.1"},
+    "handoff_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{2,100}$"},
+    "asset_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{2,63}$"},
+    "request_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "status": {"enum": ["awaiting_authorization", "ready", "completed"]},
+    "authorization": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["required", "state", "scope", "authorized_by", "recorded_at"],
+      "properties": {
+        "required": {"const": true},
+        "state": {"enum": ["pending", "authorized"]},
+        "scope": {"const": "single_candidate"},
+        "authorized_by": {"type": ["string", "null"]},
+        "recorded_at": {"type": ["string", "null"], "format": "date-time"}
+      }
+    },
+    "operation": {"enum": ["create", "edit"]},
+    "prompt": {"type": "string", "minLength": 40},
+    "output": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["width", "height", "format", "transparent_background"],
+      "properties": {
+        "width": {"type": "integer", "minimum": 64},
+        "height": {"type": "integer", "minimum": 64},
+        "format": {"enum": ["png", "jpeg", "webp"]},
+        "transparent_background": {"type": "boolean"}
+      }
+    },
+    "input_images": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["uri", "role", "notes"],
+        "properties": {
+          "uri": {"type": "string", "minLength": 1},
+          "role": {"enum": ["identity", "composition", "style", "palette", "material"]},
+          "notes": {"type": "string"}
+        }
+      }
+    },
+    "invariants": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
+    "candidate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["relative_path", "preserve_original"],
+      "properties": {
+        "relative_path": {
+          "type": "string",
+          "minLength": 1,
+          "pattern": "^(?!/)(?![A-Za-z]:[\\\\/])(?!.*(?:^|[\\\\/])\\.\\.(?:[\\\\/]|$)).+$"
+        },
+        "preserve_original": {"const": true}
+      }
+    },
+    "result": {
+      "oneOf": [
+        {"type": "null"},
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["provider", "model", "recorded_at", "name", "sha256", "size_bytes", "inputs"],
+          "properties": {
+            "provider": {"type": "string", "minLength": 1},
+            "model": {"type": ["string", "null"]},
+            "recorded_at": {"type": "string", "format": "date-time"},
+            "name": {"type": "string", "minLength": 1},
+            "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+            "size_bytes": {"type": "integer", "minimum": 1},
+            "inputs": {
+              "type": "array",
+              "items": {
+                "type": "object",
+                "additionalProperties": false,
+                "required": ["uri", "role", "sha256", "size_bytes"],
+                "properties": {
+                  "uri": {"type": "string", "minLength": 1},
+                  "role": {"enum": ["identity", "composition", "style", "palette", "material"]},
+                  "sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+                  "size_bytes": {"type": "integer", "minimum": 1}
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "capabilities_sha256": {
+      "oneOf": [
+        {"type": "null"},
+        {"type": "string", "pattern": "^[a-f0-9]{64}$"}
+      ]
+    },
+    "capability_blockers": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
+    "capability_exception_reason": {
+      "type": ["string", "null"],
+      "minLength": 1
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"status": {"enum": ["ready", "completed"]}}},
+      "then": {
+        "properties": {
+          "authorization": {
+            "properties": {
+              "state": {"const": "authorized"},
+              "authorized_by": {"type": "string"},
+              "recorded_at": {"type": "string"}
+            }
+          }
+        }
+      },
+      "else": {
+        "properties": {
+          "authorization": {
+            "properties": {
+              "state": {"const": "pending"},
+              "authorized_by": {"type": "null"},
+              "recorded_at": {"type": "null"}
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": {"properties": {"status": {"const": "completed"}}},
+      "then": {"properties": {"result": {"type": "object"}}},
+      "else": {"properties": {"result": {"type": "null"}}}
+    },
+    {
+      "if": {
+        "properties": {"capability_exception_reason": {"type": "string"}},
+        "required": ["capability_exception_reason"]
+      },
+      "then": {
+        "properties": {
+          "status": {"enum": ["ready", "completed"]},
+          "capability_blockers": {"minItems": 1}
+        }
+      },
+      "else": {
+        "properties": {"capability_exception_reason": {"type": "null"}}
+      }
+    }
+  ]
+}

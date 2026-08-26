@@ -1,0 +1,32 @@
+{
+  "version": "0.1",
+  "asset_id": "invalid-missing-width",
+  "goal": "Verify that a missing required width is rejected.",
+  "deliverable": {
+    "type": "hero",
+    "height": 900,
+    "format": "png"
+  },
+  "content": {
+    "subject": "Test subject",
+    "must_include": ["One item"],
+    "must_avoid": ["Watermark"]
+  },
+  "art_direction": {
+    "style": "Test style",
+    "palette": ["white"],
+    "lighting": "Soft light",
+    "materials": ["matte"]
+  },
+  "composition": {
+    "layout": "Centered",
+    "viewpoint": "Front view",
+    "focal_hierarchy": ["Subject"]
+  },
+  "qa": {
+    "objective_checks": ["Reject input"],
+    "visual_checks": ["Not applicable"],
+    "approval_required": true
+  }
+}
+

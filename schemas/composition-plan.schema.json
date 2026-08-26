@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/visual-director/composition-plan.schema.json",
+  "title": "CompositionPlan",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "asset_id", "canvas", "raster_layers", "text_layers"],
+  "properties": {
+    "version": {"const": "0.1"},
+    "asset_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{2,63}$"},
+    "canvas": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["width", "height", "format", "transparent_background", "background"],
+      "properties": {
+        "width": {"type": "integer", "minimum": 64},
+        "height": {"type": "integer", "minimum": 64},
+        "format": {"const": "png"},
+        "transparent_background": {"type": "boolean"},
+        "background": {"type": "string", "pattern": "^#[0-9A-Fa-f]{6}$"}
+      }
+    },
+    "raster_layers": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["source_path", "source_sha256", "source_type", "provider", "model", "role", "trim_transparent", "fit", "box"],
+        "properties": {
+          "source_path": {"type": "string", "minLength": 1},
+          "source_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+          "source_type": {"enum": ["generated", "reference", "project_asset"]},
+          "provider": {"type": ["string", "null"], "minLength": 1},
+          "model": {"type": ["string", "null"], "minLength": 1},
+          "role": {"type": "string", "minLength": 1},
+          "trim_transparent": {"type": "boolean"},
+          "fit": {"enum": ["native", "contain"]},
+          "box": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["x", "y", "width", "height"],
+            "properties": {
+              "x": {"type": "integer", "minimum": 0},
+              "y": {"type": "integer", "minimum": 0},
+              "width": {"type": "integer", "minimum": 1},
+              "height": {"type": "integer", "minimum": 1}
+            }
+          }
+        }
+      }
+    },
+    "text_layers": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["text", "x", "y", "font_size", "fill", "anchor", "font_path"],
+        "properties": {
+          "text": {"type": "string", "minLength": 1},
+          "x": {"type": "integer", "minimum": 0},
+          "y": {"type": "integer", "minimum": 0},
+          "font_size": {"type": "integer", "minimum": 8, "maximum": 512},
+          "max_width": {"type": "integer", "minimum": 1},
+          "fill": {"type": "string", "pattern": "^#[0-9A-Fa-f]{6}$"},
+          "anchor": {"enum": ["lt", "lm", "lb", "mt", "mm", "mb", "rt", "rm", "rb"]},
+          "font_path": {"type": ["string", "null"], "minLength": 1}
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "visual-director",
+  "interface": {
+    "displayName": "Visual Director"
+  },
+  "plugins": [
+    {
+      "name": "visual-director",
+      "source": {
+        "source": "local",
+        "path": "./plugins/visual-director"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

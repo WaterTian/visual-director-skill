@@ -1,0 +1,58 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/visual-director/gallery-manifest.schema.json",
+  "title": "GalleryManifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "author", "license", "policy", "assets"],
+  "properties": {
+    "version": {"const": "0.1"},
+    "author": {"const": "WaterTian"},
+    "license": {"const": "MIT"},
+    "policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["paid_api", "first_party_only", "allow_rejected_candidates", "required_status"],
+      "properties": {
+        "paid_api": {"const": false},
+        "first_party_only": {"const": true},
+        "allow_rejected_candidates": {"const": false},
+        "required_status": {"const": "approved_public_gallery"}
+      }
+    },
+    "assets": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/asset"}}
+  },
+  "$defs": {
+    "asset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["case_id", "id", "template_id", "image_path", "prompt_path", "image_sha256", "prompt_sha256", "width", "height", "format", "mode", "provider_path", "paid_api", "first_party", "input_assets", "status"],
+      "properties": {
+        "case_id": {"type": "integer", "minimum": 1},
+        "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]+$"},
+        "template_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]+$"},
+        "image_path": {"type": "string", "pattern": "^gallery/images/[^/]+\\.png$"},
+        "prompt_path": {"type": "string", "pattern": "^gallery/prompts/[^/]+\\.md$"},
+        "image_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "prompt_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+        "width": {"type": "integer", "minimum": 1},
+        "height": {"type": "integer", "minimum": 1},
+        "format": {"const": "PNG"},
+        "mode": {"const": "RGB"},
+        "provider_path": {"type": "string", "minLength": 1},
+        "paid_api": {"const": false},
+        "first_party": {"const": true},
+        "input_assets": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["path", "role"],
+            "properties": {"path": {"type": "string", "minLength": 1}, "role": {"type": "string", "minLength": 1}}
+          }
+        },
+        "status": {"const": "approved_public_gallery"}
+      }
+    }
+  }
+}

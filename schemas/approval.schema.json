@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/visual-director/approval.schema.json",
+  "title": "AssetApproval",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "asset_id", "reviewer", "decision", "recorded_at", "exceptions"],
+  "properties": {
+    "version": {"const": "0.1"},
+    "asset_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{2,63}$"},
+    "reviewer": {"type": "string", "minLength": 1},
+    "decision": {"enum": ["approve", "reject"]},
+    "recorded_at": {"type": "string", "format": "date-time"},
+    "exceptions": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    }
+  }
+}

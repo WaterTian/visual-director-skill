@@ -1,0 +1,4 @@
+interface:
+  display_name: "Visual Director"
+  short_description: "Turn visual briefs into precise, reviewable image assets"
+  default_prompt: "Use $visual-director to turn this brief into a production-ready visual specification and image-generation plan."

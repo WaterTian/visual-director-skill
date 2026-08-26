@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/visual-director/generation-request.schema.json",
+  "title": "GenerationRequest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "request_id", "asset_id", "operation", "prompt", "prompt_sha256", "output", "input_images", "invariants", "provider"],
+  "properties": {
+    "version": {"const": "0.1"},
+    "request_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{2,80}$"},
+    "asset_id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]{2,63}$"},
+    "operation": {"enum": ["create", "edit"]},
+    "prompt": {"type": "string", "minLength": 40},
+    "prompt_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "output": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["width", "height", "format", "transparent_background"],
+      "properties": {
+        "width": {"type": "integer", "minimum": 64},
+        "height": {"type": "integer", "minimum": 64},
+        "format": {"enum": ["png", "jpeg", "webp"]},
+        "transparent_background": {"type": "boolean"}
+      },
+      "allOf": [
+        {
+          "if": {"properties": {"transparent_background": {"const": true}}},
+          "then": {"properties": {"format": {"enum": ["png", "webp"]}}}
+        }
+      ]
+    },
+    "input_images": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["uri", "role", "notes"],
+        "properties": {
+          "uri": {"type": "string", "minLength": 1},
+          "role": {"enum": ["identity", "composition", "style", "palette", "material"]},
+          "notes": {"type": "string"}
+        }
+      }
+    },
+    "invariants": {
+      "type": "array",
+      "items": {"type": "string", "minLength": 1},
+      "uniqueItems": true
+    },
+    "provider": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "model"],
+      "properties": {
+        "name": {"type": ["string", "null"]},
+        "model": {"type": ["string", "null"]}
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {"properties": {"operation": {"const": "edit"}}},
+      "then": {"properties": {"input_images": {"minItems": 1}}}
+    }
+  ]
+}

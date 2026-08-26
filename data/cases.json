@@ -1,0 +1,51 @@
+{
+  "version": "0.1",
+  "source": {"kind": "first-party", "version": "0.1.0", "license": "MIT", "catalog_path": "data/cases.json"},
+  "taxonomy": {
+    "categories": ["Characters & People", "Products & E-commerce"],
+    "styles": ["Character", "Illustration", "Photography", "Product", "Realistic"],
+    "scenes": ["Commerce", "Creative", "Story", "Tech"]
+  },
+  "summary": {"record_count": 3, "approved_count": 3},
+  "cases": [
+    {
+      "id": 1,
+      "title": "AURORA MINI Product Commerce Visual",
+      "category": "Products & E-commerce",
+      "styles": ["Product", "Photography", "Realistic"],
+      "scenes": ["Commerce", "Tech"],
+      "featured": true,
+      "selection_text": "Premium 16:9 product launch visual with one clear acrylic cube device, one circular display, one matte-black base, large negative copy space, exact short labels, thin semantic callout lines, believable refraction, controlled reflections, soft studio light, and restrained graphite ivory amber color.",
+      "prompt_path": "gallery/prompts/product-commerce-visual-aurora-mini.md",
+      "prompt_sha256": "83693dd7b4a1f530abb690451c8885d4a6a826a6b89876061680358153f552fc",
+      "image": {"path": "gallery/images/product-commerce-visual-aurora-mini.png", "alt": "AURORA MINI product commerce visual"},
+      "status": "approved_public_gallery"
+    },
+    {
+      "id": 2,
+      "title": "MARA VENN Character Design Sheet",
+      "category": "Characters & People",
+      "styles": ["Character", "Illustration"],
+      "scenes": ["Creative", "Story"],
+      "featured": true,
+      "selection_text": "Professional 16:9 character production sheet with one original adult character, a large three-quarter hero pose, consistent front side back turnarounds, expression studies, equipment details, color swatches, warm off-white editorial grid, exact minimal labels, locked face hair scar outfit and left-right identity anchors.",
+      "prompt_path": "gallery/prompts/character-design-sheet-mara-venn.md",
+      "prompt_sha256": "f341ab2ceaf630e907158993807f4f2bd7ccb2c1ef754a877eeae8a0602dea63",
+      "image": {"path": "gallery/images/character-design-sheet-mara-venn.png", "alt": "MARA VENN character design sheet"},
+      "status": "approved_public_gallery"
+    },
+    {
+      "id": 3,
+      "title": "MARA VENN Realistic Photography",
+      "category": "Characters & People",
+      "styles": ["Character", "Photography", "Realistic"],
+      "scenes": ["Creative", "Story"],
+      "featured": true,
+      "selection_text": "Natural documentary environmental portrait of one original adult field professional at a sparse desert communications outpost, preserved fictional identity and wardrobe, eye-level 50 mm perspective, soft sunrise light, realistic skin and material wear, visible anatomically correct hands, restrained cinematic grade, and no text.",
+      "prompt_path": "gallery/prompts/realistic-photography-mara-venn.md",
+      "prompt_sha256": "a9f3638bbece7471a946a9a5c4e87cbf80a5b14d8a12ad8f41aad0c2942100e6",
+      "image": {"path": "gallery/images/realistic-photography-mara-venn.png", "alt": "MARA VENN realistic environmental portrait"},
+      "status": "approved_public_gallery"
+    }
+  ]
+}

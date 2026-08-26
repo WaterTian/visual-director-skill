@@ -1,0 +1,59 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/visual-director/template-catalog.schema.json",
+  "title": "TemplateCatalog",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "updated_at", "templates"],
+  "properties": {
+    "version": {"const": "0.1"},
+    "updated_at": {"type": "string", "format": "date-time"},
+    "templates": {"type": "array", "minItems": 1, "items": {"$ref": "#/$defs/templateRecord"}}
+  },
+  "$defs": {
+    "localizedText": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["en", "zh"],
+      "properties": {"en": {"type": "string", "minLength": 1}, "zh": {"type": "string", "minLength": 1}}
+    },
+    "localizedList": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["en", "zh"],
+      "properties": {
+        "en": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}},
+        "zh": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}}
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "version", "path", "license"],
+      "properties": {
+        "kind": {"const": "first-party"},
+        "version": {"type": "string", "minLength": 1},
+        "path": {"type": "string", "pattern": "^gallery/prompts/[^/]+\\.md$"},
+        "license": {"const": "MIT"}
+      }
+    },
+    "templateRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "category", "styles", "scenes", "tags", "use_when", "guidance", "pitfalls", "example_cases", "provenance"],
+      "properties": {
+        "id": {"type": "string", "pattern": "^[a-z0-9][a-z0-9-]+$"},
+        "title": {"$ref": "#/$defs/localizedText"},
+        "category": {"type": "string", "minLength": 1},
+        "styles": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+        "scenes": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+        "tags": {"type": "array", "minItems": 1, "items": {"type": "string", "minLength": 1}, "uniqueItems": true},
+        "use_when": {"$ref": "#/$defs/localizedText"},
+        "guidance": {"$ref": "#/$defs/localizedList"},
+        "pitfalls": {"$ref": "#/$defs/localizedList"},
+        "example_cases": {"type": "array", "minItems": 1, "items": {"type": "integer", "minimum": 1}, "uniqueItems": true},
+        "provenance": {"$ref": "#/$defs/provenance"}
+      }
+    }
+  }
+}

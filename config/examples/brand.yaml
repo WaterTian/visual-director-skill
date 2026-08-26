@@ -1,0 +1,16 @@
+version: "0.1"
+id: "example-brand"
+name: "Example Brand"
+palette:
+  primary: "#1D4ED8"
+  accent: "#F59E0B"
+  neutral: "#F8FAFC"
+typography:
+  direction: "clean geometric sans-serif"
+rules:
+  - "Keep the logo clear of text and high-contrast edges."
+  - "Do not invent additional brand marks or slogans."
+provenance:
+  owner: "Replace with the project owner"
+  reviewed_at: null
+

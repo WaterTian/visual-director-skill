@@ -1,0 +1,69 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.invalid/visual-director/qc-report.schema.json",
+  "title": "QCReport",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["version", "asset_id", "candidate_sha256", "overall_status", "file", "automatic_checks", "visual_checks", "review", "blockers"],
+  "properties": {
+    "version": {"const": "0.1"},
+    "asset_id": {"type": "string", "minLength": 3},
+    "candidate_sha256": {"type": "string", "pattern": "^[a-f0-9]{64}$"},
+    "overall_status": {"enum": ["pass", "fail", "review_required"]},
+    "file": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["name", "format", "width", "height", "has_alpha", "size_bytes"],
+      "properties": {
+        "name": {"type": "string", "minLength": 1},
+        "format": {"enum": ["png", "jpeg", "webp"]},
+        "width": {"type": "integer", "minimum": 1},
+        "height": {"type": "integer", "minimum": 1},
+        "has_alpha": {"type": "boolean"},
+        "size_bytes": {"type": "integer", "minimum": 1}
+      }
+    },
+    "automatic_checks": {
+      "type": "array",
+      "minItems": 5,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "status", "evidence"],
+        "properties": {
+          "id": {"type": "string", "minLength": 1},
+          "status": {"enum": ["pass", "fail"]},
+          "evidence": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "visual_checks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["requirement", "status", "evidence"],
+        "properties": {
+          "requirement": {"type": "string", "minLength": 1},
+          "status": {"enum": ["pass", "fail", "not_reviewed"]},
+          "evidence": {"type": "string"}
+        }
+      }
+    },
+    "review": {
+      "oneOf": [
+        {"type": "null"},
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["reviewer", "recorded_at"],
+          "properties": {
+            "reviewer": {"type": "string", "minLength": 1},
+            "recorded_at": {"type": "string", "format": "date-time"}
+          }
+        }
+      ]
+    },
+    "blockers": {"type": "array", "items": {"type": "string", "minLength": 1}}
+  }
+}

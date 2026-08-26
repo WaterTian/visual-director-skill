@@ -1,0 +1,21 @@
+.DS_Store
+.env
+.env.*
+!.env.example
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+dist/
+/plugins/
+coverage/
+.cache/
+work/
+outputs/candidates/
+# Generated visual evidence stays local until regenerated and explicitly approved.
+outputs/**/*.[Pp][Nn][Gg]
+outputs/**/*.[Jj][Pp][Gg]
+outputs/**/*.[Jj][Pp][Ee][Gg]
+outputs/**/*.[Ww][Ee][Bb][Pp]
+outputs/**/*.[Gg][Ii][Ff]
+outputs/**/*.[Aa][Vv][Ii][Ff]

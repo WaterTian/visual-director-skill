@@ -1,0 +1,87 @@
+{
+  "version": "0.1",
+  "asset_id": "aurora-mini-navy-background-edit",
+  "goal": "Change only the studio background to a deep navy-to-slate gradient while keeping the product layout unchanged.",
+  "audience": "Prospective customers viewing a premium desktop device advertisement",
+  "deliverable": {
+    "type": "edit",
+    "width": 1672,
+    "height": 941,
+    "format": "png",
+    "transparent_background": false
+  },
+  "content": {
+    "subject": "The same AURORA MINI transparent desktop device advertisement",
+    "exact_text": [
+      "AURORA MINI",
+      "QUIET",
+      "MODULAR",
+      "LOW POWER"
+    ],
+    "must_include": [
+      "Same transparent rectangular enclosure and black base",
+      "Same golden circular display and waveform",
+      "Same text positions and leader lines",
+      "Deep navy-to-slate smooth studio background"
+    ],
+    "must_avoid": [
+      "Product geometry changes",
+      "Text changes or misspellings",
+      "Moving, resizing, or cropping the product",
+      "Additional objects",
+      "Watermarks"
+    ]
+  },
+  "art_direction": {
+    "style": "Identity-preserving premium product photography edit",
+    "palette": [
+      "deep navy",
+      "slate blue",
+      "white",
+      "restrained gold"
+    ],
+    "lighting": "Preserve the original key-light direction, glass reflections, shadows, and golden glow",
+    "materials": [
+      "clear glass enclosure",
+      "matte black base",
+      "golden emissive circular display"
+    ]
+  },
+  "composition": {
+    "layout": "Keep the original left text and right product composition pixel-aligned",
+    "viewpoint": "Keep the original eye-level three-quarter product view",
+    "focal_hierarchy": [
+      "Unchanged product identity",
+      "Unchanged exact labels",
+      "New navy background"
+    ]
+  },
+  "brand": {
+    "profile": "aurora-mini-smoke-fixture",
+    "rules": [
+      "Change only the background",
+      "Preserve every visible product and typography detail"
+    ]
+  },
+  "references": [
+    {
+      "uri": "outputs/template-tests/product-commerce-generated.png",
+      "role": "identity",
+      "notes": "Edit target. Preserve product geometry, materials, waveform, text, leader lines, framing, and lighting."
+    }
+  ],
+  "qa": {
+    "objective_checks": [
+      "Output is exactly 1672x941 PNG",
+      "The source edit target remains unchanged on disk"
+    ],
+    "visual_checks": [
+      "All four exact text strings remain correct and in the same positions",
+      "Product geometry, glass edges, black base, circular display, and waveform remain unchanged",
+      "Leader lines and endpoint dots remain unchanged",
+      "Only the background color treatment changes to navy and slate",
+      "No new objects, text, logos, or watermarks appear"
+    ],
+    "approval_required": true
+  }
+}

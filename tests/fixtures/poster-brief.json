@@ -1,0 +1,37 @@
+{
+  "version": "0.1",
+  "asset_id": "night-code-poster",
+  "goal": "Create an event poster with one strong title and an immediately readable date.",
+  "audience": "Developers browsing a community event feed",
+  "deliverable": {
+    "type": "poster",
+    "width": 1024,
+    "height": 1536,
+    "format": "png",
+    "transparent_background": false
+  },
+  "content": {
+    "subject": "Abstract city grid made from restrained luminous code lines",
+    "exact_text": ["NIGHT CODE", "OCT 18", "BROOKLYN"],
+    "must_include": ["One dominant headline", "Clearly separated date and location"],
+    "must_avoid": ["Extra event copy", "Sponsor logos", "Watermarks"]
+  },
+  "art_direction": {
+    "style": "Modern conceptual typography poster",
+    "palette": ["near black", "electric cyan", "off-white"],
+    "lighting": "Graphic glow with controlled contrast",
+    "materials": ["matte printed paper", "fine halftone texture"]
+  },
+  "composition": {
+    "layout": "Vertical poster with title in upper half and event details below",
+    "viewpoint": "Straight-on graphic composition",
+    "focal_hierarchy": ["NIGHT CODE", "Abstract city grid", "Date and location"]
+  },
+  "references": [],
+  "qa": {
+    "objective_checks": ["Output is 1024x1536 PNG", "All three text strings are exact"],
+    "visual_checks": ["Headline is readable at thumbnail size", "No decorative clutter"],
+    "approval_required": true
+  }
+}
+

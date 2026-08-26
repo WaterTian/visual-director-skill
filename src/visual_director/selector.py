@@ -52,6 +52,23 @@ PRODUCT_ROUTES = (
 
 CHARACTER_ROUTES = (
     (
+        "realistic-motion-editorial",
+        (
+            "motion editorial",
+            "motion portrait",
+            "dance editorial",
+            "full-body movement",
+            "grounded motion",
+            "contemporary dancer",
+            "realistic dancer",
+            "动态编辑",
+            "动态人像",
+            "舞者摄影",
+            "全身动态",
+            "可信动作",
+        ),
+    ),
+    (
         "quiet-editorial-portrait",
         (
             "quiet editorial",
@@ -101,6 +118,7 @@ STYLE_ALIASES = {
     "brand": ("brand", "identity", "logo", "campaign"),
     "character": ("character", "identity", "pose", "outfit"),
     "fashion": ("fashion", "lookbook", "wardrobe", "clothing", "outfit"),
+    "motion": ("motion", "movement", "dance", "dancer", "dynamic pose", "choreography", "动作", "动态", "舞者"),
     "charts": ("chart", "diagram", "flow", "technical"),
     "classical": ("classical", "history", "dynasty", "scroll"),
     "editorial": ("editorial", "magazine", "quiet portrait", "natural light", "minimal interior", "编辑", "人像"),
@@ -126,6 +144,7 @@ SCENE_ALIASES = {
     "story": ("story", "narrative", "quest", "scene"),
     "tech": ("tech", "technical", "developer", "device", "data"),
     "travel": ("travel", "city", "map", "street"),
+    "urban": ("urban", "city", "street", "transit", "plaza", "blue hour", "雨后", "城市", "街头", "广场"),
 }
 
 

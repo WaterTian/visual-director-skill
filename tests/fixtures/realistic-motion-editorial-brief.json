@@ -1,0 +1,60 @@
+{
+  "version": "0.1",
+  "asset_id": "leo-motion-editorial",
+  "goal": "Create a grounded, photorealistic full-body motion editorial of one fictional adult dancer in a plausible urban setting.",
+  "audience": "Editorial art directors seeking realistic, non-glamour human movement imagery",
+  "deliverable": {
+    "type": "character",
+    "width": 1003,
+    "height": 1568,
+    "format": "png",
+    "transparent_background": false
+  },
+  "content": {
+    "subject": "One fictional 31-year-old adult contemporary dancer captured mid-step on a damp concrete transit plaza at blue hour",
+    "exact_text": [],
+    "must_include": [
+      "Exactly one clearly adult person",
+      "Complete full body from head to both shoes",
+      "Both complete visible hands with plausible fingers",
+      "A physically credible mid-step with one foot grounded",
+      "Unbranded modest chore jacket, cotton T-shirt, work trousers, and sneakers",
+      "Wet concrete and a restrained urban blue-hour setting"
+    ],
+    "must_avoid": [
+      "Extra people or duplicate limbs",
+      "Cropped feet, hands, or distorted joints",
+      "Sports uniform, superhero pose, or glamour retouching",
+      "Sexualized or childlike presentation",
+      "Visible text, brands, logos, or watermarks",
+      "Collage, contact sheet, illustration, cartoon, or anime styling"
+    ]
+  },
+  "art_direction": {
+    "style": "Photorealistic grounded motion editorial with natural texture and restrained contemporary color",
+    "palette": ["cool concrete blue", "charcoal", "muted rust", "ink blue", "warm reflected amber"],
+    "lighting": "Soft cool blue-hour skylight with one subtle warm practical reflection and natural wet-ground bounce",
+    "materials": ["natural skin", "short beard stubble", "worn cotton", "creased workwear", "leather sneakers", "rain-darkened concrete", "brushed metal"]
+  },
+  "composition": {
+    "layout": "Vertical full-body frame with one moving figure, generous room around extended limbs, and quiet damp paving below",
+    "viewpoint": "Eye-level 50 mm photographic perspective with an observed, documentary-like distance",
+    "focal_hierarchy": ["Plausible adult movement", "Complete hands and feet", "Natural wardrobe and fabric motion", "Wet urban material texture"]
+  },
+  "references": [],
+  "qa": {
+    "objective_checks": [
+      "Output is exactly 1003x1568 PNG/RGB without alpha",
+      "Exactly one adult person appears",
+      "No visible text, logo, brand, or watermark appears"
+    ],
+    "visual_checks": [
+      "Both hands, both shoes, and moving limbs are fully visible and anatomically plausible",
+      "The mid-step is physically achievable and visibly grounded by one planted foot",
+      "Wardrobe is modest, unbranded, and consistent with the weathered exterior setting",
+      "Skin, fabric, damp concrete, and lighting read as natural photography",
+      "The image is visually distinct from a static portrait, fashion lookbook, or character-design sheet"
+    ],
+    "approval_required": true
+  }
+}

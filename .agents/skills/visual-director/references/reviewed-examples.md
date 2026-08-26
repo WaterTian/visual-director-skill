@@ -13,6 +13,7 @@ uv run python scripts/search-cases.py --id 1 --full-prompt
 uv run python scripts/search-cases.py --id 4 --full-prompt
 uv run python scripts/search-cases.py --id 5 --full-prompt
 uv run python scripts/search-cases.py --id 6 --full-prompt
+uv run python scripts/search-cases.py --id 7 --full-prompt
 uv run python scripts/select-cases.py examples/hero-brief.json --top 3
 ```
 

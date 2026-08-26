@@ -2,6 +2,20 @@
 
 This project follows semantic versioning. / 本项目遵循语义化版本号。
 
+## 0.5.0 - 2026-08-26
+
+Adds a reviewed, grounded realistic-motion editorial workflow. / 新增已验收的可信写实动态编辑摄影工作流。
+
+### Added / 新增
+
+- `realistic-motion-editorial` template with one fictional adult, visible full body, a physically credible planted-foot motion, modest unbranded workwear, rain-wet urban material, and natural mixed light. / 新增 `realistic-motion-editorial` 模板，包含一位虚构成年主体、完整可见全身、可信的落地动作、端庄无品牌工作服、雨后城市材质和自然混合光。
+- Character routing for motion editorial, full-body movement, dancer photography, and grounded-action requests. / 新增针对动态编辑、全身动态、舞者摄影和可信动作请求的人物路由。
+- Final prompt, approved vertical image, SHA-256 records, bilingual review, selector fixture, and ranking coverage. / 新增最终 Prompt、批准的竖幅效果图、SHA-256、中英文复核、选择器夹具和排序覆盖。
+
+### Quality boundary / 质量边界
+
+- The public result uses no reference image, no real-person likeness, no paid API, no visible brand, no text, and no sports-advertising or superhero treatment. / 公开结果不使用参考图、真人相似性、付费 API、可见品牌或文字，也不采用体育广告化或英雄式表达。
+
 ## 0.4.0 - 2026-08-26
 
 Adds a reviewed quiet, non-sexualized editorial-portrait workflow. / 新增已验收的静谧、非性感化编辑人像工作流。

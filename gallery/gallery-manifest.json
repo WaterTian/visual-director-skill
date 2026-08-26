@@ -121,6 +121,24 @@
       "first_party": true,
       "input_assets": [],
       "status": "approved_public_gallery"
+    },
+    {
+      "case_id": 7,
+      "id": "realistic-motion-editorial-leo-navarro",
+      "template_id": "realistic-motion-editorial",
+      "image_path": "gallery/images/realistic-motion-editorial-leo-navarro.png",
+      "prompt_path": "gallery/prompts/realistic-motion-editorial-leo-navarro.md",
+      "image_sha256": "83dd2ccd6a3d568bdcf909ac02465dc216f8fb5eeca7afa05497ab4da1215a71",
+      "prompt_sha256": "e72ba9918352ab6ea445bc739b5ebe7062469d243181b5af07fd354a4582fb54",
+      "width": 1003,
+      "height": 1568,
+      "format": "PNG",
+      "mode": "RGB",
+      "provider_path": "codex-built-in-imagegen",
+      "paid_api": false,
+      "first_party": true,
+      "input_assets": [],
+      "status": "approved_public_gallery"
     }
   ]
 }

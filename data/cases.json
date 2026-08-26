@@ -1,12 +1,12 @@
 {
   "version": "0.1",
-  "source": {"kind": "first-party", "version": "0.4.0", "license": "MIT", "catalog_path": "data/cases.json"},
+  "source": {"kind": "first-party", "version": "0.5.0", "license": "MIT", "catalog_path": "data/cases.json"},
   "taxonomy": {
     "categories": ["Characters & People", "Products & E-commerce"],
-    "styles": ["Character", "Editorial", "Fashion", "Illustration", "Photography", "Product", "Realistic", "Technical"],
-    "scenes": ["Commerce", "Creative", "Fashion", "Interior", "Story", "Tech"]
+    "styles": ["Character", "Editorial", "Fashion", "Illustration", "Motion", "Photography", "Product", "Realistic", "Technical"],
+    "scenes": ["Commerce", "Creative", "Fashion", "Interior", "Story", "Tech", "Urban"]
   },
-  "summary": {"record_count": 6, "approved_count": 6},
+  "summary": {"record_count": 7, "approved_count": 7},
   "cases": [
     {
       "id": 1,
@@ -84,6 +84,19 @@
       "prompt_path": "gallery/prompts/quiet-editorial-portrait-mira-kang.md",
       "prompt_sha256": "019864f7f5236392193cd72593790c0548394864fffff3a5bb343e26aeb2fd02",
       "image": {"path": "gallery/images/quiet-editorial-portrait-mira-kang.png", "alt": "MIRA KANG quiet editorial portrait"},
+      "status": "approved_public_gallery"
+    },
+    {
+      "id": 7,
+      "title": "LEO NAVARRO Realistic Motion Editorial",
+      "category": "Characters & People",
+      "styles": ["Photography", "Realistic", "Editorial", "Motion"],
+      "scenes": ["Creative", "Urban"],
+      "featured": true,
+      "selection_text": "Photorealistic vertical full-body motion editorial of one fictional adult dancer in a physically credible grounded mid-step, complete hands and shoes, modest unbranded workwear, rain-darkened concrete, soft blue-hour skylight, a subtle warm reflection, natural skin and fabric texture, and no text or brands.",
+      "prompt_path": "gallery/prompts/realistic-motion-editorial-leo-navarro.md",
+      "prompt_sha256": "e72ba9918352ab6ea445bc739b5ebe7062469d243181b5af07fd354a4582fb54",
+      "image": {"path": "gallery/images/realistic-motion-editorial-leo-navarro.png", "alt": "LEO NAVARRO realistic full-body motion editorial"},
       "status": "approved_public_gallery"
     }
   ]

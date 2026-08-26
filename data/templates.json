@@ -1,6 +1,6 @@
 {
   "version": "0.1",
-  "updated_at": "2026-08-26T00:00:00Z",
+  "updated_at": "2026-08-26T13:00:07Z",
   "templates": [
     {
       "id": "character-design-sheet",
@@ -161,6 +161,38 @@
       },
       "example_cases": [6],
       "provenance": {"kind": "first-party", "version": "0.4.0", "path": "gallery/prompts/quiet-editorial-portrait-mira-kang.md", "license": "MIT"}
+    },
+    {
+      "id": "realistic-motion-editorial",
+      "title": {"en": "Realistic Motion Editorial", "zh": "写实动态编辑摄影"},
+      "category": "Characters & People",
+      "styles": ["Photography", "Realistic", "Editorial", "Motion"],
+      "scenes": ["Creative", "Urban"],
+      "tags": ["full-body", "movement", "grounded-pose", "anatomy", "unbranded-workwear", "blue-hour"],
+      "use_when": {
+        "en": "Use for a photorealistic full-body people image that needs one adult subject in believable, grounded motion without becoming a sports advertisement, campaign key art, or static portrait.",
+        "zh": "用于需要一位成年主体、完整全身和可信动态的写实人物图像，同时避免体育广告化、宣传主视觉化或静态肖像感。"
+      },
+      "guidance": {
+        "en": [
+          "Define a fictional adult identity and non-sexualized presentation before describing movement or mood.",
+          "State the planted foot, lifted limb, torso rotation, and counterbalancing arms so the requested action has a legible center of gravity.",
+          "Keep both hands, both shoes, wrists, knees, and ankles visible enough to inspect independently.",
+          "Use modest unbranded wardrobe, real material wear, and a restrained exterior context; avoid team styling, campaign posing, and heroic exaggeration."
+        ],
+        "zh": [
+          "先明确虚构成年身份和非性感化表达，再描述动作和情绪。",
+          "明确落地脚、抬起的肢体、躯干旋转和用于平衡的双臂，使动作具有清楚的重心。",
+          "让双手、双鞋、手腕、膝盖和脚踝都足够可见，以便分别检查。",
+          "使用端庄无品牌服装、真实材质磨损和克制的室外环境；避免队服感、广告摆拍和英雄式夸张。"
+        ]
+      },
+      "pitfalls": {
+        "en": ["impossible balance", "duplicate limbs", "cropped shoes", "sports-ad styling", "superhero pose", "plastic skin"],
+        "zh": ["不可能的重心", "重复肢体", "鞋部裁切", "体育广告化", "英雄式姿态", "塑料肤质"]
+      },
+      "example_cases": [7],
+      "provenance": {"kind": "first-party", "version": "0.5.0", "path": "gallery/prompts/realistic-motion-editorial-leo-navarro.md", "license": "MIT"}
     },
     {
       "id": "realistic-photography",

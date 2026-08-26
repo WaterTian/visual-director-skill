@@ -49,6 +49,15 @@ This gallery contains only first-party results whose prompts were refined, gener
 - 941 × 1672, PNG/RGB, 9:16
 - Adult identity, modest wardrobe, natural seated anatomy, hands, muted interior, photographic texture, negative space, and no-text requirements passed visual review / 成年身份、端庄穿搭、自然坐姿人体、手部、低饱和室内、摄影质感、留白和无文字要求已通过视觉复核
 
+## Realistic Motion Editorial / 写实动态编辑摄影
+
+![LEO NAVARRO realistic full-body motion editorial](images/realistic-motion-editorial-leo-navarro.png)
+
+- [Final prompt and review / 最终 Prompt 与复核](prompts/realistic-motion-editorial-leo-navarro.md)
+- New fictional adult identity with no real-person or external image reference / 全新虚构成年人物，不使用真人或外部图片参考
+- 1003 × 1568, PNG/RGB, vertical full-body frame / 竖幅全身构图
+- Adult identity, believable grounded movement, complete hands and shoes, modest unbranded workwear, wet urban material, photorealism, and no-text requirements passed visual review / 成年身份、可信落地动作、完整手脚、端庄无品牌工作服、湿润城市材质、写实感和无文字要求已通过视觉复核
+
 ## Product Commerce Visual / 商品商业视觉
 
 ![AURORA MINI product commerce visual](images/product-commerce-visual-aurora-mini.png)

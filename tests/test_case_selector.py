@@ -38,11 +38,12 @@ class CaseSelectorTests(unittest.TestCase):
         expected = {
             "character-edit-brief.json": [2, 3, 4],
             "exploded-product-diagram-brief.json": [5, 1, 4],
-            "fashion-lookbook-brief.json": [4, 3, 2],
+            "fashion-lookbook-brief.json": [4, 3, 7],
             "hero-brief.json": [1, 2, 4],
             "product-brief.json": [1, 3, 4],
             "product-background-edit-brief.json": [1, 3, 2],
-            "quiet-editorial-portrait-brief.json": [6, 3, 2],
+            "quiet-editorial-portrait-brief.json": [6, 3, 7],
+            "realistic-motion-editorial-brief.json": [7, 3, 4],
         }
         for filename, ids in expected.items():
             with self.subTest(filename=filename):

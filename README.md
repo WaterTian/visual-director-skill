@@ -6,7 +6,7 @@ Visual Director 是一个可移植的 Codex 视觉生产 Skill。它把模糊的
 
 Visual Director is a portable visual-production skill for Codex. It turns an ambiguous image request into a testable Visual Brief, selects a reviewed first-party template, compiles a precise prompt, and protects formal assets with file checks, visual review, and approval gates.
 
-`v0.2.0` · `MIT` · `4 reviewed workflows` · `4 approved gallery assets` · `no paid API required`
+`v0.3.0` · `MIT` · `5 reviewed workflows` · `5 approved gallery assets` · `no paid API required`
 
 ## Gallery
 
@@ -19,6 +19,11 @@ Visual Director is a portable visual-production skill for Codex. It turns an amb
 |---|---|
 | ![NOA REYES realistic six-look fashion lookbook](gallery/images/realistic-fashion-lookbook-noa-reyes.png) | ![AURORA MINI product commerce visual](gallery/images/product-commerce-visual-aurora-mini.png) |
 | [Prompt + review / Prompt 与复核](gallery/prompts/realistic-fashion-lookbook-noa-reyes.md) | [Prompt + review / Prompt 与复核](gallery/prompts/product-commerce-visual-aurora-mini.md) |
+
+| Exploded Product Diagram / 产品分解结构图 |
+|---|
+| ![ORBITAL FRAME ONE exploded product diagram](gallery/images/exploded-product-diagram-orbital-frame-one.png) |
+| [Prompt + review / Prompt 与复核](gallery/prompts/exploded-product-diagram-orbital-frame-one.md) |
 
 ## 中文
 
@@ -45,12 +50,13 @@ Built-in Image Generation or External Handoff
 File QC → Visual Review → Approval → Formal Asset
 ```
 
-当前公开版只声明已经实际验收的四个方向：
+当前公开版只声明已经实际验收的五个方向：
 
 1. `character-design-sheet`：人物身份、服装、左右细节和多视图一致性。
 2. `realistic-photography`：原创角色的真实摄影转化、自然皮肤、手部和环境可信度。
 3. `realistic-fashion-lookbook`：同一成年人物的跨格身份一致性、完整全身和多套写实穿搭。
-4. `product-commerce-visual`：产品几何、材质、文案空间、语义标注和精确画布合成。
+4. `exploded-product-diagram`：产品内部结构、层级、装配逻辑、材质和分解视图可读性。
+5. `product-commerce-visual`：产品几何、材质、文案空间、语义标注和精确画布合成。
 
 其他视觉类型可以使用通用 Brief、Prompt 编译和 QC 能力，但在新增效果图、最终 Prompt 与测试通过前，不会被标为“已验收模板”。
 
@@ -151,12 +157,13 @@ visual-director-skill/
 
 ### Reviewed scope
 
-The public catalog currently claims four reviewed workflows:
+The public catalog currently claims five reviewed workflows:
 
 1. `character-design-sheet`: identity, wardrobe, left-right details, anatomy, and multi-view consistency.
 2. `realistic-photography`: believable photographic translation of an original character, including skin, hands, wardrobe, and environment.
 3. `realistic-fashion-lookbook`: one adult identity preserved across complete full-body cells and multiple realistic wardrobe capsules.
-4. `product-commerce-visual`: product geometry, materials, copy space, semantic callouts, and exact-canvas composition.
+4. `exploded-product-diagram`: internal product structure, part hierarchy, assembly plausibility, material response, and exploded-view readability.
+5. `product-commerce-visual`: product geometry, materials, copy space, semantic callouts, and exact-canvas composition.
 
 Other visual requests can still use the generic Brief, prompt compiler, and QC contracts. They are not labeled as reviewed templates until a final prompt, approved image, and tests are added.
 

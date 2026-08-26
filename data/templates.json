@@ -99,6 +99,38 @@
       "provenance": {"kind": "first-party", "version": "0.1.0", "path": "gallery/prompts/product-commerce-visual-aurora-mini.md", "license": "MIT"}
     },
     {
+      "id": "exploded-product-diagram",
+      "title": {"en": "Exploded Product Diagram", "zh": "产品分解结构图"},
+      "category": "Products & E-commerce",
+      "styles": ["Product", "Realistic", "Technical"],
+      "scenes": ["Commerce", "Tech"],
+      "tags": ["exploded", "internal-structure", "components", "layers", "product-diagram"],
+      "use_when": {
+        "en": "Use for a photorealistic product breakdown that must make internal components, assembly logic, materials, and part hierarchy easy to inspect.",
+        "zh": "用于需要清楚检查内部部件、装配逻辑、材质和层级关系的写实产品分解图。"
+      },
+      "guidance": {
+        "en": [
+          "Declare one fictional product and enumerate its functional layers before specifying style.",
+          "Lock the center axis, layer order, symmetry, spacing, and which modules may sit off-axis.",
+          "Describe material and assembly plausibility separately from visual polish.",
+          "Generate the hardware without copy; add exact part names, leader lines, and headings through deterministic composition."
+        ],
+        "zh": [
+          "先定义一个虚构产品并枚举功能层，再说明视觉风格。",
+          "锁定中心轴、层级顺序、左右对称、间距和允许偏轴的模块。",
+          "将材质与装配可信度和视觉精致度分开描述。",
+          "硬件生成阶段不生成文字；逐字部件名、引线和标题使用确定性排版补充。"
+        ]
+      },
+      "pitfalls": {
+        "en": ["duplicate modules", "unrelated loose fragments", "impossible wiring", "copied product silhouette", "pseudo-text"],
+        "zh": ["模块重复", "无关漂浮零件", "不合理布线", "复制现有产品轮廓", "伪文字"]
+      },
+      "example_cases": [5],
+      "provenance": {"kind": "first-party", "version": "0.3.0", "path": "gallery/prompts/exploded-product-diagram-orbital-frame-one.md", "license": "MIT"}
+    },
+    {
       "id": "realistic-photography",
       "title": {"en": "Realistic Photography", "zh": "真实人物摄影"},
       "category": "Characters & People",

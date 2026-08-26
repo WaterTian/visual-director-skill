@@ -85,6 +85,24 @@
       "first_party": true,
       "input_assets": [],
       "status": "approved_public_gallery"
+    },
+    {
+      "case_id": 5,
+      "id": "exploded-product-diagram-orbital-frame-one",
+      "template_id": "exploded-product-diagram",
+      "image_path": "gallery/images/exploded-product-diagram-orbital-frame-one.png",
+      "prompt_path": "gallery/prompts/exploded-product-diagram-orbital-frame-one.md",
+      "image_sha256": "4a578b623e20895aa6873f084f18c5e0e86bd93ce511c1a8ac44ed1f0360bc41",
+      "prompt_sha256": "6ec712b48813d3d56611bccefa720de5e3569fb75bd86250256d150fd66ebe8e",
+      "width": 1122,
+      "height": 1402,
+      "format": "PNG",
+      "mode": "RGB",
+      "provider_path": "codex-built-in-imagegen",
+      "paid_api": false,
+      "first_party": true,
+      "input_assets": [],
+      "status": "approved_public_gallery"
     }
   ]
 }

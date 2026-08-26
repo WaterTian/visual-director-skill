@@ -1,0 +1,57 @@
+{
+  "version": "0.1",
+  "asset_id": "orbital-frame-product-breakdown",
+  "goal": "Explain one fictional wearable product through a photorealistic exploded view with inspectable component hierarchy.",
+  "audience": "Industrial-design reviewers assessing product architecture and material plausibility",
+  "deliverable": {
+    "type": "product",
+    "width": 1122,
+    "height": 1402,
+    "format": "png",
+    "transparent_background": false
+  },
+  "content": {
+    "subject": "One original mixed-reality work visor shown as a vertically stacked exploded product diagram",
+    "exact_text": [],
+    "must_include": [
+      "Exactly one fictional device",
+      "Nine coherent functional layers",
+      "Pair of optical modules",
+      "Two symmetric battery modules",
+      "Complete centered assembly"
+    ],
+    "must_avoid": [
+      "Copied product silhouette",
+      "Duplicate components",
+      "Impossible cable routing",
+      "Readable text or brands",
+      "Loose unrelated fragments"
+    ]
+  },
+  "art_direction": {
+    "style": "Photorealistic technical industrial product visualization with an exploded internal structure",
+    "palette": ["graphite", "deep charcoal", "muted green", "cool optical blue", "warm gray"],
+    "lighting": "Large diffused studio light with soft cool fill and restrained rim separation",
+    "materials": ["anodized magnesium", "matte polymer", "woven textile", "coated optical glass", "circuit board"]
+  },
+  "composition": {
+    "layout": "Vertical exploded product diagram with axial alignment, even layer spacing, and symmetric off-axis battery modules",
+    "viewpoint": "Centered nearly orthographic 85 mm industrial product view",
+    "focal_hierarchy": ["Coherent component hierarchy", "Plausible internal assembly", "Material readability"]
+  },
+  "references": [],
+  "qa": {
+    "objective_checks": [
+      "Output is exactly 1122x1402 PNG",
+      "The complete product and all nine layers are visible",
+      "No readable text, logo, brand, or watermark appears"
+    ],
+    "visual_checks": [
+      "Components form one plausible device rather than disconnected props",
+      "Optics and batteries are paired and symmetric",
+      "Materials read as real engineering materials rather than a cartoon or toy",
+      "The centered exploded hierarchy remains legible at normal viewing size"
+    ],
+    "approval_required": true
+  }
+}

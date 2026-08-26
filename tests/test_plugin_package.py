@@ -26,7 +26,7 @@ class PluginPackageTests(unittest.TestCase):
             self.assertTrue((output / "runtime" / "scripts" / "run-free-exact-pipeline.py").is_file())
             self.assertTrue((output / "runtime" / "schemas" / "gallery-manifest.schema.json").is_file())
             case_catalog = json.loads((output / "runtime" / "data" / "cases.json").read_text())
-            self.assertEqual(4, len(case_catalog["cases"]))
+            self.assertEqual(5, len(case_catalog["cases"]))
             self.assertTrue(all(item["status"] == "approved_public_gallery" for item in case_catalog["cases"]))
             provider_names = {path.name for path in (output / "runtime" / "config" / "providers").glob("*.json")}
             self.assertEqual({"codex-built-in-imagegen.json", "mock.json"}, provider_names)

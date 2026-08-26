@@ -26,6 +26,7 @@ class SelectorCompilerTests(unittest.TestCase):
     def test_top_selection_is_stable_for_supported_fixtures(self) -> None:
         expected = {
             "character-edit-brief.json": "character-design-sheet",
+            "exploded-product-diagram-brief.json": "exploded-product-diagram",
             "fashion-lookbook-brief.json": "realistic-fashion-lookbook",
             "hero-brief.json": "product-commerce-visual",
             "product-brief.json": "product-commerce-visual",

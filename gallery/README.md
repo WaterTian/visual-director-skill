@@ -31,6 +31,15 @@ This gallery contains only first-party results whose prompts were refined, gener
 - 1122 × 1402, PNG/RGB, 4:5
 - Six-cell identity, full-body framing, wardrobe differentiation, anatomy, photorealism, and no-text requirements passed visual review / 六格身份、完整全身、穿搭差异、人体、写实感和无文字要求已通过视觉复核
 
+## Exploded Product Diagram / 产品分解结构图
+
+![ORBITAL FRAME ONE exploded product diagram](images/exploded-product-diagram-orbital-frame-one.png)
+
+- [Final prompt and review / 最终 Prompt 与复核](prompts/exploded-product-diagram-orbital-frame-one.md)
+- Original fictional product with no external product, trademark, or image reference / 原创虚构产品，不使用外部产品、商标或图片参考
+- 1122 × 1402, PNG/RGB, 4:5
+- Nine-layer hierarchy, internal assembly plausibility, materials, symmetry, complete framing, and no-text requirements passed visual review / 九层层级、内部装配可信度、材质、对称性、完整构图和无文字要求已通过视觉复核
+
 ## Product Commerce Visual / 商品商业视觉
 
 ![AURORA MINI product commerce visual](images/product-commerce-visual-aurora-mini.png)

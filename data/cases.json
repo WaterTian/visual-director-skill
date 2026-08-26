@@ -1,12 +1,12 @@
 {
   "version": "0.1",
-  "source": {"kind": "first-party", "version": "0.2.0", "license": "MIT", "catalog_path": "data/cases.json"},
+  "source": {"kind": "first-party", "version": "0.3.0", "license": "MIT", "catalog_path": "data/cases.json"},
   "taxonomy": {
     "categories": ["Characters & People", "Products & E-commerce"],
-    "styles": ["Character", "Fashion", "Illustration", "Photography", "Product", "Realistic"],
+    "styles": ["Character", "Fashion", "Illustration", "Photography", "Product", "Realistic", "Technical"],
     "scenes": ["Commerce", "Creative", "Fashion", "Story", "Tech"]
   },
-  "summary": {"record_count": 4, "approved_count": 4},
+  "summary": {"record_count": 5, "approved_count": 5},
   "cases": [
     {
       "id": 1,
@@ -58,6 +58,19 @@
       "prompt_path": "gallery/prompts/realistic-fashion-lookbook-noa-reyes.md",
       "prompt_sha256": "f1e58cf74f4176aa1c81569359c6731648e6a9765401e6272b0d0f1774d90bc9",
       "image": {"path": "gallery/images/realistic-fashion-lookbook-noa-reyes.png", "alt": "NOA REYES realistic six-look fashion lookbook"},
+      "status": "approved_public_gallery"
+    },
+    {
+      "id": 5,
+      "title": "ORBITAL FRAME ONE Exploded Product Diagram",
+      "category": "Products & E-commerce",
+      "styles": ["Product", "Realistic", "Technical"],
+      "scenes": ["Commerce", "Tech"],
+      "featured": true,
+      "selection_text": "Photorealistic 4:5 exploded product diagram of one original wearable work visor with nine coherent functional layers, centered axial alignment, plausible material and assembly logic, dual optics, symmetric battery modules, complete parts, generous studio spacing, and no visible text or brands.",
+      "prompt_path": "gallery/prompts/exploded-product-diagram-orbital-frame-one.md",
+      "prompt_sha256": "6ec712b48813d3d56611bccefa720de5e3569fb75bd86250256d150fd66ebe8e",
+      "image": {"path": "gallery/images/exploded-product-diagram-orbital-frame-one.png", "alt": "ORBITAL FRAME ONE exploded product diagram"},
       "status": "approved_public_gallery"
     }
   ]

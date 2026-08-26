@@ -2,6 +2,21 @@
 
 This project follows semantic versioning. / 本项目遵循语义化版本号。
 
+## 0.3.0 - 2026-08-26
+
+Adds a reviewed photorealistic exploded-product workflow. / 新增已验收的写实产品分解结构工作流。
+
+### Added / 新增
+
+- `exploded-product-diagram` template with a fictional mixed-reality work visor, a nine-layer component hierarchy, and an original 4:5 product visual. / 新增 `exploded-product-diagram` 模板，包含虚构混合现实工作眼镜、九层部件层级和原创 4:5 产品效果图。
+- Product routing for exploded-view, teardown, and internal-structure requests. / 新增针对爆炸图、拆解和内部结构请求的产品路由。
+- Bilingual prompt and review record that separates generated hardware structure from deterministic text and leader-line composition. / 新增中英文 Prompt 与复核记录，明确生成硬件结构和确定性文字、引线排版的边界。
+
+### Quality boundary / 质量边界
+
+- The first narrow candidate remained private; only the corrected 1122 × 1402 image entered the public gallery. / 首张窄画布候选保留在私下目录，公开 Gallery 只收录修正后的 1122 × 1402 效果图。
+- The public image contains no external product, trademark, brand, real-person reference, copied prompt, or paid API dependency. / 公开效果图不含外部产品、商标、品牌、真人参考、复制 Prompt 或付费 API 依赖。
+
 ## 0.2.0 - 2026-08-26
 
 Adds a reviewed photorealistic multi-look character workflow. / 新增已验收的写实多穿搭人物工作流。

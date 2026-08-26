@@ -30,6 +30,26 @@ PREFERRED_TEMPLATE_BY_DELIVERABLE = {
     "other": "concept-product-breakdown",
 }
 
+PRODUCT_ROUTES = (
+    (
+        "exploded-product-diagram",
+        (
+            "exploded",
+            "exploded view",
+            "teardown",
+            "internal structure",
+            "internal components",
+            "component layers",
+            "product diagram",
+            "分解结构",
+            "爆炸图",
+            "拆解",
+            "内部结构",
+            "内部部件",
+        ),
+    ),
+)
+
 EDIT_ROUTES = (
     (
         "Products & E-commerce",
@@ -65,6 +85,7 @@ STYLE_ALIASES = {
     "fashion": ("fashion", "lookbook", "wardrobe", "clothing", "outfit"),
     "charts": ("chart", "diagram", "flow", "technical"),
     "classical": ("classical", "history", "dynasty", "scroll"),
+    "technical": ("technical", "engineering", "exploded", "teardown", "internal", "component", "structure", "industrial"),
     "illustration": ("illustration", "watercolor", "paint", "drawing"),
     "infographic": ("infographic", "diagram", "flow", "module"),
     "photography": ("photo", "photography", "photorealistic", "studio"),
@@ -135,6 +156,10 @@ def _target_route(deliverable_type: str, request: str) -> tuple[str, str | None]
         for category, template_id, terms in EDIT_ROUTES:
             if any(term in request for term in terms):
                 return category, template_id
+    if deliverable_type == "product":
+        for template_id, terms in PRODUCT_ROUTES:
+            if any(term in request for term in terms):
+                return "Products & E-commerce", template_id
     return (
         CATEGORY_BY_DELIVERABLE.get(deliverable_type, "Other Use Cases"),
         PREFERRED_TEMPLATE_BY_DELIVERABLE.get(deliverable_type),

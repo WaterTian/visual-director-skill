@@ -241,6 +241,24 @@
       "first_party": true,
       "input_assets": [],
       "status": "approved_public_gallery"
+    },
+    {
+      "case_id": 14,
+      "id": "minimal-floor-editorial-portrait-lea-orren",
+      "template_id": "minimal-floor-editorial-portrait",
+      "image_path": "gallery/images/minimal-floor-editorial-portrait-lea-orren.png",
+      "prompt_path": "gallery/prompts/minimal-floor-editorial-portrait-lea-orren.md",
+      "image_sha256": "43b5fb01ae124572c83b1a96fedb0cabc484f30533c69886a083544659fa595f",
+      "prompt_sha256": "499292c7092588afcb3c539e661c03c6cf249073251be98d557bd051175f6791",
+      "width": 941,
+      "height": 1672,
+      "format": "PNG",
+      "mode": "RGB",
+      "provider_path": "codex-built-in-imagegen",
+      "paid_api": false,
+      "first_party": true,
+      "input_assets": [],
+      "status": "approved_public_gallery"
     }
   ]
 }

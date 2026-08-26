@@ -2,6 +2,20 @@
 
 This project follows semantic versioning. / 本项目遵循语义化版本号。
 
+## 0.12.0 - 2026-08-26
+
+Adds a reviewed minimal floor editorial-portrait workflow. / 新增已验收的极简落地编辑人像工作流。
+
+### Added / 新增
+
+- `minimal-floor-editorial-portrait` template for one fictional adult woman with complete crown, hands, knees, and a relaxed floor-seated pose; modest opaque layering; natural skin, textile, mineral-wall, and floor material; and quiet negative space. / 新增 `minimal-floor-editorial-portrait` 模板，包含一位虚构成年女性、完整头顶、双手、双膝和放松落地坐姿；端庄不透肤叠穿；自然皮肤、织物、矿物墙面与地面材质，以及安静留白。
+- Character routing for floor-seated editorial, floor portrait, seated-on-floor, and explicit Chinese floor-seated portrait requests. / 新增针对落地编辑人像、地面人像、地面坐姿和明确中文落地坐姿人像请求的人物路由。
+- Final prompt, approved image, SHA-256 records, bilingual review, selector fixture, and ranking coverage. / 新增最终 Prompt、批准效果图、SHA-256、中英文复核、选择器夹具和排序覆盖。
+
+### Quality boundary / 质量边界
+
+- The public result uses no reference image, no real-person likeness, no paid API, no brand, no text, no childlike or sexualized treatment, no furniture, and no beauty-retouch or heavy-haze treatment. / 公开结果不使用参考图、真人相似性、付费 API、品牌或文字，也不采用幼态化、性感化、家具、美颜精修或浓重雾化表达。
+
 ## 0.11.0 - 2026-08-26
 
 Adds a reviewed warm-tonal studio editorial-portrait workflow. / 新增已验收的暖调影棚编辑人像工作流。

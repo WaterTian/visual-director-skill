@@ -92,6 +92,18 @@ SPECIALIZED_CASE_TITLE_TERMS: tuple[tuple[str, tuple[str, ...]], ...] = (
             "棕色影棚",
         ),
     ),
+    (
+        "minimal floor",
+        (
+            "floor-seated",
+            "floor seated",
+            "seated on floor",
+            "floor portrait",
+            "落地编辑",
+            "地面坐姿",
+            "地面人像",
+        ),
+    ),
 )
 
 CUE_PATTERNS: tuple[tuple[str, tuple[str, ...]], ...] = (

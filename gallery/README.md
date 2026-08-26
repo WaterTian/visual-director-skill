@@ -112,6 +112,15 @@ This gallery contains only first-party results whose prompts were refined, gener
 - 1023 × 1537, PNG/RGB, vertical warm-tonal head-and-shoulders studio portrait / 竖幅暖调头肩影棚人像
 - Clear eyes, complete crown and chin, natural pores, age detail, beard and clothing material, restrained unbranded studio treatment, and no-text requirements passed visual review / 清晰双眼、完整头顶与下巴、自然毛孔、年龄细节、胡须与服装材质、克制无品牌影棚表达和无文字要求已通过视觉复核
 
+## Minimal Floor Editorial Portrait / 极简落地编辑人像
+
+![LEA ORREN minimal floor editorial portrait](images/minimal-floor-editorial-portrait-lea-orren.png)
+
+- [Final prompt and review / 最终 Prompt 与复核](prompts/minimal-floor-editorial-portrait-lea-orren.md)
+- Newly specified fictional adult identity with no real-person or external image reference / 全新设定的虚构成年身份，不使用真人或外部图片参考
+- 941 × 1672, PNG/RGB, vertical floor-seated minimalist indoor editorial portrait / 竖幅落地坐姿极简室内编辑人像
+- Complete crown, hands, knees, modest layered wardrobe, natural skin and textile material, quiet negative space, and non-sexualized requirements passed visual review / 完整头顶、双手、双膝、端庄叠穿、自然皮肤与织物材质、安静留白和非性感化要求已通过视觉复核
+
 ## Product Commerce Visual / 商品商业视觉
 
 ![AURORA MINI product commerce visual](images/product-commerce-visual-aurora-mini.png)

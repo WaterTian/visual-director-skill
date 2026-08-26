@@ -1,12 +1,12 @@
 {
   "version": "0.1",
-  "source": {"kind": "first-party", "version": "0.11.0", "license": "MIT", "catalog_path": "data/cases.json"},
+  "source": {"kind": "first-party", "version": "0.12.0", "license": "MIT", "catalog_path": "data/cases.json"},
   "taxonomy": {
     "categories": ["Characters & People", "Posters & Typography", "Products & E-commerce"],
     "styles": ["Character", "Documentary", "Editorial", "Fashion", "Illustration", "Motion", "Photography", "Poster", "Product", "Realistic", "Technical"],
     "scenes": ["Commerce", "Creative", "Fashion", "Interior", "Story", "Tech", "Urban"]
   },
-  "summary": {"record_count": 13, "approved_count": 13},
+  "summary": {"record_count": 14, "approved_count": 14},
   "cases": [
     {
       "id": 1,
@@ -175,6 +175,19 @@
       "prompt_path": "gallery/prompts/tonal-studio-editorial-portrait-arden-sloane.md",
       "prompt_sha256": "49125c962d4c22e191d3e895e5e0b62a4f9a294b7b955332eac41487f8961f49",
       "image": {"path": "gallery/images/tonal-studio-editorial-portrait-arden-sloane.png", "alt": "ARDEN SLOANE tonal studio editorial portrait"},
+      "status": "approved_public_gallery"
+    },
+    {
+      "id": 14,
+      "title": "LEA ORREN Minimal Floor Editorial Portrait",
+      "category": "Characters & People",
+      "styles": ["Photography", "Realistic", "Editorial"],
+      "scenes": ["Creative", "Interior"],
+      "featured": true,
+      "selection_text": "Minimal floor-seated editorial portrait of one fictional 29-year-old adult woman, complete crown, face, shoulders, torso, two hands and knees, a pale mineral wall and studio floor, soft left light, upper-left negative space, charcoal rib knit, dove-gray cotton shirt, charcoal trousers, natural pores, cotton weave, knit ribs, and no text or brands.",
+      "prompt_path": "gallery/prompts/minimal-floor-editorial-portrait-lea-orren.md",
+      "prompt_sha256": "499292c7092588afcb3c539e661c03c6cf249073251be98d557bd051175f6791",
+      "image": {"path": "gallery/images/minimal-floor-editorial-portrait-lea-orren.png", "alt": "LEA ORREN minimal floor editorial portrait"},
       "status": "approved_public_gallery"
     }
   ]

@@ -1,0 +1,17 @@
+{
+  "version": "0.1",
+  "asset_id": "minimal-floor-editorial-portrait-selection",
+  "goal": "Create a calm photorealistic floor-seated editorial portrait of one fictional adult woman with complete anatomy, natural material detail, and restrained indoor atmosphere.",
+  "audience": "Editorial art directors seeking an adult, non-promotional, realistic character portrait with quiet composition and credible textile detail",
+  "deliverable": {"type": "character", "width": 941, "height": 1672, "format": "png", "transparent_background": false},
+  "content": {
+    "subject": "One fictional 29-year-old woman seated naturally on a pale gray studio floor against a lightly textured mineral-plaster wall",
+    "exact_text": [],
+    "must_include": ["Exactly one clearly adult fictional woman", "Complete crown, face, shoulders, torso, both knees, and both hands with coherent anatomy", "Natural softly tousled chin-length dark hair, warm brown eyes, minimal makeup, natural pores, and faint under-eye texture", "Unbranded charcoal rib-knit crew top under a softened dove-gray cotton shirt with charcoal relaxed trousers", "One open hand with distinct fingers resting beside her thigh and one hand gathering a loose shirt cuff", "Pale gray floor and textured mineral-plaster wall with quiet upper-left negative space and soft camera-left light"],
+    "must_avoid": ["Childlike appearance, exposed midriff, cleavage, lingerie, sheer clothing, sensual posing, or glamour treatment", "Brand, logo, text, watermark, signature, jewelry, sunglasses, phone, furniture, or external reference", "Extra people, duplicate features, malformed anatomy, cropped head, hands, or knees", "Beauty smoothing, plastic skin, heavy haze, illustration, cartoon, anime, CGI, collage, or copied campaign aesthetic"]
+  },
+  "art_direction": {"style": "Photorealistic quiet contemporary editorial", "palette": ["pale mineral gray", "dove gray", "charcoal", "soft warm skin"], "lighting": "Broad soft camera-left window-like key, subtle ambient fill, gentle gradual shadow falloff, restrained highlight bloom", "materials": ["natural skin pores", "fine knit ribs", "softened cotton poplin", "mineral plaster", "matte studio floor"]},
+  "composition": {"layout": "Vertical floor-seated portrait, subject slightly right of center with calm upper-left negative space", "viewpoint": "Eye-level 50 mm editorial perspective", "focal_hierarchy": ["Calm adult face and directable gaze", "Coherent hands, knees, and relaxed seated posture", "Layered shirt, knit, and trouser materials", "Quiet mineral wall and floor"]},
+  "references": [],
+  "qa": {"objective_checks": ["Output is exactly 941x1672 PNG/RGB without alpha", "Exactly one adult person appears", "No visible text, logo, brand, or watermark appears"], "visual_checks": ["Crown, face, shoulders, torso, hands, knees, and seated posture are coherent", "Skin, hair, knit, cotton, and wall materials remain photographic without beauty smoothing", "Wardrobe remains modest, unbranded, and non-sexualized", "The image is distinct from a studio close-up, outdoor documentary, motion, rehearsal, craft, fashion-grid, and character-sheet image"], "approval_required": true}
+}

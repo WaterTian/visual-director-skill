@@ -23,7 +23,7 @@ class PublicGalleryTests(unittest.TestCase):
         self.assertFalse(manifest["policy"]["paid_api"])
 
         assets = manifest["assets"]
-        self.assertEqual(13, len(assets))
+        self.assertEqual(14, len(assets))
         self.assertEqual(
             {asset["image_path"] for asset in assets},
             {path.relative_to(ROOT).as_posix() for path in (ROOT / "gallery" / "images").glob("*.png")},

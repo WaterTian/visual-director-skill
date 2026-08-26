@@ -52,6 +52,20 @@ PRODUCT_ROUTES = (
 
 CHARACTER_ROUTES = (
     (
+        "minimal-floor-editorial-portrait",
+        (
+            "floor-seated editorial",
+            "floor seated editorial",
+            "floor-seated portrait",
+            "floor seated portrait",
+            "seated on floor",
+            "minimal floor portrait",
+            "落地编辑人像",
+            "地面坐姿人像",
+            "地面坐姿",
+        ),
+    ),
+    (
         "tonal-studio-editorial-portrait",
         (
             "tonal studio portrait",

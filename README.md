@@ -6,7 +6,7 @@ Visual Director 是一个可移植的 Codex 视觉生产 Skill。它把模糊的
 
 Visual Director is a portable visual-production skill for Codex. It turns an ambiguous image request into a testable Visual Brief, selects a reviewed first-party template, compiles a precise prompt, and protects formal assets with file checks, visual review, and approval gates.
 
-`v0.11.0` · `MIT` · `13 reviewed workflows` · `13 approved gallery assets` · `no paid API required`
+`v0.12.0` · `MIT` · `14 reviewed workflows` · `14 approved gallery assets` · `no paid API required`
 
 ## Gallery
 
@@ -65,6 +65,11 @@ Visual Director is a portable visual-production skill for Codex. It turns an amb
 | ![ARDEN SLOANE tonal studio editorial portrait](gallery/images/tonal-studio-editorial-portrait-arden-sloane.png) |
 | [Prompt + review / Prompt 与复核](gallery/prompts/tonal-studio-editorial-portrait-arden-sloane.md) |
 
+| Minimal Floor Editorial Portrait / 极简落地编辑人像 |
+|---|
+| ![LEA ORREN minimal floor editorial portrait](gallery/images/minimal-floor-editorial-portrait-lea-orren.png) |
+| [Prompt + review / Prompt 与复核](gallery/prompts/minimal-floor-editorial-portrait-lea-orren.md) |
+
 ## 中文
 
 ### 它解决什么问题
@@ -90,7 +95,7 @@ Built-in Image Generation or External Handoff
 File QC → Visual Review → Approval → Formal Asset
 ```
 
-当前公开版只声明已经实际验收的十三个方向：
+当前公开版只声明已经实际验收的十四个方向：
 
 1. `character-design-sheet`：人物身份、服装、左右细节和多视图一致性。
 2. `realistic-photography`：原创角色的真实摄影转化、自然皮肤、手部和环境可信度。
@@ -104,7 +109,8 @@ File QC → Visual Review → Approval → Formal Asset
 10. `realistic-hairstyle-variation-board`：同一成年身份在十二个统一影棚格中的稳定性，以及发型作为唯一变化变量的可控对比。
 11. `concept-poster-visual-plate`：单一视觉锚点、材质与配色层级、无文字安全区，以及后续确定性海报排版。
 12. `tonal-studio-editorial-portrait`：虚构成年男性的暖调影棚编辑人像、自然年龄细节、皮肤胡须与服装材质、清晰双眼和非广告化边界。
-13. `product-commerce-visual`：产品几何、材质、文案空间、语义标注和精确画布合成。
+13. `minimal-floor-editorial-portrait`：虚构成年女性的极简落地坐姿、完整双手与双膝、端庄叠穿、留白和真实室内材质。
+14. `product-commerce-visual`：产品几何、材质、文案空间、语义标注和精确画布合成。
 
 其他视觉类型可以使用通用 Brief、Prompt 编译和 QC 能力，但在新增效果图、最终 Prompt 与测试通过前，不会被标为“已验收模板”。
 
@@ -205,7 +211,7 @@ visual-director-skill/
 
 ### Reviewed scope
 
-The public catalog currently claims thirteen reviewed workflows:
+The public catalog currently claims fourteen reviewed workflows:
 
 1. `character-design-sheet`: identity, wardrobe, left-right details, anatomy, and multi-view consistency.
 2. `realistic-photography`: believable photographic translation of an original character, including skin, hands, wardrobe, and environment.
@@ -219,7 +225,8 @@ The public catalog currently claims thirteen reviewed workflows:
 10. `realistic-hairstyle-variation-board`: one adult identity kept stable across twelve uniform studio cells, with hairstyle as the only controlled variable.
 11. `concept-poster-visual-plate`: one graphic anchor, material and color hierarchy, typography-safe zones without generated text, and later deterministic poster layout.
 12. `tonal-studio-editorial-portrait`: a fictional adult male in a warm-tonal studio editorial portrait, with natural age detail, skin, beard and wardrobe material, clear eyes, and a non-advertising boundary.
-13. `product-commerce-visual`: product geometry, materials, copy space, semantic callouts, and exact-canvas composition.
+13. `minimal-floor-editorial-portrait`: a fictional adult woman's minimalist floor-seated posture, complete hands and knees, modest layered wardrobe, negative space, and real interior materials.
+14. `product-commerce-visual`: product geometry, materials, copy space, semantic callouts, and exact-canvas composition.
 
 Other visual requests can still use the generic Brief, prompt compiler, and QC contracts. They are not labeled as reviewed templates until a final prompt, approved image, and tests are added.
 

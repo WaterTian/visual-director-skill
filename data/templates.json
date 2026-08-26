@@ -273,6 +273,19 @@
       "provenance": {"kind": "first-party", "version": "0.11.0", "path": "gallery/prompts/tonal-studio-editorial-portrait-arden-sloane.md", "license": "MIT"}
     },
     {
+      "id": "minimal-floor-editorial-portrait",
+      "title": {"en": "Minimal Floor Editorial Portrait", "zh": "极简落地编辑人像"},
+      "category": "Characters & People",
+      "styles": ["Photography", "Realistic", "Editorial"],
+      "scenes": ["Creative", "Interior"],
+      "tags": ["floor-seated", "complete-anatomy", "quiet-composition", "mineral-wall", "modest-layering", "textile-detail"],
+      "use_when": {"en": "Use for a calm photorealistic indoor portrait of one fictional adult seated on the floor, where complete hands, knees, posture, modest layered wardrobe, negative space, and real textile and wall materials need to remain readable.", "zh": "用于需要一位虚构成年人落地坐姿的安静写实室内人像，并要求完整双手、双膝、姿态、端庄叠穿、留白以及真实织物与墙面材质都清楚可读。"},
+      "guidance": {"en": ["State that the subject is a fictional adult and specify complete crown, face, shoulders, torso, hands, knees, and their floor-contact relationships before describing mood.", "Use a minimal wall-and-floor set, offset the subject slightly, and reserve a calm negative-space field so the pose remains legible rather than crowded.", "Name individual hand actions, opaque layered garments, and material evidence such as knit ribs, cotton weave, cuff folds, seams, plaster variation, and contact wrinkles.", "Keep the treatment observed and non-sexualized: exclude youthification, revealing styling, furniture, brand language, glamour retouching, and heavy haze."], "zh": ["在描述情绪前，先明确主体是虚构成年人，并指定完整头顶、面部、肩部、躯干、双手、双膝及其与地面的接触关系。", "使用极简墙面与地面场景，让主体轻微偏离中心并保留安静留白，使姿态清楚而不拥挤。", "明确单只手的动作、不透肤叠穿服装，以及针织罗纹、棉布纹理、袖口褶皱、缝线、灰泥变化和接触褶皱等材质证据。", "保持观察式、非性感化表达：排除幼态化、暴露穿搭、家具、品牌话术、美颜精修和浓重雾化。"]},
+      "pitfalls": {"en": ["cropped hands or knees", "ambiguous seated anatomy", "sexualized styling", "childlike appearance", "furniture clutter", "heavy haze"], "zh": ["手部或膝部裁切", "坐姿人体含混", "性感化造型", "幼态外观", "家具杂乱", "浓重雾化"]},
+      "example_cases": [14],
+      "provenance": {"kind": "first-party", "version": "0.12.0", "path": "gallery/prompts/minimal-floor-editorial-portrait-lea-orren.md", "license": "MIT"}
+    },
+    {
       "id": "realistic-photography",
       "title": {"en": "Realistic Photography", "zh": "真实人物摄影"},
       "category": "Characters & People",

@@ -1,6 +1,6 @@
 {
   "name": "visual-director",
-  "version": "0.11.0",
+  "version": "0.12.0",
   "description": "Turn visual requests into precise prompts, traceable image-generation handoffs, and approval-gated assets.",
   "author": {
     "name": "WaterTian"

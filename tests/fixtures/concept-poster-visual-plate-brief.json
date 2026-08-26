@@ -1,0 +1,17 @@
+{
+  "version": "0.1",
+  "asset_id": "concept-poster-visual-plate-selection",
+  "goal": "Create an original typography-free concept-poster visual plate with one unmistakable graphic anchor and protected zones for later deterministic copy.",
+  "audience": "Cultural-program designers who need a reusable, brand-neutral visual-first poster workflow",
+  "deliverable": {"type": "poster", "width": 1024, "height": 1536, "format": "png", "transparent_background": false},
+  "content": {
+    "subject": "One monumental upright folded vermilion-paper ring framing one small pale interior disc in a floorless ultramarine space",
+    "exact_text": [],
+    "must_include": ["Exactly one complete folded vermilion-paper ring with a clean circular opening", "Exactly one small pale moon-like disc visible through the opening", "A calm unbroken deep-ultramarine zone in the top 20 percent and bottom 14 percent for later typography", "Visible paper fibers, crisp folded edges, restrained pressure creases, and a plausible grounding shadow", "Vertical poster hierarchy: ring first, interior disc second, shadow and texture third"],
+    "must_avoid": ["People, hands, animals, buildings, landscapes, products, mockups, logos, brands, or recognisable artwork", "Letters, numbers, readable text, pseudo-text, labels, QR codes, signatures, or watermarks", "Extra rings, extra discs, ribbons, stars, props, borders, grids, captions, or collage panels", "Generic glossy 3D rendering, neon cyberpunk, retro kitsch, clutter, copied campaign aesthetics, or source-derived wording", "Cropped ring, malformed circular opening, implausible paper folds, or contradictory light and shadow"]
+  },
+  "art_direction": {"style": "Contemporary tactile editorial print culture with an original restrained sculptural visual", "palette": ["matte ultramarine", "saturated vermilion", "pale warm ivory", "almost-black shadow"], "lighting": "One soft directional studio key with gentle fill, yielding believable fold and grounding shadows", "materials": ["fibrous folded paper", "matte pigment field", "subtle lithograph grain", "soft contact shadow"]},
+  "composition": {"layout": "Vertical 2:3 poster with one slightly low central ring and deliberately calm top and bottom text-safe zones", "viewpoint": "Straight-on editorial view with a small amount of depth to make paper structure and shadow legible", "focal_hierarchy": ["One vermilion folded-paper ring", "One pale disc through the opening", "Plausible shadow, paper fibers, and restrained print grain"]},
+  "references": [],
+  "qa": {"objective_checks": ["Output is exactly 1024x1536 PNG/RGB without alpha", "No visible text, logo, brand, signature, or watermark appears", "Exactly one folded ring and one pale interior disc appear"], "visual_checks": ["The ring is complete, structurally coherent, and visibly made from one folded paper material", "The ring, disc, and shadow establish a clear calm poster hierarchy", "Top and bottom zones remain practical for later deterministic typography", "The limited palette and print texture feel intentional without generic 3D, neon, retro, product, or copied-campaign aesthetics"], "approval_required": true}
+}

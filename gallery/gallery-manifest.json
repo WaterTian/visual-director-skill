@@ -205,6 +205,24 @@
       "first_party": true,
       "input_assets": [],
       "status": "approved_public_gallery"
+    },
+    {
+      "case_id": 12,
+      "id": "concept-poster-visual-plate-solstice-void",
+      "template_id": "concept-poster-visual-plate",
+      "image_path": "gallery/images/concept-poster-visual-plate-solstice-void.png",
+      "prompt_path": "gallery/prompts/concept-poster-visual-plate-solstice-void.md",
+      "image_sha256": "36995b2fc02b5338255a9c3d1e63a1314fb9e669432dc57b96e72fc0c40761fe",
+      "prompt_sha256": "f2a0b41d075f2837409bfde408bba1ed2b0cadabc5a47231c0a1d841bb54879a",
+      "width": 1024,
+      "height": 1536,
+      "format": "PNG",
+      "mode": "RGB",
+      "provider_path": "codex-built-in-imagegen",
+      "paid_api": false,
+      "first_party": true,
+      "input_assets": [],
+      "status": "approved_public_gallery"
     }
   ]
 }

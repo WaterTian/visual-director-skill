@@ -42,6 +42,7 @@ class CaseSelectorTests(unittest.TestCase):
             "fashion-lookbook-brief.json": [4, 3, 7],
             "hero-brief.json": [1, 2, 4],
             "mature-documentary-portrait-brief.json": [10, 3, 4],
+            "concept-poster-visual-plate-brief.json": [12, 1, 6],
             "product-brief.json": [1, 3, 4],
             "product-background-edit-brief.json": [1, 3, 2],
             "quiet-editorial-portrait-brief.json": [6, 3, 8],

@@ -1,12 +1,12 @@
 {
   "version": "0.1",
-  "source": {"kind": "first-party", "version": "0.9.0", "license": "MIT", "catalog_path": "data/cases.json"},
+  "source": {"kind": "first-party", "version": "0.10.0", "license": "MIT", "catalog_path": "data/cases.json"},
   "taxonomy": {
-    "categories": ["Characters & People", "Products & E-commerce"],
-    "styles": ["Character", "Documentary", "Editorial", "Fashion", "Illustration", "Motion", "Photography", "Product", "Realistic", "Technical"],
+    "categories": ["Characters & People", "Posters & Typography", "Products & E-commerce"],
+    "styles": ["Character", "Documentary", "Editorial", "Fashion", "Illustration", "Motion", "Photography", "Poster", "Product", "Realistic", "Technical"],
     "scenes": ["Commerce", "Creative", "Fashion", "Interior", "Story", "Tech", "Urban"]
   },
-  "summary": {"record_count": 11, "approved_count": 11},
+  "summary": {"record_count": 12, "approved_count": 12},
   "cases": [
     {
       "id": 1,
@@ -149,6 +149,19 @@
       "prompt_path": "gallery/prompts/realistic-hairstyle-variation-board-maris-vale.md",
       "prompt_sha256": "38c5563015b68d7478cf7807f218320b2da1fa033a0591312edb474fab221ab8",
       "image": {"path": "gallery/images/realistic-hairstyle-variation-board-maris-vale.png", "alt": "MARIS VALE realistic hairstyle variation board"},
+      "status": "approved_public_gallery"
+    },
+    {
+      "id": 12,
+      "title": "SOLSTICE VOID Concept Poster Visual Plate",
+      "category": "Posters & Typography",
+      "styles": ["Poster", "Realistic", "Editorial"],
+      "scenes": ["Creative", "Story"],
+      "featured": true,
+      "selection_text": "Typography-free vertical concept-poster visual plate with one complete folded vermilion-paper ring, one pale interior disc, a deep ultramarine field, protected title and credit zones, tactile paper fibers, coherent folds, restrained studio shadow, and no letters, pseudo-text, logo, brand, mockup, or copied campaign aesthetic.",
+      "prompt_path": "gallery/prompts/concept-poster-visual-plate-solstice-void.md",
+      "prompt_sha256": "f2a0b41d075f2837409bfde408bba1ed2b0cadabc5a47231c0a1d841bb54879a",
+      "image": {"path": "gallery/images/concept-poster-visual-plate-solstice-void.png", "alt": "SOLSTICE VOID concept poster visual plate"},
       "status": "approved_public_gallery"
     }
   ]

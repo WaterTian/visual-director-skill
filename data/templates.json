@@ -99,6 +99,19 @@
       "provenance": {"kind": "first-party", "version": "0.1.0", "path": "gallery/prompts/product-commerce-visual-aurora-mini.md", "license": "MIT"}
     },
     {
+      "id": "concept-poster-visual-plate",
+      "title": {"en": "Concept Poster Visual Plate", "zh": "概念海报视觉底板"},
+      "category": "Posters & Typography",
+      "styles": ["Poster", "Realistic", "Editorial"],
+      "scenes": ["Creative", "Story"],
+      "tags": ["visual-anchor", "typography-safe-zone", "tactile-material", "restrained-palette", "poster-hierarchy", "deterministic-type"],
+      "use_when": {"en": "Use for an original visual-first poster plate that needs one strong graphic anchor, a secondary focal point, controlled material and color, and calm zones reserved for exact typography added later.", "zh": "用于需要单一强视觉锚点、次级焦点、受控材质与配色，并为后续精确排版预留安静区域的原创视觉优先海报底板。"},
+      "guidance": {"en": ["Define one original visual anchor and one subordinate counterpoint before adding atmosphere, texture, or secondary decoration.", "Reserve title and credit zones explicitly, then keep them free of generated letters, pseudo-text, branding, and visual noise.", "Use a small disciplined palette and material-specific evidence such as paper fibers, folds, ink grain, or real contact shadow rather than generic polish words.", "Treat generated imagery as the visual plate; add exact title, date, venue, and credits only through deterministic composition after the visual asset passes review."], "zh": ["在添加氛围、纹理或次级装饰前，先定义一个原创视觉锚点和一个从属的对位焦点。", "明确预留标题与制作信息区域，并保持其中没有生成文字、伪文字、品牌和视觉噪声。", "使用小而克制的色板及纸纤维、折痕、油墨颗粒或真实接触阴影等材质证据，而不是泛泛的精致词。", "把生成图像定位为视觉底板；视觉资产通过复核后，标题、日期、地点和制作信息只通过确定性排版加入。"]},
+      "pitfalls": {"en": ["generated text", "pseudo-text", "competing focal points", "clutter", "generic 3D gloss", "copied campaign aesthetics"], "zh": ["生成文字", "伪文字", "焦点竞争", "画面堆砌", "通用 3D 光泽", "复制宣传视觉"]},
+      "example_cases": [12],
+      "provenance": {"kind": "first-party", "version": "0.10.0", "path": "gallery/prompts/concept-poster-visual-plate-solstice-void.md", "license": "MIT"}
+    },
+    {
       "id": "exploded-product-diagram",
       "title": {"en": "Exploded Product Diagram", "zh": "产品分解结构图"},
       "category": "Products & E-commerce",

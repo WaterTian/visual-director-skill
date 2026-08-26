@@ -19,7 +19,7 @@ CATEGORY_BY_DELIVERABLE = {
 PREFERRED_TEMPLATE_BY_DELIVERABLE = {
     "product": "product-commerce-visual",
     "hero": "product-commerce-visual",
-    "poster": "poster-layout-system",
+    "poster": "concept-poster-visual-plate",
     "infographic": "infographic-engine",
     "ui": "ui-screenshot-system",
     "brand": "brand-identity-package",
@@ -162,7 +162,7 @@ EDIT_ROUTES = (
     ),
     (
         "Posters & Typography",
-        "poster-layout-system",
+        "concept-poster-visual-plate",
         ("poster", "typography", "headline", "海报", "字体", "标题"),
     ),
     (

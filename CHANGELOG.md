@@ -2,6 +2,20 @@
 
 This project follows semantic versioning. / 本项目遵循语义化版本号。
 
+## 0.10.0 - 2026-08-26
+
+Adds a reviewed concept-poster visual-plate workflow. / 新增已验收的概念海报视觉底板工作流。
+
+### Added / 新增
+
+- `concept-poster-visual-plate` template for one original graphic anchor, a secondary focal point, controlled tactile material and color, calm typography-safe zones, and later deterministic text layout. / 新增 `concept-poster-visual-plate` 模板，包含一个原创图形锚点、次级焦点、受控触感材质与配色、安静文字安全区和后续确定性文字排版。
+- Poster routing now selects the reviewed visual plate instead of an unreviewed placeholder. / 海报路由现在会选择已验收的视觉底板，而不再指向未经验证的占位模板。
+- Final prompt, approved typography-free visual plate, SHA-256 records, bilingual review, selector fixture, and ranking coverage. / 新增最终 Prompt、批准的无文字视觉底板、SHA-256、中英文复核、选择器夹具和排序覆盖。
+
+### Quality boundary / 质量边界
+
+- The public result uses no external reference image, no brand, no paid API, no generated text, and no imitation of a known designer, company, institution, franchise, film, or campaign. Exact copy must be added after approval through deterministic composition. / 公开结果不使用外部参考图、品牌、付费 API、生成文字，也不模仿已知设计师、公司、机构、系列、电影或宣传视觉；准确文案必须在通过复核后通过确定性排版加入。
+
 ## 0.9.0 - 2026-08-26
 
 Adds a reviewed realistic hairstyle-variation workflow. / 新增已验收的写实发型变化工作流。

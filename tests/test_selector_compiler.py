@@ -36,6 +36,7 @@ class SelectorCompilerTests(unittest.TestCase):
             "hero-brief.json": "product-commerce-visual",
             "product-brief.json": "product-commerce-visual",
             "product-background-edit-brief.json": "product-commerce-visual",
+            "concept-poster-visual-plate-brief.json": "concept-poster-visual-plate",
         }
         for filename, template_id in expected.items():
             with self.subTest(filename=filename):

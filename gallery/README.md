@@ -94,6 +94,15 @@ This gallery contains only first-party results whose prompts were refined, gener
 - 972 × 1619, PNG/RGB, 3 × 4 head-and-shoulders comparison grid / 3 × 4 头肩人像对比网格
 - Twelve stable identity cells, distinct plausible hairstyles, clear eyes, constant studio conditions, natural skin and hair, photorealism, and no-text requirements passed visual review / 十二格身份稳定、发型明确且可信、双眼清晰、影棚条件恒定、自然皮肤与发丝、写实感和无文字要求已通过视觉复核
 
+## Concept Poster Visual Plate / 概念海报视觉底板
+
+![SOLSTICE VOID concept poster visual plate](images/concept-poster-visual-plate-solstice-void.png)
+
+- [Final prompt and review / 最终 Prompt 与复核](prompts/concept-poster-visual-plate-solstice-void.md)
+- Original visual plate with no external image, brand, or recognisable-artwork reference / 原创视觉底板，不使用外部图片、品牌或可识别既有作品参考
+- 1024 × 1536, PNG/RGB, vertical typography-safe visual plate / 竖幅文字安全视觉底板
+- Complete folded-paper ring, one interior disc, controlled color and material hierarchy, practical typography-safe zones, no-text, and no-brand requirements passed visual review / 完整折纸环、单一内景圆盘、受控色彩与材质层级、可用文字安全区、无文字和无品牌要求已通过视觉复核
+
 ## Product Commerce Visual / 商品商业视觉
 
 ![AURORA MINI product commerce visual](images/product-commerce-visual-aurora-mini.png)

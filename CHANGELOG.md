@@ -2,6 +2,20 @@
 
 This project follows semantic versioning. / 本项目遵循语义化版本号。
 
+## 0.6.0 - 2026-08-26
+
+Adds a reviewed documentary craft-portrait workflow. / 新增已验收的手作纪实人像工作流。
+
+### Added / 新增
+
+- `documentary-craft-portrait` template with one fictional adult maker, complete hands shaping one clay bowl, complete seated anatomy, modest unbranded workwear, and a natural ceramics workshop. / 新增 `documentary-craft-portrait` 模板，包含一位虚构成年手作人、双手塑造单一陶碗、完整坐姿、端庄无品牌工作服和自然陶艺工作室。
+- Character routing for craft, maker, working portrait, ceramic, and workshop requests. / 新增针对手作、创作者、工作纪实人像、陶艺和工作室请求的人物路由。
+- Final prompt, approved vertical image, SHA-256 records, bilingual review, selector fixture, and ranking coverage. / 新增最终 Prompt、批准的竖幅效果图、SHA-256、中英文复核、选择器夹具和排序覆盖。
+
+### Quality boundary / 质量边界
+
+- The public result uses no reference image, no real-person likeness, no paid API, no visible brand or text, and no campaign, product-shot, glamour, or illustration treatment. / 公开结果不使用参考图、真人相似性、付费 API、可见品牌或文字，也不采用广告、产品展示、精修摆拍或插画表达。
+
 ## 0.5.0 - 2026-08-26
 
 Adds a reviewed, grounded realistic-motion editorial workflow. / 新增已验收的可信写实动态编辑摄影工作流。

@@ -1,0 +1,17 @@
+{
+  "version": "0.1",
+  "asset_id": "anika-documentary-craft-portrait",
+  "goal": "Create a grounded photorealistic working portrait of one fictional adult ceramic artist shaping a small bowl at a wheel.",
+  "audience": "Editorial art directors seeking believable, non-glamour people-and-process imagery",
+  "deliverable": {"type": "character", "width": 864, "height": 1821, "format": "png", "transparent_background": false},
+  "content": {
+    "subject": "One fictional 36-year-old adult ceramic artist working naturally at a small electric potter's wheel in a daylight studio",
+    "exact_text": [],
+    "must_include": ["Exactly one clearly adult person", "Complete seated body from head to both shoes", "Both complete hands and all ten plausible fingers shaping one small centered clay bowl", "Visible bowl-to-wheel contact and credible working posture", "Unbranded modest workwear with clay dust", "A quiet used ceramics workshop with natural window light"],
+    "must_avoid": ["Extra people or duplicate limbs", "Malformed fingers, warped bowl, or cropped joints", "Fashion campaign, product shot, beauty retouching, or influencer pose", "Sexualized or childlike presentation", "Visible text, brands, logos, or watermarks", "Collage, illustration, cartoon, or anime styling"]
+  },
+  "art_direction": {"style": "Photorealistic observed craft documentary with quiet natural texture", "palette": ["off-white plaster", "indigo", "faded clay", "charcoal", "warm neutral skin tones"], "lighting": "Soft north-window daylight with broad reflected fill and restrained shadows", "materials": ["natural skin", "damp clay", "clay dust", "washed linen", "woven cotton", "worn wood", "plaster", "canvas shoes"]},
+  "composition": {"layout": "Vertical full-body workspace portrait with hands and one small forming bowl as the primary focus", "viewpoint": "Eye-level 55 mm documentary perspective at an observed working distance", "focal_hierarchy": ["Plausible hands shaping clay", "Calm adult working posture", "Complete shoes and seated anatomy", "Used workshop material context"]},
+  "references": [],
+  "qa": {"objective_checks": ["Output is exactly 864x1821 PNG/RGB without alpha", "Exactly one adult person appears", "No visible text, logo, brand, or watermark appears"], "visual_checks": ["Hands, fingers, wheel contact, bowl, and seated anatomy are complete and plausible", "Wardrobe is modest, unbranded, and materially consistent with a working studio", "Skin, clay, textile, wood, plaster, and daylight read as natural photography", "The image is distinct from a static portrait, fashion lookbook, motion editorial, or character-design sheet"], "approval_required": true}
+}

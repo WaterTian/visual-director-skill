@@ -1,6 +1,6 @@
 {
   "version": "0.1",
-  "updated_at": "2026-08-26T13:00:07Z",
+  "updated_at": "2026-08-26T13:08:11Z",
   "templates": [
     {
       "id": "character-design-sheet",
@@ -193,6 +193,19 @@
       },
       "example_cases": [7],
       "provenance": {"kind": "first-party", "version": "0.5.0", "path": "gallery/prompts/realistic-motion-editorial-leo-navarro.md", "license": "MIT"}
+    },
+    {
+      "id": "documentary-craft-portrait",
+      "title": {"en": "Documentary Craft Portrait", "zh": "写实手作纪实人像"},
+      "category": "Characters & People",
+      "styles": ["Photography", "Realistic", "Documentary"],
+      "scenes": ["Creative", "Interior"],
+      "tags": ["craft-process", "hands", "object-interaction", "maker", "workwear", "natural-light"],
+      "use_when": {"en": "Use for a photorealistic observed portrait where one adult person must perform a specific hands-on craft action with credible hands, object contact, material behavior, and working context.", "zh": "用于需要一位成年人物完成具体手作动作，并同时保证双手、物体接触、材质行为和工作环境可信的写实纪实人像。"},
+      "guidance": {"en": ["Define one fictional adult, the single object being worked, and a non-sexualized working presentation before styling.", "Name each hand's relationship to the object, the support surface, wrist visibility, and complete lower-body framing.", "Use material-specific evidence such as fingerprints, dust, tool wear, moisture, fibers, and surface irregularities.", "Direct the scene as observed process rather than a lifestyle campaign, product display, or influencer pose."], "zh": ["先定义一位虚构成年主体、唯一操作对象和非性感化的工作表达，再处理风格。", "明确每只手与对象的关系、支撑面、手腕可见性和完整下半身构图。", "使用指纹、粉尘、工具磨损、湿度、纤维和表面不规则等材质证据。", "把场景定位为被观察到的过程，而不是生活方式广告、产品展示或网红摆拍。"]},
+      "pitfalls": {"en": ["fused fingers", "unclear object contact", "warped workpiece", "cropped shoes", "product-shot staging", "glamour posing"], "zh": ["手指粘连", "对象接触不清楚", "工件变形", "鞋部裁切", "产品展示化", "广告摆拍"]},
+      "example_cases": [8],
+      "provenance": {"kind": "first-party", "version": "0.6.0", "path": "gallery/prompts/documentary-craft-portrait-anika-rowan.md", "license": "MIT"}
     },
     {
       "id": "realistic-photography",

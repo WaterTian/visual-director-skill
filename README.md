@@ -6,7 +6,7 @@ Visual Director 是一个可移植的 Codex 视觉生产 Skill。它把模糊的
 
 Visual Director is a portable visual-production skill for Codex. It turns an ambiguous image request into a testable Visual Brief, selects a reviewed first-party template, compiles a precise prompt, and protects formal assets with file checks, visual review, and approval gates.
 
-`v0.5.0` · `MIT` · `7 reviewed workflows` · `7 approved gallery assets` · `no paid API required`
+`v0.6.0` · `MIT` · `8 reviewed workflows` · `8 approved gallery assets` · `no paid API required`
 
 ## Gallery
 
@@ -35,6 +35,11 @@ Visual Director is a portable visual-production skill for Codex. It turns an amb
 | ![LEO NAVARRO realistic full-body motion editorial](gallery/images/realistic-motion-editorial-leo-navarro.png) |
 | [Prompt + review / Prompt 与复核](gallery/prompts/realistic-motion-editorial-leo-navarro.md) |
 
+| Documentary Craft Portrait / 写实手作纪实人像 |
+|---|
+| ![ANIKA ROWAN documentary craft portrait](gallery/images/documentary-craft-portrait-anika-rowan.png) |
+| [Prompt + review / Prompt 与复核](gallery/prompts/documentary-craft-portrait-anika-rowan.md) |
+
 ## 中文
 
 ### 它解决什么问题
@@ -60,7 +65,7 @@ Built-in Image Generation or External Handoff
 File QC → Visual Review → Approval → Formal Asset
 ```
 
-当前公开版只声明已经实际验收的七个方向：
+当前公开版只声明已经实际验收的八个方向：
 
 1. `character-design-sheet`：人物身份、服装、左右细节和多视图一致性。
 2. `realistic-photography`：原创角色的真实摄影转化、自然皮肤、手部和环境可信度。
@@ -68,7 +73,8 @@ File QC → Visual Review → Approval → Formal Asset
 4. `exploded-product-diagram`：产品内部结构、层级、装配逻辑、材质和分解视图可读性。
 5. `quiet-editorial-portrait`：成年主体、端庄穿搭、自然坐姿、柔侧光、留白和非性感化室内编辑人像。
 6. `realistic-motion-editorial`：成年全身动态、可信重心、完整肢体、朴素无品牌服装和自然室外摄影。
-7. `product-commerce-visual`：产品几何、材质、文案空间、语义标注和精确画布合成。
+7. `documentary-craft-portrait`：成年人手作过程、双手与对象接触、材质真实感和自然工作室环境。
+8. `product-commerce-visual`：产品几何、材质、文案空间、语义标注和精确画布合成。
 
 其他视觉类型可以使用通用 Brief、Prompt 编译和 QC 能力，但在新增效果图、最终 Prompt 与测试通过前，不会被标为“已验收模板”。
 
@@ -169,7 +175,7 @@ visual-director-skill/
 
 ### Reviewed scope
 
-The public catalog currently claims seven reviewed workflows:
+The public catalog currently claims eight reviewed workflows:
 
 1. `character-design-sheet`: identity, wardrobe, left-right details, anatomy, and multi-view consistency.
 2. `realistic-photography`: believable photographic translation of an original character, including skin, hands, wardrobe, and environment.
@@ -177,7 +183,8 @@ The public catalog currently claims seven reviewed workflows:
 4. `exploded-product-diagram`: internal product structure, part hierarchy, assembly plausibility, material response, and exploded-view readability.
 5. `quiet-editorial-portrait`: adult subject boundary, modest styling, natural seated body language, soft side light, negative space, and non-sexualized indoor editorial photography.
 6. `realistic-motion-editorial`: an adult full-body action, credible balance, complete limbs, modest unbranded wardrobe, and natural exterior photography.
-7. `product-commerce-visual`: product geometry, materials, copy space, semantic callouts, and exact-canvas composition.
+7. `documentary-craft-portrait`: an adult hands-on craft process, hand-to-object contact, material truth, and a natural workshop environment.
+8. `product-commerce-visual`: product geometry, materials, copy space, semantic callouts, and exact-canvas composition.
 
 Other visual requests can still use the generic Brief, prompt compiler, and QC contracts. They are not labeled as reviewed templates until a final prompt, approved image, and tests are added.
 

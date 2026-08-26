@@ -139,6 +139,24 @@
       "first_party": true,
       "input_assets": [],
       "status": "approved_public_gallery"
+    },
+    {
+      "case_id": 8,
+      "id": "documentary-craft-portrait-anika-rowan",
+      "template_id": "documentary-craft-portrait",
+      "image_path": "gallery/images/documentary-craft-portrait-anika-rowan.png",
+      "prompt_path": "gallery/prompts/documentary-craft-portrait-anika-rowan.md",
+      "image_sha256": "a6fe40c2889569c98dfa15e4015db843c4f83e51299bccff50b28b3bef495998",
+      "prompt_sha256": "810491bb52aeaf957d3c066a1a7b104459736416288ec7ff0725981b179634bd",
+      "width": 864,
+      "height": 1821,
+      "format": "PNG",
+      "mode": "RGB",
+      "provider_path": "codex-built-in-imagegen",
+      "paid_api": false,
+      "first_party": true,
+      "input_assets": [],
+      "status": "approved_public_gallery"
     }
   ]
 }

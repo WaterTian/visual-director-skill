@@ -52,6 +52,27 @@ PRODUCT_ROUTES = (
 
 CHARACTER_ROUTES = (
     (
+        "documentary-craft-portrait",
+        (
+            "craft portrait",
+            "documentary craft",
+            "maker portrait",
+            "working portrait",
+            "working",
+            "potter",
+            "ceramic",
+            "ceramics",
+            "workshop",
+            "hands shaping",
+            "手作纪实",
+            "手作人像",
+            "工作纪实",
+            "陶艺师",
+            "陶艺",
+            "手部操作",
+        ),
+    ),
+    (
         "realistic-motion-editorial",
         (
             "motion editorial",
@@ -117,6 +138,7 @@ STYLE_ALIASES = {
     "3d": ("3d", "render", "toy", "collectible"),
     "brand": ("brand", "identity", "logo", "campaign"),
     "character": ("character", "identity", "pose", "outfit"),
+    "documentary": ("documentary", "observed", "craft", "maker", "working", "workshop", "process", "纪实", "手作", "工坊", "工作过程"),
     "fashion": ("fashion", "lookbook", "wardrobe", "clothing", "outfit"),
     "motion": ("motion", "movement", "dance", "dancer", "dynamic pose", "choreography", "动作", "动态", "舞者"),
     "charts": ("chart", "diagram", "flow", "technical"),
@@ -139,7 +161,7 @@ SCENE_ALIASES = {
     "fashion": ("fashion", "clothing", "outfit"),
     "food": ("food", "coffee", "cafe", "market"),
     "history": ("history", "dynasty", "ancient"),
-    "interior": ("interior", "indoors", "apartment", "room", "wall", "室内", "房间"),
+    "interior": ("interior", "indoors", "apartment", "room", "wall", "workshop", "室内", "房间", "工坊", "工作室"),
     "social": ("social", "community", "feed", "campaign"),
     "story": ("story", "narrative", "quest", "scene"),
     "tech": ("tech", "technical", "developer", "device", "data"),

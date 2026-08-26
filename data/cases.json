@@ -1,12 +1,12 @@
 {
   "version": "0.1",
-  "source": {"kind": "first-party", "version": "0.5.0", "license": "MIT", "catalog_path": "data/cases.json"},
+  "source": {"kind": "first-party", "version": "0.6.0", "license": "MIT", "catalog_path": "data/cases.json"},
   "taxonomy": {
     "categories": ["Characters & People", "Products & E-commerce"],
-    "styles": ["Character", "Editorial", "Fashion", "Illustration", "Motion", "Photography", "Product", "Realistic", "Technical"],
+    "styles": ["Character", "Documentary", "Editorial", "Fashion", "Illustration", "Motion", "Photography", "Product", "Realistic", "Technical"],
     "scenes": ["Commerce", "Creative", "Fashion", "Interior", "Story", "Tech", "Urban"]
   },
-  "summary": {"record_count": 7, "approved_count": 7},
+  "summary": {"record_count": 8, "approved_count": 8},
   "cases": [
     {
       "id": 1,
@@ -97,6 +97,19 @@
       "prompt_path": "gallery/prompts/realistic-motion-editorial-leo-navarro.md",
       "prompt_sha256": "e72ba9918352ab6ea445bc739b5ebe7062469d243181b5af07fd354a4582fb54",
       "image": {"path": "gallery/images/realistic-motion-editorial-leo-navarro.png", "alt": "LEO NAVARRO realistic full-body motion editorial"},
+      "status": "approved_public_gallery"
+    },
+    {
+      "id": 8,
+      "title": "ANIKA ROWAN Documentary Craft Portrait",
+      "category": "Characters & People",
+      "styles": ["Photography", "Realistic", "Documentary"],
+      "scenes": ["Creative", "Interior"],
+      "featured": true,
+      "selection_text": "Photorealistic vertical documentary craft portrait of one fictional adult ceramic artist shaping one small clay bowl at a potter's wheel, complete hands and fingers, full seated body and shoes, modest unbranded workwear, damp clay, used workshop material, soft window daylight, and no text or brands.",
+      "prompt_path": "gallery/prompts/documentary-craft-portrait-anika-rowan.md",
+      "prompt_sha256": "810491bb52aeaf957d3c066a1a7b104459736416288ec7ff0725981b179634bd",
+      "image": {"path": "gallery/images/documentary-craft-portrait-anika-rowan.png", "alt": "ANIKA ROWAN documentary craft portrait"},
       "status": "approved_public_gallery"
     }
   ]

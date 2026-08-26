@@ -58,6 +58,15 @@ This gallery contains only first-party results whose prompts were refined, gener
 - 1003 × 1568, PNG/RGB, vertical full-body frame / 竖幅全身构图
 - Adult identity, believable grounded movement, complete hands and shoes, modest unbranded workwear, wet urban material, photorealism, and no-text requirements passed visual review / 成年身份、可信落地动作、完整手脚、端庄无品牌工作服、湿润城市材质、写实感和无文字要求已通过视觉复核
 
+## Documentary Craft Portrait / 写实手作纪实人像
+
+![ANIKA ROWAN documentary craft portrait](images/documentary-craft-portrait-anika-rowan.png)
+
+- [Final prompt and review / 最终 Prompt 与复核](prompts/documentary-craft-portrait-anika-rowan.md)
+- New fictional adult identity with no real-person or external image reference / 全新虚构成年人物，不使用真人或外部图片参考
+- 864 × 1821, PNG/RGB, vertical complete-work frame / 竖幅完整工作构图
+- Adult identity, hands shaping one clay bowl, complete seated body and shoes, modest unbranded workwear, natural workshop materials, photorealism, and no-text requirements passed visual review / 成年身份、双手塑造单一陶碗、完整坐姿和鞋部、端庄无品牌工作服、自然工作室材质、写实感和无文字要求已通过视觉复核
+
 ## Product Commerce Visual / 商品商业视觉
 
 ![AURORA MINI product commerce visual](images/product-commerce-visual-aurora-mini.png)

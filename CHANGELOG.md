@@ -2,6 +2,34 @@
 
 This project follows semantic versioning. / 本项目遵循语义化版本号。
 
+## 0.8.0 - 2026-08-26
+
+Adds a reviewed mature-documentary portrait workflow. / 新增已验收的成熟年龄纪实人像工作流。
+
+### Added / 新增
+
+- `mature-documentary-portrait` template for a fictional mature adult with visible natural age detail, complete standing anatomy, coherent hand contacts, practical unbranded field clothing, and a quiet environmental context. / 新增 `mature-documentary-portrait` 模板，包含一位虚构成熟成年人、可见自然年龄特征、完整站姿、可信手部接触、实用无品牌户外服装和安静环境语境。
+- Character routing for mature documentary, environmental portrait, natural age detail, and coastal-ecologist requests. / 新增针对成熟年龄纪实、环境人像、自然年龄特征和海岸生态学家请求的人物路由。
+- Final prompt, approved vertical image, SHA-256 records, bilingual review, selector fixture, and ranking coverage. / 新增最终 Prompt、批准的竖幅效果图、SHA-256、中英文复核、选择器夹具和排序覆盖。
+
+### Quality boundary / 质量边界
+
+- The public result uses no reference image, no real-person likeness, no paid API, no visible brand or text, and no beauty, travel-advertising, or age-erasing treatment. / 公开结果不使用参考图、真人相似性、付费 API、可见品牌或文字，也不采用美颜、旅行广告化或年龄抹除表达。
+
+## 0.7.0 - 2026-08-26
+
+Adds a reviewed documentary music-rehearsal workflow. / 新增已验收的音乐排练纪实人像工作流。
+
+### Added / 新增
+
+- `documentary-music-rehearsal` template for one fictional adult interacting with one complete acoustic cello and bow, with complete hands, shoes, credible instrument structure, modest unbranded clothing, and a natural rehearsal room. / 新增 `documentary-music-rehearsal` 模板，包含一位虚构成年人物与一把完整原声大提琴和琴弓交互、完整双手和鞋部、可信乐器结构、端庄无品牌服装和自然排练室。
+- Character routing for music rehearsal, cellist, cello, and musician-portrait requests. / 新增针对音乐排练、大提琴演奏者、大提琴和音乐家人像请求的人物路由。
+- Final prompt, approved vertical image, SHA-256 records, bilingual review, selector fixture, and ranking coverage. / 新增最终 Prompt、批准的竖幅效果图、SHA-256、中英文复核、选择器夹具和排序覆盖。
+
+### Quality boundary / 质量边界
+
+- The public result uses no reference image, no real-person likeness, no paid API, no visible brand or text, and no concert-poster, product-shot, glamour, or illustration treatment. / 公开结果不使用参考图、真人相似性、付费 API、可见品牌或文字，也不采用演出海报、产品展示、精修摆拍或插画表达。
+
 ## 0.6.0 - 2026-08-26
 
 Adds a reviewed documentary craft-portrait workflow. / 新增已验收的手作纪实人像工作流。

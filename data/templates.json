@@ -221,6 +221,19 @@
       "provenance": {"kind": "first-party", "version": "0.7.0", "path": "gallery/prompts/documentary-music-rehearsal-elise-moreau.md", "license": "MIT"}
     },
     {
+      "id": "mature-documentary-portrait",
+      "title": {"en": "Mature Documentary Portrait", "zh": "成熟年龄纪实人像"},
+      "category": "Characters & People",
+      "styles": ["Photography", "Realistic", "Documentary"],
+      "scenes": ["Story", "Travel"],
+      "tags": ["mature-adult", "natural-age-detail", "environmental-portrait", "field-professional", "hands", "full-body"],
+      "use_when": {"en": "Use for a respectful photorealistic environmental portrait of a mature adult where natural age detail, complete anatomy, practical wardrobe, and a credible non-promotional outdoor context must remain visible.", "zh": "用于需要尊重成熟成年主体自然年龄特征、完整人体、实用服装和可信非宣传式户外环境的写实环境纪实人像。"},
+      "guidance": {"en": ["State that the subject is a fictional adult with a specific mature age and preserve visible age detail before describing wardrobe or mood.", "Describe both complete hands, their object or support contacts, full standing framing, and boots as independently inspectable constraints.", "Use ordinary unbranded field clothing, believable weather and surface evidence, and an observed environmental context rather than travel or luxury styling.", "Treat respect as a visual constraint: avoid youthification, beauty retouching, heroic adventure, and stereotypes while keeping the subject's role concrete."], "zh": ["先明确主体是具有具体成熟年龄的虚构成年人，并在服装和情绪之前保留可见年龄特征。", "将完整双手、与物体或支撑面的接触、完整站姿和鞋靴定义为可独立检查的约束。", "使用普通无品牌的户外工作服、可信天气与表面证据和被观察到的环境，而非旅行或奢侈品风格。", "把尊重作为视觉约束：避免年轻化、美颜精修、英雄冒险化和刻板印象，同时保持角色职责具体。"]},
+      "pitfalls": {"en": ["age erasure", "beauty-retouch glamour", "cropped boots", "unclear hand contact", "travel-ad staging", "heroic stereotype"], "zh": ["年龄抹除", "美颜广告化", "靴部裁切", "手部接触不清楚", "旅行广告式摆拍", "英雄化刻板印象"]},
+      "example_cases": [10],
+      "provenance": {"kind": "first-party", "version": "0.8.0", "path": "gallery/prompts/mature-documentary-portrait-nora-vale.md", "license": "MIT"}
+    },
+    {
       "id": "realistic-photography",
       "title": {"en": "Realistic Photography", "zh": "真实人物摄影"},
       "category": "Characters & People",

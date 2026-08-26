@@ -76,6 +76,15 @@ This gallery contains only first-party results whose prompts were refined, gener
 - 864 × 1821, PNG/RGB, vertical figure-and-instrument frame / 竖幅人物与乐器构图
 - Adult identity, complete hands, bow, cello, shoes, credible instrument structure, natural rehearsal materials, photorealism, and no-text requirements passed visual review / 成年身份、完整双手、琴弓、大提琴、鞋部、可信乐器结构、自然排练材质、写实感和无文字要求已通过视觉复核
 
+## Mature Documentary Portrait / 成熟年龄纪实人像
+
+![NORA VALE mature documentary portrait](images/mature-documentary-portrait-nora-vale.png)
+
+- [Final prompt and review / 最终 Prompt 与复核](prompts/mature-documentary-portrait-nora-vale.md)
+- New fictional mature adult identity with no real-person or external image reference / 全新虚构成熟成年人物，不使用真人或外部图片参考
+- 864 × 1821, PNG/RGB, vertical full-body environmental frame / 竖幅完整全身环境构图
+- Natural age detail, complete standing anatomy, both hands, notebook/rail contact, practical unbranded workwear, rain-damp marsh materials, photorealism, and no-text requirements passed visual review / 自然年龄特征、完整站姿、双手、笔记本与栏杆接触、实用无品牌服装、雨后盐沼材质、写实感和无文字要求已通过视觉复核
+
 ## Product Commerce Visual / 商品商业视觉
 
 ![AURORA MINI product commerce visual](images/product-commerce-visual-aurora-mini.png)

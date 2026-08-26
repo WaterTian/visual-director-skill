@@ -1,0 +1,17 @@
+{
+  "version": "0.1",
+  "asset_id": "mature-documentary-portrait-selection",
+  "goal": "Create a respectful photorealistic environmental portrait of a mature adult field professional with natural age detail.",
+  "audience": "Editorial art directors seeking realistic mature people-and-environment imagery",
+  "deliverable": {"type": "character", "width": 864, "height": 1821, "format": "png", "transparent_background": false},
+  "content": {
+    "subject": "One fictional 62-year-old coastal ecologist on a wet salt-marsh boardwalk",
+    "exact_text": [],
+    "must_include": ["Exactly one clearly mature adult person", "Complete standing body from head to both boots", "Both complete hands with plausible fingers; one rests on a rail and one holds a notebook", "Natural fine lines and gray hair", "Modest unbranded field clothing", "Quiet salt-marsh boardwalk, reeds, and low water horizon"],
+    "must_avoid": ["Extra people or animals", "Malformed fingers or cropped joints", "Beauty campaign, fashion, travel promotion, or heroic adventure pose", "Age-erased or childlike presentation", "Visible text, brands, logos, or watermarks", "Illustration, cartoon, or anime styling"]
+  },
+  "art_direction": {"style": "Photorealistic observed mature environmental documentary", "palette": ["weathered olive", "charcoal", "rain-wet timber brown", "reed green", "slate sky"], "lighting": "Soft low-contrast overcast daylight", "materials": ["natural skin", "gray hair", "weathered cotton", "denim", "worn leather", "wet timber", "reeds", "water"]},
+  "composition": {"layout": "Vertical full-body environmental portrait with complete hands and boots", "viewpoint": "Eye-level 65 mm documentary perspective", "focal_hierarchy": ["Natural adult face and age detail", "Complete hands and notebook/rail contact", "Grounded boots and standing anatomy", "Salt-marsh setting"]},
+  "references": [],
+  "qa": {"objective_checks": ["Output is exactly 864x1821 PNG/RGB without alpha", "Exactly one adult person appears", "No visible text, logo, brand, or watermark appears"], "visual_checks": ["Hands, fingers, notebook/rail contact, standing anatomy, and complete boots are plausible", "Natural age detail and practical wardrobe are respectful, modest, unbranded, and not retouched", "Skin, hair, clothing, rain-dark timber, reeds, and overcast daylight read as natural photography", "The image is distinct from fashion, travel, adventure, studio craft, rehearsal, motion editorial, and character-sheet imagery"], "approval_required": true}
+}

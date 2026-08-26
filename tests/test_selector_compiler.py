@@ -27,6 +27,7 @@ class SelectorCompilerTests(unittest.TestCase):
         expected = {
             "character-edit-brief.json": "character-design-sheet",
             "documentary-craft-portrait-brief.json": "documentary-craft-portrait",
+            "mature-documentary-portrait-brief.json": "mature-documentary-portrait",
             "exploded-product-diagram-brief.json": "exploded-product-diagram",
             "fashion-lookbook-brief.json": "realistic-fashion-lookbook",
             "quiet-editorial-portrait-brief.json": "quiet-editorial-portrait",

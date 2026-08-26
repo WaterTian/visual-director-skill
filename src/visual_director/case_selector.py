@@ -64,6 +64,8 @@ PREFERRED_STYLE_BY_CATEGORY = {
     "UI & Interfaces": "ui",
 }
 
+EXAMPLE_PRIORITY_BAND = 10
+
 CUE_PATTERNS: tuple[tuple[str, tuple[str, ...]], ...] = (
     ("layout:negative-space", ("negative space", "copy space", "empty space")),
     ("layout:centered-subject", ("centered", "centred", "in the center")),
@@ -359,6 +361,13 @@ def select_cases(
         )
 
     ranked.sort(key=lambda item: (-item["score"], item["id"]))
+    template_examples = [item for item in ranked if item["id"] in example_ids]
+    if template_examples and ranked:
+        strongest_example = template_examples[0]
+        strongest_score = ranked[0]["score"]
+        if strongest_example["score"] >= strongest_score - EXAMPLE_PRIORITY_BAND:
+            ranked.remove(strongest_example)
+            ranked.insert(0, strongest_example)
     selected: list[dict[str, Any]] = []
     seen_prompts: set[str] = set()
     seen_images: set[str] = set()

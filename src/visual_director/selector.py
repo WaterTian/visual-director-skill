@@ -51,6 +51,24 @@ PRODUCT_ROUTES = (
 )
 
 CHARACTER_ROUTES = (
+    (
+        "mature-documentary-portrait",
+        (
+            "mature documentary",
+            "mature portrait",
+            "older adult portrait",
+            "senior portrait",
+            "environmental documentary portrait",
+            "coastal ecologist",
+            "natural age detail",
+            "成熟年龄纪实",
+            "成熟年龄人像",
+            "中年人像",
+            "年长人物肖像",
+            "环境纪实人像",
+            "海岸生态学家",
+        ),
+    ),
     ("documentary-music-rehearsal", ("music rehearsal", "rehearsal portrait", "cellist", "cello", "musician portrait", "音乐排练", "排练人像", "大提琴", "音乐家")),
     (
         "documentary-craft-portrait",

@@ -1,12 +1,12 @@
 {
   "version": "0.1",
-  "source": {"kind": "first-party", "version": "0.7.0", "license": "MIT", "catalog_path": "data/cases.json"},
+  "source": {"kind": "first-party", "version": "0.8.0", "license": "MIT", "catalog_path": "data/cases.json"},
   "taxonomy": {
     "categories": ["Characters & People", "Products & E-commerce"],
     "styles": ["Character", "Documentary", "Editorial", "Fashion", "Illustration", "Motion", "Photography", "Product", "Realistic", "Technical"],
     "scenes": ["Commerce", "Creative", "Fashion", "Interior", "Story", "Tech", "Urban"]
   },
-  "summary": {"record_count": 9, "approved_count": 9},
+  "summary": {"record_count": 10, "approved_count": 10},
   "cases": [
     {
       "id": 1,
@@ -123,6 +123,19 @@
       "prompt_path": "gallery/prompts/documentary-music-rehearsal-elise-moreau.md",
       "prompt_sha256": "9790b3a2f9f527278557afdc87edd9869c0e738d73c9ab7a89096c04b4e4dc3e",
       "image": {"path": "gallery/images/documentary-music-rehearsal-elise-moreau.png", "alt": "ELISE MOREAU documentary music rehearsal"},
+      "status": "approved_public_gallery"
+    },
+    {
+      "id": 10,
+      "title": "NORA VALE Mature Documentary Portrait",
+      "category": "Characters & People",
+      "styles": ["Photography", "Realistic", "Documentary"],
+      "scenes": ["Story", "Travel"],
+      "featured": true,
+      "selection_text": "Photorealistic vertical mature environmental documentary portrait of one fictional 62-year-old coastal ecologist, natural fine lines and gray hair, complete standing body, both coherent hands touching one timber rail and one closed notebook, modest unbranded field clothing, rain-damp salt-marsh boardwalk, reeds, soft overcast daylight, and no text or brands.",
+      "prompt_path": "gallery/prompts/mature-documentary-portrait-nora-vale.md",
+      "prompt_sha256": "402290255bb7227c49b8d5915ba1f9337d4d3bb9eca0b5e22f7802fae218bc47",
+      "image": {"path": "gallery/images/mature-documentary-portrait-nora-vale.png", "alt": "NORA VALE mature documentary portrait"},
       "status": "approved_public_gallery"
     }
   ]

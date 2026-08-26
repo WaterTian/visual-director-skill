@@ -169,6 +169,24 @@
       "width": 864,
       "height": 1821,
       "format": "PNG", "mode": "RGB", "provider_path": "codex-built-in-imagegen", "paid_api": false, "first_party": true, "input_assets": [], "status": "approved_public_gallery"
+    },
+    {
+      "case_id": 10,
+      "id": "mature-documentary-portrait-nora-vale",
+      "template_id": "mature-documentary-portrait",
+      "image_path": "gallery/images/mature-documentary-portrait-nora-vale.png",
+      "prompt_path": "gallery/prompts/mature-documentary-portrait-nora-vale.md",
+      "image_sha256": "28b2cc6e8d5426b6e2c7272d20120ffdf799bda8307f2f8c0768ee4e332b0766",
+      "prompt_sha256": "402290255bb7227c49b8d5915ba1f9337d4d3bb9eca0b5e22f7802fae218bc47",
+      "width": 864,
+      "height": 1821,
+      "format": "PNG",
+      "mode": "RGB",
+      "provider_path": "codex-built-in-imagegen",
+      "paid_api": false,
+      "first_party": true,
+      "input_assets": [],
+      "status": "approved_public_gallery"
     }
   ]
 }

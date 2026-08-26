@@ -234,6 +234,19 @@
       "provenance": {"kind": "first-party", "version": "0.8.0", "path": "gallery/prompts/mature-documentary-portrait-nora-vale.md", "license": "MIT"}
     },
     {
+      "id": "realistic-hairstyle-variation-board",
+      "title": {"en": "Realistic Hairstyle Variation Board", "zh": "写实发型变化咨询板"},
+      "category": "Characters & People",
+      "styles": ["Photography", "Realistic", "Character"],
+      "scenes": ["Creative", "Fashion"],
+      "tags": ["hairstyle", "identity-consistency", "controlled-variable", "3x4-grid", "head-and-shoulders", "studio-comparison"],
+      "use_when": {"en": "Use for a photorealistic comparison board where one fictional adult identity must remain stable across many equal portrait cells while only hairstyle changes.", "zh": "用于需要在多个等比例人像格中保持同一虚构成年身份稳定、仅改变发型的写实对比板。"},
+      "guidance": {"en": ["Lock a concise adult identity anchor set before enumerating hairstyles: face geometry, age, skin detail, expression, wardrobe, crop, and backdrop.", "State that hair is the sole intended variable and specify which attributes may change: length, cut, part, texture, and tied or loose styling.", "Use one strict grid, equal eye line, stable shoulder scale, neutral studio background, and constant light so comparison remains legible.", "Prefer visual comparison without labels; add exact style names later through deterministic layout if named cells are required."], "zh": ["在列举发型前，先锁定精简的成年身份锚点：面部几何、年龄、皮肤细节、表情、服装、裁切和背景。", "明确发型是唯一允许变化的变量，并限定可变化属性：长度、剪裁、分缝、纹理以及束起或披散造型。", "使用严格网格、统一视平线、稳定肩部比例、中性影棚背景和恒定光线，使对比始终清楚。", "优先使用无标签的视觉对比；如必须命名格子，后续通过确定性排版加入准确名称。"]},
+      "pitfalls": {"en": ["identity drift", "age change", "wardrobe drift", "background drift", "repeated hairstyles", "inaccurate labels"], "zh": ["身份漂移", "年龄变化", "服装漂移", "背景漂移", "发型重复", "标签不准确"]},
+      "example_cases": [11],
+      "provenance": {"kind": "first-party", "version": "0.9.0", "path": "gallery/prompts/realistic-hairstyle-variation-board-maris-vale.md", "license": "MIT"}
+    },
+    {
       "id": "realistic-photography",
       "title": {"en": "Realistic Photography", "zh": "真实人物摄影"},
       "category": "Characters & People",

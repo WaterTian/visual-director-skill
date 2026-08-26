@@ -85,6 +85,15 @@ This gallery contains only first-party results whose prompts were refined, gener
 - 864 × 1821, PNG/RGB, vertical full-body environmental frame / 竖幅完整全身环境构图
 - Natural age detail, complete standing anatomy, both hands, notebook/rail contact, practical unbranded workwear, rain-damp marsh materials, photorealism, and no-text requirements passed visual review / 自然年龄特征、完整站姿、双手、笔记本与栏杆接触、实用无品牌服装、雨后盐沼材质、写实感和无文字要求已通过视觉复核
 
+## Realistic Hairstyle Variation Board / 写实发型变化咨询板
+
+![MARIS VALE realistic hairstyle variation board](images/realistic-hairstyle-variation-board-maris-vale.png)
+
+- [Final prompt and review / 最终 Prompt 与复核](prompts/realistic-hairstyle-variation-board-maris-vale.md)
+- New fictional adult identity with no real-person or external image reference / 全新虚构成年人物，不使用真人或外部图片参考
+- 972 × 1619, PNG/RGB, 3 × 4 head-and-shoulders comparison grid / 3 × 4 头肩人像对比网格
+- Twelve stable identity cells, distinct plausible hairstyles, clear eyes, constant studio conditions, natural skin and hair, photorealism, and no-text requirements passed visual review / 十二格身份稳定、发型明确且可信、双眼清晰、影棚条件恒定、自然皮肤与发丝、写实感和无文字要求已通过视觉复核
+
 ## Product Commerce Visual / 商品商业视觉
 
 ![AURORA MINI product commerce visual](images/product-commerce-visual-aurora-mini.png)

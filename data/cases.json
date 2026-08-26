@@ -1,12 +1,12 @@
 {
   "version": "0.1",
-  "source": {"kind": "first-party", "version": "0.8.0", "license": "MIT", "catalog_path": "data/cases.json"},
+  "source": {"kind": "first-party", "version": "0.9.0", "license": "MIT", "catalog_path": "data/cases.json"},
   "taxonomy": {
     "categories": ["Characters & People", "Products & E-commerce"],
     "styles": ["Character", "Documentary", "Editorial", "Fashion", "Illustration", "Motion", "Photography", "Product", "Realistic", "Technical"],
     "scenes": ["Commerce", "Creative", "Fashion", "Interior", "Story", "Tech", "Urban"]
   },
-  "summary": {"record_count": 10, "approved_count": 10},
+  "summary": {"record_count": 11, "approved_count": 11},
   "cases": [
     {
       "id": 1,
@@ -136,6 +136,19 @@
       "prompt_path": "gallery/prompts/mature-documentary-portrait-nora-vale.md",
       "prompt_sha256": "402290255bb7227c49b8d5915ba1f9337d4d3bb9eca0b5e22f7802fae218bc47",
       "image": {"path": "gallery/images/mature-documentary-portrait-nora-vale.png", "alt": "NORA VALE mature documentary portrait"},
+      "status": "approved_public_gallery"
+    },
+    {
+      "id": 11,
+      "title": "MARIS VALE Realistic Hairstyle Variation Board",
+      "category": "Characters & People",
+      "styles": ["Photography", "Realistic", "Character"],
+      "scenes": ["Creative", "Fashion"],
+      "featured": true,
+      "selection_text": "Photorealistic 3 by 4 hairstyle consultation board with exactly twelve equal head-and-shoulders cells of one fictional adult identity, stable face geometry, natural pores, one small right-cheek beauty mark, same charcoal top, aligned eye-level studio crop, flat warm-light-gray background, and twelve distinct short, medium, long, tied, straight, wavy, and curly hairstyles with no text or brands.",
+      "prompt_path": "gallery/prompts/realistic-hairstyle-variation-board-maris-vale.md",
+      "prompt_sha256": "38c5563015b68d7478cf7807f218320b2da1fa033a0591312edb474fab221ab8",
+      "image": {"path": "gallery/images/realistic-hairstyle-variation-board-maris-vale.png", "alt": "MARIS VALE realistic hairstyle variation board"},
       "status": "approved_public_gallery"
     }
   ]

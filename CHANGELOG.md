@@ -2,6 +2,20 @@
 
 This project follows semantic versioning. / 本项目遵循语义化版本号。
 
+## 0.9.0 - 2026-08-26
+
+Adds a reviewed realistic hairstyle-variation workflow. / 新增已验收的写实发型变化工作流。
+
+### Added / 新增
+
+- `realistic-hairstyle-variation-board` template for a 3 × 4 comparison board that preserves one fictional adult identity, expression, clothing, crop, light, and backdrop while hairstyle is the sole intended variable. / 新增 `realistic-hairstyle-variation-board` 模板，用于在 3 × 4 对比板中保持一位虚构成年主体的身份、表情、服装、裁切、光线和背景稳定，仅让发型成为受控变化变量。
+- Character routing for hairstyle variation, hairstyle lookbook, hair consultation, same-face hairstyles, and haircut-comparison requests. / 新增针对发型变化、发型 Lookbook、发型咨询、同一张脸发型和剪发对比请求的人物路由。
+- Final prompt, approved grid image, SHA-256 records, bilingual review, selector fixture, and ranking coverage. / 新增最终 Prompt、批准的网格效果图、SHA-256、中英文复核、选择器夹具和排序覆盖。
+
+### Quality boundary / 质量边界
+
+- The public result uses no reference image, no real-person likeness, no paid API, no labels or brands, and no beauty-smoothing, advertising, or illustration treatment. / 公开结果不使用参考图、真人相似性、付费 API、标签或品牌，也不采用美颜、广告化或插画表达。
+
 ## 0.8.0 - 2026-08-26
 
 Adds a reviewed mature-documentary portrait workflow. / 新增已验收的成熟年龄纪实人像工作流。

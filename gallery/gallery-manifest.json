@@ -187,6 +187,24 @@
       "first_party": true,
       "input_assets": [],
       "status": "approved_public_gallery"
+    },
+    {
+      "case_id": 11,
+      "id": "realistic-hairstyle-variation-board-maris-vale",
+      "template_id": "realistic-hairstyle-variation-board",
+      "image_path": "gallery/images/realistic-hairstyle-variation-board-maris-vale.png",
+      "prompt_path": "gallery/prompts/realistic-hairstyle-variation-board-maris-vale.md",
+      "image_sha256": "10563bdee4389b41349915dc0c9b793a56b4534b725fd03cfe1a479a3308e209",
+      "prompt_sha256": "38c5563015b68d7478cf7807f218320b2da1fa033a0591312edb474fab221ab8",
+      "width": 972,
+      "height": 1619,
+      "format": "PNG",
+      "mode": "RGB",
+      "provider_path": "codex-built-in-imagegen",
+      "paid_api": false,
+      "first_party": true,
+      "input_assets": [],
+      "status": "approved_public_gallery"
     }
   ]
 }

@@ -45,6 +45,7 @@ class CaseSelectorTests(unittest.TestCase):
             "product-brief.json": [1, 3, 4],
             "product-background-edit-brief.json": [1, 3, 2],
             "quiet-editorial-portrait-brief.json": [6, 3, 8],
+            "realistic-hairstyle-variation-board-brief.json": [11, 3, 4],
             "realistic-motion-editorial-brief.json": [7, 3, 4],
         }
         for filename, ids in expected.items():

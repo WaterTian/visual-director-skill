@@ -52,7 +52,26 @@ PRODUCT_ROUTES = (
 
 CHARACTER_ROUTES = (
     (
-        "mature-documentary-portrait",
+        "realistic-hairstyle-variation-board",
+        (
+            "hairstyle variation",
+            "hairstyle lookbook",
+            "hairstyle",
+            "hair styling",
+            "hair lookbook",
+            "hair consultation",
+            "same face hairstyles",
+            "haircut comparison",
+            "发型变化",
+            "发型对比",
+            "发型",
+            "发型咨询",
+            "同一张脸发型",
+            "发型图鉴",
+        ),
+    ),
+    (
+      "mature-documentary-portrait",
         (
             "mature documentary",
             "mature portrait",

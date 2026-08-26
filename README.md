@@ -6,7 +6,7 @@ Visual Director 是一个可移植的 Codex 视觉生产 Skill。它把模糊的
 
 Visual Director is a portable visual-production skill for Codex. It turns an ambiguous image request into a testable Visual Brief, selects a reviewed first-party template, compiles a precise prompt, and protects formal assets with file checks, visual review, and approval gates.
 
-`v0.8.0` · `MIT` · `10 reviewed workflows` · `10 approved gallery assets` · `no paid API required`
+`v0.9.0` · `MIT` · `11 reviewed workflows` · `11 approved gallery assets` · `no paid API required`
 
 ## Gallery
 
@@ -50,6 +50,11 @@ Visual Director is a portable visual-production skill for Codex. It turns an amb
 | ![NORA VALE mature documentary portrait](gallery/images/mature-documentary-portrait-nora-vale.png) |
 | [Prompt + review / Prompt 与复核](gallery/prompts/mature-documentary-portrait-nora-vale.md) |
 
+| Realistic Hairstyle Variation Board / 写实发型变化咨询板 |
+|---|
+| ![MARIS VALE realistic hairstyle variation board](gallery/images/realistic-hairstyle-variation-board-maris-vale.png) |
+| [Prompt + review / Prompt 与复核](gallery/prompts/realistic-hairstyle-variation-board-maris-vale.md) |
+
 ## 中文
 
 ### 它解决什么问题
@@ -75,7 +80,7 @@ Built-in Image Generation or External Handoff
 File QC → Visual Review → Approval → Formal Asset
 ```
 
-当前公开版只声明已经实际验收的十个方向：
+当前公开版只声明已经实际验收的十一个方向：
 
 1. `character-design-sheet`：人物身份、服装、左右细节和多视图一致性。
 2. `realistic-photography`：原创角色的真实摄影转化、自然皮肤、手部和环境可信度。
@@ -86,7 +91,8 @@ File QC → Visual Review → Approval → Formal Asset
 7. `documentary-craft-portrait`：成年人手作过程、双手与对象接触、材质真实感和自然工作室环境。
 8. `documentary-music-rehearsal`：人物与复杂乐器的真实交互、乐器结构、完整人体和自然排练环境。
 9. `mature-documentary-portrait`：成熟年龄自然特征、完整站姿、可信手部接触、实用户外服装和非宣传式环境纪实。
-10. `product-commerce-visual`：产品几何、材质、文案空间、语义标注和精确画布合成。
+10. `realistic-hairstyle-variation-board`：同一成年身份在十二个统一影棚格中的稳定性，以及发型作为唯一变化变量的可控对比。
+11. `product-commerce-visual`：产品几何、材质、文案空间、语义标注和精确画布合成。
 
 其他视觉类型可以使用通用 Brief、Prompt 编译和 QC 能力，但在新增效果图、最终 Prompt 与测试通过前，不会被标为“已验收模板”。
 
@@ -187,7 +193,7 @@ visual-director-skill/
 
 ### Reviewed scope
 
-The public catalog currently claims ten reviewed workflows:
+The public catalog currently claims eleven reviewed workflows:
 
 1. `character-design-sheet`: identity, wardrobe, left-right details, anatomy, and multi-view consistency.
 2. `realistic-photography`: believable photographic translation of an original character, including skin, hands, wardrobe, and environment.
@@ -198,7 +204,8 @@ The public catalog currently claims ten reviewed workflows:
 7. `documentary-craft-portrait`: an adult hands-on craft process, hand-to-object contact, material truth, and a natural workshop environment.
 8. `documentary-music-rehearsal`: realistic person-to-complex-instrument interaction, instrument structure, complete anatomy, and a natural rehearsal context.
 9. `mature-documentary-portrait`: natural mature age detail, complete standing anatomy, credible hand contact, practical outdoor workwear, and non-promotional environmental documentation.
-10. `product-commerce-visual`: product geometry, materials, copy space, semantic callouts, and exact-canvas composition.
+10. `realistic-hairstyle-variation-board`: one adult identity kept stable across twelve uniform studio cells, with hairstyle as the only controlled variable.
+11. `product-commerce-visual`: product geometry, materials, copy space, semantic callouts, and exact-canvas composition.
 
 Other visual requests can still use the generic Brief, prompt compiler, and QC contracts. They are not labeled as reviewed templates until a final prompt, approved image, and tests are added.
 

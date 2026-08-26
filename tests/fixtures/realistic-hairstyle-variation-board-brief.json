@@ -1,0 +1,17 @@
+{
+  "version": "0.1",
+  "asset_id": "realistic-hairstyle-variation-board-selection",
+  "goal": "Create a controlled photorealistic hairstyle consultation board that preserves one fictional adult identity while hair changes across twelve cells.",
+  "audience": "Hair and portrait art directors who need a reliable comparison of hairstyle options",
+  "deliverable": {"type": "character", "width": 972, "height": 1619, "format": "png", "transparent_background": false},
+  "content": {
+    "subject": "Twelve head-and-shoulders appearances of one fictional 38-year-old adult woman, with hair as the only intended variable",
+    "exact_text": [],
+    "must_include": ["Exactly twelve equal head-and-shoulders cells in a 3 by 4 grid", "One stable clearly adult fictional identity across all cells", "The same neutral expression, charcoal crew-neck top, eye-level crop, soft studio lighting, and warm-light-gray backdrop", "Twelve visibly distinct plausible hairstyles spanning short, medium, long, tied, straight, wavy, and curly hair", "Both eyes clearly visible in every cell", "Natural skin pores, realistic hair strands, and a small high right-cheek beauty mark"],
+    "must_avoid": ["Identity drift, age change, beauty smoothing, makeup change, wardrobe change, or altered background", "Extra people, hands, hats, jewelry, sunglasses, duplicate features, or malformed faces", "Text, labels, numbers, logos, brands, or watermarks", "Fashion campaign, celebrity likeness, CGI, collage, cartoon, anime, or illustration styling"]
+  },
+  "art_direction": {"style": "Photorealistic restrained studio consultation photography", "palette": ["warm light gray", "charcoal", "natural black-brown hair", "neutral brown skin"], "lighting": "Soft centered studio key with gentle fill and stable neutral exposure", "materials": ["natural skin pores", "individual hair strands", "matte cotton knit", "seamless studio paper"]},
+  "composition": {"layout": "Precise 3-column by 4-row grid of equal head-and-shoulders portraits with clean narrow gutters", "viewpoint": "Eye-level 85 mm studio portrait perspective with aligned eye height and shoulder scale", "focal_hierarchy": ["Stable adult identity and facial detail", "Twelve distinct hairstyles", "Consistent crop and studio light", "Clean comparison-grid structure"]},
+  "references": [],
+  "qa": {"objective_checks": ["Output is exactly 972x1619 PNG/RGB without alpha", "Exactly twelve appearances of one adult identity appear", "No visible text, logo, brand, or watermark appears"], "visual_checks": ["Face shape, adult age, expression, clothing, crop, eye height, light, and background remain stable across every cell", "The twelve hairstyles are individually readable, plausible, varied, and the only intended visual change", "Both eyes are clear in every cell and face, hairline, skin, and strands remain naturally photographic", "The board is a clean consultation comparison rather than a fashion campaign, advertisement, or illustration"], "approval_required": true}
+}

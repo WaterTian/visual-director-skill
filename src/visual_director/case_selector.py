@@ -66,6 +66,22 @@ PREFERRED_STYLE_BY_CATEGORY = {
 
 EXAMPLE_PRIORITY_BAND = 10
 
+SPECIALIZED_CASE_TITLE_TERMS: tuple[tuple[str, tuple[str, ...]], ...] = (
+    (
+        "hairstyle",
+        (
+            "hairstyle",
+            "hair style",
+            "haircut",
+            "hair consultation",
+            "hair lookbook",
+            "发型",
+            "剪发",
+            "理发",
+        ),
+    ),
+)
+
 CUE_PATTERNS: tuple[tuple[str, tuple[str, ...]], ...] = (
     ("layout:negative-space", ("negative space", "copy space", "empty space")),
     ("layout:centered-subject", ("centered", "centred", "in the center")),
@@ -161,6 +177,15 @@ def _case_text(record: dict[str, Any]) -> str:
     )
 
 
+def _matches_specialized_title_intent(record: dict[str, Any], request: str) -> bool:
+    title = record["title"].casefold()
+    lowered_request = request.casefold()
+    for marker, terms in SPECIALIZED_CASE_TITLE_TERMS:
+        if marker in title and not any(term in lowered_request for term in terms):
+            return False
+    return True
+
+
 def _desired_labels(request: str, aliases: dict[str, tuple[str, ...]]) -> set[str]:
     lowered = request.casefold()
     return {
@@ -254,8 +279,12 @@ def select_cases(
     image_manifest: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
     top = max(1, min(3, top))
-    records = case_catalog["cases"]
     request_text = _brief_text(brief)
+    records = [
+        record
+        for record in case_catalog["cases"]
+        if _matches_specialized_title_intent(record, request_text)
+    ]
     query_tokens = _tokens(request_text)
     desired_cues = set(_generic_cues(request_text))
     document_tokens = [_tokens(_case_text(record)) for record in records]

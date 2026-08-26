@@ -1,12 +1,12 @@
 {
   "version": "0.1",
-  "source": {"kind": "first-party", "version": "0.1.0", "license": "MIT", "catalog_path": "data/cases.json"},
+  "source": {"kind": "first-party", "version": "0.2.0", "license": "MIT", "catalog_path": "data/cases.json"},
   "taxonomy": {
     "categories": ["Characters & People", "Products & E-commerce"],
-    "styles": ["Character", "Illustration", "Photography", "Product", "Realistic"],
-    "scenes": ["Commerce", "Creative", "Story", "Tech"]
+    "styles": ["Character", "Fashion", "Illustration", "Photography", "Product", "Realistic"],
+    "scenes": ["Commerce", "Creative", "Fashion", "Story", "Tech"]
   },
-  "summary": {"record_count": 3, "approved_count": 3},
+  "summary": {"record_count": 4, "approved_count": 4},
   "cases": [
     {
       "id": 1,
@@ -45,6 +45,19 @@
       "prompt_path": "gallery/prompts/realistic-photography-mara-venn.md",
       "prompt_sha256": "a9f3638bbece7471a946a9a5c4e87cbf80a5b14d8a12ad8f41aad0c2942100e6",
       "image": {"path": "gallery/images/realistic-photography-mara-venn.png", "alt": "MARA VENN realistic environmental portrait"},
+      "status": "approved_public_gallery"
+    },
+    {
+      "id": 4,
+      "title": "NOA REYES Realistic Fashion Lookbook",
+      "category": "Characters & People",
+      "styles": ["Photography", "Realistic", "Fashion"],
+      "scenes": ["Fashion", "Commerce"],
+      "featured": true,
+      "selection_text": "Photorealistic 4:5 fashion contact sheet with exactly six full-body appearances of one original adult identity, a clean 2-column by 3-row grid, equal scale and floor alignment, six distinct practical wardrobe capsules, authentic skin and fabric, complete hands and shoes, restrained studio light, and no visible text or brands.",
+      "prompt_path": "gallery/prompts/realistic-fashion-lookbook-noa-reyes.md",
+      "prompt_sha256": "f1e58cf74f4176aa1c81569359c6731648e6a9765401e6272b0d0f1774d90bc9",
+      "image": {"path": "gallery/images/realistic-fashion-lookbook-noa-reyes.png", "alt": "NOA REYES realistic six-look fashion lookbook"},
       "status": "approved_public_gallery"
     }
   ]

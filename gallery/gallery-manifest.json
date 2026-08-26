@@ -67,6 +67,24 @@
         }
       ],
       "status": "approved_public_gallery"
+    },
+    {
+      "case_id": 4,
+      "id": "realistic-fashion-lookbook-noa-reyes",
+      "template_id": "realistic-fashion-lookbook",
+      "image_path": "gallery/images/realistic-fashion-lookbook-noa-reyes.png",
+      "prompt_path": "gallery/prompts/realistic-fashion-lookbook-noa-reyes.md",
+      "image_sha256": "1a04934321777072af1f321f8caece2207723371d50eb53a7614e3d74015c845",
+      "prompt_sha256": "f1e58cf74f4176aa1c81569359c6731648e6a9765401e6272b0d0f1774d90bc9",
+      "width": 1122,
+      "height": 1402,
+      "format": "PNG",
+      "mode": "RGB",
+      "provider_path": "codex-built-in-imagegen",
+      "paid_api": false,
+      "first_party": true,
+      "input_assets": [],
+      "status": "approved_public_gallery"
     }
   ]
 }

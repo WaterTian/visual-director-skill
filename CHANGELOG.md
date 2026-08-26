@@ -2,6 +2,21 @@
 
 This project follows semantic versioning. / 本项目遵循语义化版本号。
 
+## 0.2.0 - 2026-08-26
+
+Adds a reviewed photorealistic multi-look character workflow. / 新增已验收的写实多穿搭人物工作流。
+
+### Added / 新增
+
+- `realistic-fashion-lookbook` template with a new fictional adult identity, six complete full-body looks, and a deterministic 2 × 3 editorial grid. / 新增 `realistic-fashion-lookbook` 模板，使用全新虚构成年人物、六套完整全身穿搭和确定性 2 × 3 编辑网格。
+- Final generation and canvas-correction prompts, approved 4:5 image, SHA-256 records, bilingual review, catalog routing, and tests. / 新增最终生成与画布修正 Prompt、批准的 4:5 效果图、SHA-256、中英文复核、目录路由和测试。
+- `Fashion` style and scene routing for realistic wardrobe and lookbook requests. / 新增用于写实穿搭与 Lookbook 请求的 `Fashion` 风格和场景路由。
+
+### Quality boundary / 质量边界
+
+- The first narrow candidate remained private; only the corrected 1122 × 1402 result entered the public gallery. / 首张窄画布候选保留在私下目录，公开 Gallery 只收录修正后的 1122 × 1402 结果。
+- No external image, real-person reference, paid API, visible brand, or copied prompt was used. / 不使用外部图片、真人参考、付费 API、可见品牌或复制 Prompt。
+
 ## 0.1.0 - 2026-08-26
 
 First public, installable, and verifiable Visual Director baseline. / 首个可公开安装和验证的 Visual Director 基线。

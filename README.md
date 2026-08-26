@@ -6,14 +6,19 @@ Visual Director 是一个可移植的 Codex 视觉生产 Skill。它把模糊的
 
 Visual Director is a portable visual-production skill for Codex. It turns an ambiguous image request into a testable Visual Brief, selects a reviewed first-party template, compiles a precise prompt, and protects formal assets with file checks, visual review, and approval gates.
 
-`v0.1.0` · `MIT` · `3 reviewed workflows` · `3 approved gallery assets` · `no paid API required`
+`v0.2.0` · `MIT` · `4 reviewed workflows` · `4 approved gallery assets` · `no paid API required`
 
 ## Gallery
 
-| Character Design Sheet / 角色设定表 | Realistic Photography / 真实人物摄影 | Product Commerce Visual / 商品商业视觉 |
-|---|---|---|
-| ![MARA VENN character design sheet](gallery/images/character-design-sheet-mara-venn.png) | ![MARA VENN realistic environmental portrait](gallery/images/realistic-photography-mara-venn.png) | ![AURORA MINI product commerce visual](gallery/images/product-commerce-visual-aurora-mini.png) |
-| [Prompt + review / Prompt 与复核](gallery/prompts/character-design-sheet-mara-venn.md) | [Prompt + review / Prompt 与复核](gallery/prompts/realistic-photography-mara-venn.md) | [Prompt + review / Prompt 与复核](gallery/prompts/product-commerce-visual-aurora-mini.md) |
+| Character Design Sheet / 角色设定表 | Realistic Photography / 真实人物摄影 |
+|---|---|
+| ![MARA VENN character design sheet](gallery/images/character-design-sheet-mara-venn.png) | ![MARA VENN realistic environmental portrait](gallery/images/realistic-photography-mara-venn.png) |
+| [Prompt + review / Prompt 与复核](gallery/prompts/character-design-sheet-mara-venn.md) | [Prompt + review / Prompt 与复核](gallery/prompts/realistic-photography-mara-venn.md) |
+
+| Realistic Fashion Lookbook / 写实时装 Lookbook | Product Commerce Visual / 商品商业视觉 |
+|---|---|
+| ![NOA REYES realistic six-look fashion lookbook](gallery/images/realistic-fashion-lookbook-noa-reyes.png) | ![AURORA MINI product commerce visual](gallery/images/product-commerce-visual-aurora-mini.png) |
+| [Prompt + review / Prompt 与复核](gallery/prompts/realistic-fashion-lookbook-noa-reyes.md) | [Prompt + review / Prompt 与复核](gallery/prompts/product-commerce-visual-aurora-mini.md) |
 
 ## 中文
 
@@ -40,11 +45,12 @@ Built-in Image Generation or External Handoff
 File QC → Visual Review → Approval → Formal Asset
 ```
 
-当前公开版只声明已经实际验收的三个方向：
+当前公开版只声明已经实际验收的四个方向：
 
 1. `character-design-sheet`：人物身份、服装、左右细节和多视图一致性。
 2. `realistic-photography`：原创角色的真实摄影转化、自然皮肤、手部和环境可信度。
-3. `product-commerce-visual`：产品几何、材质、文案空间、语义标注和精确画布合成。
+3. `realistic-fashion-lookbook`：同一成年人物的跨格身份一致性、完整全身和多套写实穿搭。
+4. `product-commerce-visual`：产品几何、材质、文案空间、语义标注和精确画布合成。
 
 其他视觉类型可以使用通用 Brief、Prompt 编译和 QC 能力，但在新增效果图、最终 Prompt 与测试通过前，不会被标为“已验收模板”。
 
@@ -145,11 +151,12 @@ visual-director-skill/
 
 ### Reviewed scope
 
-The public catalog currently claims three reviewed workflows:
+The public catalog currently claims four reviewed workflows:
 
 1. `character-design-sheet`: identity, wardrobe, left-right details, anatomy, and multi-view consistency.
 2. `realistic-photography`: believable photographic translation of an original character, including skin, hands, wardrobe, and environment.
-3. `product-commerce-visual`: product geometry, materials, copy space, semantic callouts, and exact-canvas composition.
+3. `realistic-fashion-lookbook`: one adult identity preserved across complete full-body cells and multiple realistic wardrobe capsules.
+4. `product-commerce-visual`: product geometry, materials, copy space, semantic callouts, and exact-canvas composition.
 
 Other visual requests can still use the generic Brief, prompt compiler, and QC contracts. They are not labeled as reviewed templates until a final prompt, approved image, and tests are added.
 

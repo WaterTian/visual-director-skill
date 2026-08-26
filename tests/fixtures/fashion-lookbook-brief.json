@@ -1,0 +1,55 @@
+{
+  "version": "0.1",
+  "asset_id": "noa-six-look-fashion-board",
+  "goal": "Show one original adult identity across six clearly differentiated realistic wardrobe capsules.",
+  "audience": "Fashion editors and wardrobe teams reviewing a compact seasonal lookbook",
+  "deliverable": {
+    "type": "character",
+    "width": 1122,
+    "height": 1402,
+    "format": "png",
+    "transparent_background": false
+  },
+  "content": {
+    "subject": "The same fictional adult woman repeated across exactly six full-body fashion cells",
+    "exact_text": [],
+    "must_include": [
+      "Exactly six depictions of one adult identity",
+      "Six distinct practical outfits",
+      "Complete head-to-shoe framing",
+      "Two-column by three-row grid"
+    ],
+    "must_avoid": [
+      "Face drift",
+      "Cartoon or illustration",
+      "Cropped feet",
+      "Visible text or brands"
+    ]
+  },
+  "art_direction": {
+    "style": "Photorealistic fashion lookbook studio photography",
+    "palette": ["warm ivory", "charcoal", "denim blue", "muted olive", "oatmeal"],
+    "lighting": "Soft neutral studio window light with restrained floor shadows",
+    "materials": ["natural skin", "woven fabric", "denim", "matte technical fabric", "leather footwear"]
+  },
+  "composition": {
+    "layout": "Clean two-column by three-row catalog grid with equal figure scale and aligned floor lines",
+    "viewpoint": "Natural full-body 65 mm fashion catalog perspective",
+    "focal_hierarchy": ["Consistent adult identity", "Six readable outfits", "Complete anatomy and footwear"]
+  },
+  "references": [],
+  "qa": {
+    "objective_checks": [
+      "Output is exactly 1122x1402 PNG",
+      "Exactly six full-body figures are visible",
+      "No text, logo, or watermark appears"
+    ],
+    "visual_checks": [
+      "Face, hair, skin tone, age, and body proportions remain consistent",
+      "All six outfits are distinct",
+      "Hands and shoes are plausible and complete",
+      "The result reads as photography rather than illustration or 3D"
+    ],
+    "approval_required": true
+  }
+}

@@ -35,6 +35,38 @@
       "provenance": {"kind": "first-party", "version": "0.1.0", "path": "gallery/prompts/character-design-sheet-mara-venn.md", "license": "MIT"}
     },
     {
+      "id": "realistic-fashion-lookbook",
+      "title": {"en": "Realistic Fashion Lookbook", "zh": "写实时装 Lookbook"},
+      "category": "Characters & People",
+      "styles": ["Photography", "Realistic", "Fashion"],
+      "scenes": ["Fashion", "Commerce"],
+      "tags": ["identity", "lookbook", "wardrobe", "full-body", "multi-look"],
+      "use_when": {
+        "en": "Use for a photorealistic multi-look fashion board that must preserve one adult identity, complete full-body framing, and clearly differentiated wardrobe capsules.",
+        "zh": "用于需要在多套写实穿搭中保持同一成年人物身份、完整全身构图和清楚服装差异的时装板。"
+      },
+      "guidance": {
+        "en": [
+          "Define one fictional adult identity with a compact set of stable face, hair, skin, age, and body anchors.",
+          "Use a fixed grid, equal figure scale, aligned floor lines, and complete head-to-shoe framing.",
+          "Differentiate each wardrobe capsule by silhouette, garment type, palette, footwear, and only essential accessories.",
+          "Review identity, anatomy, outfit count, cell count, and visible text as separate acceptance gates."
+        ],
+        "zh": [
+          "用精简而稳定的面部、发型、肤色、年龄和身体锚点定义一个虚构成年人物。",
+          "使用固定网格、统一人物比例、对齐地面线，并保证从头到鞋完整可见。",
+          "通过轮廓、服装类型、色板、鞋履和必要配件区分每套穿搭。",
+          "将身份、人体、服装数量、格子数量和可见文字作为独立验收门禁。"
+        ]
+      },
+      "pitfalls": {
+        "en": ["face drift", "different body proportions", "cropped feet", "duplicate outfits", "catalog pseudo-text"],
+        "zh": ["面部漂移", "身体比例变化", "脚部裁切", "服装重复", "目录伪文字"]
+      },
+      "example_cases": [4],
+      "provenance": {"kind": "first-party", "version": "0.2.0", "path": "gallery/prompts/realistic-fashion-lookbook-noa-reyes.md", "license": "MIT"}
+    },
+    {
       "id": "product-commerce-visual",
       "title": {"en": "Product Commerce Visual", "zh": "商品商业视觉"},
       "category": "Products & E-commerce",

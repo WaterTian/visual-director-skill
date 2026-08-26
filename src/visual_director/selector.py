@@ -62,6 +62,7 @@ STYLE_ALIASES = {
     "3d": ("3d", "render", "toy", "collectible"),
     "brand": ("brand", "identity", "logo", "campaign"),
     "character": ("character", "identity", "pose", "outfit"),
+    "fashion": ("fashion", "lookbook", "wardrobe", "clothing", "outfit"),
     "charts": ("chart", "diagram", "flow", "technical"),
     "classical": ("classical", "history", "dynasty", "scroll"),
     "illustration": ("illustration", "watercolor", "paint", "drawing"),

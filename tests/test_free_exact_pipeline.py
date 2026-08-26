@@ -234,7 +234,7 @@ class FreeExactPipelineTests(unittest.TestCase):
             case_selection = json.loads(
                 (output_dir / "case-selection.json").read_text()
             )
-            self.assertEqual([1, 2, 3], request["case_ids"])
+            self.assertEqual([1, 2, 4], request["case_ids"])
             self.assertEqual(
                 request["case_ids"],
                 [item["id"] for item in case_selection["cases"]],

@@ -1,6 +1,6 @@
 [project]
 name = "visual-director-skill"
-version = "0.3.0"
+version = "0.4.0"
 description = "Portable Visual Director contracts, source adapters, prompt compiler, and quality gates."
 authors = [{ name = "WaterTian" }]
 requires-python = ">=3.11"

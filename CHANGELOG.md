@@ -2,6 +2,20 @@
 
 This project follows semantic versioning. / 本项目遵循语义化版本号。
 
+## 0.4.0 - 2026-08-26
+
+Adds a reviewed quiet, non-sexualized editorial-portrait workflow. / 新增已验收的静谧、非性感化编辑人像工作流。
+
+### Added / 新增
+
+- `quiet-editorial-portrait` template with a fictional adult subject, modest layered wardrobe, natural seated body language, muted interior, soft side light, and 9:16 negative space. / 新增 `quiet-editorial-portrait` 模板，包含虚构成年主体、端庄叠穿、自然坐姿、低饱和室内、柔侧光和 9:16 留白。
+- Character routing for quiet editorial, interior portrait, seated portrait, and natural-light portrait requests. / 新增针对静谧编辑、室内人像、坐姿人像和自然光人像请求的人物路由。
+- Final prompt, approved 9:16 image, SHA-256 records, bilingual review, and fixture coverage. / 新增最终 Prompt、批准的 9:16 效果图、SHA-256、中英文复核和测试夹具。
+
+### Quality boundary / 质量边界
+
+- The public result uses a clearly adult fictional identity and excludes real-person references, childlike appearance, sexualized styling, copied identity, brands, visible text, and paid APIs. / 公开结果使用明确的虚构成年身份，排除真人参考、幼态外观、性感化表达、复制身份、品牌、可见文字和付费 API。
+
 ## 0.3.0 - 2026-08-26
 
 Adds a reviewed photorealistic exploded-product workflow. / 新增已验收的写实产品分解结构工作流。

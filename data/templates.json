@@ -131,6 +131,38 @@
       "provenance": {"kind": "first-party", "version": "0.3.0", "path": "gallery/prompts/exploded-product-diagram-orbital-frame-one.md", "license": "MIT"}
     },
     {
+      "id": "quiet-editorial-portrait",
+      "title": {"en": "Quiet Editorial Portrait", "zh": "静谧编辑人像"},
+      "category": "Characters & People",
+      "styles": ["Photography", "Realistic", "Editorial"],
+      "scenes": ["Creative", "Interior"],
+      "tags": ["portrait", "natural-light", "seated", "negative-space", "modest-wardrobe"],
+      "use_when": {
+        "en": "Use for a photorealistic indoor editorial portrait that needs a calm adult subject, natural seated body language, modest styling, soft light, and unforced negative space.",
+        "zh": "用于需要安静成年主体、自然坐姿、端庄穿搭、柔和光线和克制留白的写实室内编辑人像。"
+      },
+      "guidance": {
+        "en": [
+          "State the fictional adult age, identity boundary, and non-sexualized presentation before pose or mood.",
+          "Specify complete hands, stable seated anatomy, modest layered clothing, and visible material texture separately.",
+          "Use one restrained room surface and one soft directional light source so the pose and negative space stay legible.",
+          "Describe a quiet off-camera gaze and observed body language rather than glamour or campaign posing."
+        ],
+        "zh": [
+          "在姿势和情绪前，先明确虚构成年年龄、身份边界和非性感化表达。",
+          "分别约束完整双手、稳定坐姿人体、端庄叠穿和可见材质纹理。",
+          "使用一个克制的室内表面和一处柔和定向光，让姿势与留白都清楚。",
+          "描述安静的非直视视线和被观察到的身体语言，而非广告或性感摆拍。"
+        ]
+      },
+      "pitfalls": {
+        "en": ["childlike appearance", "sexualized pose", "plastic skin", "cropped hands", "beauty-ad glamour"],
+        "zh": ["幼态外观", "性感化姿态", "塑料皮肤", "手部裁切", "美妆广告化"]
+      },
+      "example_cases": [6],
+      "provenance": {"kind": "first-party", "version": "0.4.0", "path": "gallery/prompts/quiet-editorial-portrait-mira-kang.md", "license": "MIT"}
+    },
+    {
       "id": "realistic-photography",
       "title": {"en": "Realistic Photography", "zh": "真实人物摄影"},
       "category": "Characters & People",

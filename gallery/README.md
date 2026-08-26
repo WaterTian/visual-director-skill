@@ -40,6 +40,15 @@ This gallery contains only first-party results whose prompts were refined, gener
 - 1122 × 1402, PNG/RGB, 4:5
 - Nine-layer hierarchy, internal assembly plausibility, materials, symmetry, complete framing, and no-text requirements passed visual review / 九层层级、内部装配可信度、材质、对称性、完整构图和无文字要求已通过视觉复核
 
+## Quiet Editorial Portrait / 静谧编辑人像
+
+![MIRA KANG quiet editorial portrait](images/quiet-editorial-portrait-mira-kang.png)
+
+- [Final prompt and review / 最终 Prompt 与复核](prompts/quiet-editorial-portrait-mira-kang.md)
+- New fictional adult identity with no real-person or external image reference / 全新虚构成年人物，不使用真人或外部图片参考
+- 941 × 1672, PNG/RGB, 9:16
+- Adult identity, modest wardrobe, natural seated anatomy, hands, muted interior, photographic texture, negative space, and no-text requirements passed visual review / 成年身份、端庄穿搭、自然坐姿人体、手部、低饱和室内、摄影质感、留白和无文字要求已通过视觉复核
+
 ## Product Commerce Visual / 商品商业视觉
 
 ![AURORA MINI product commerce visual](images/product-commerce-visual-aurora-mini.png)

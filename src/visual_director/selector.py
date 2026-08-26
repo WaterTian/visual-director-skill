@@ -50,6 +50,24 @@ PRODUCT_ROUTES = (
     ),
 )
 
+CHARACTER_ROUTES = (
+    (
+        "quiet-editorial-portrait",
+        (
+            "quiet editorial",
+            "editorial portrait",
+            "interior portrait",
+            "seated portrait",
+            "minimal interior",
+            "natural-light portrait",
+            "静谧编辑",
+            "编辑人像",
+            "室内人像",
+            "坐姿人像",
+        ),
+    ),
+)
+
 EDIT_ROUTES = (
     (
         "Products & E-commerce",
@@ -85,6 +103,7 @@ STYLE_ALIASES = {
     "fashion": ("fashion", "lookbook", "wardrobe", "clothing", "outfit"),
     "charts": ("chart", "diagram", "flow", "technical"),
     "classical": ("classical", "history", "dynasty", "scroll"),
+    "editorial": ("editorial", "magazine", "quiet portrait", "natural light", "minimal interior", "编辑", "人像"),
     "technical": ("technical", "engineering", "exploded", "teardown", "internal", "component", "structure", "industrial"),
     "illustration": ("illustration", "watercolor", "paint", "drawing"),
     "infographic": ("infographic", "diagram", "flow", "module"),
@@ -102,6 +121,7 @@ SCENE_ALIASES = {
     "fashion": ("fashion", "clothing", "outfit"),
     "food": ("food", "coffee", "cafe", "market"),
     "history": ("history", "dynasty", "ancient"),
+    "interior": ("interior", "indoors", "apartment", "room", "wall", "室内", "房间"),
     "social": ("social", "community", "feed", "campaign"),
     "story": ("story", "narrative", "quest", "scene"),
     "tech": ("tech", "technical", "developer", "device", "data"),
@@ -160,6 +180,10 @@ def _target_route(deliverable_type: str, request: str) -> tuple[str, str | None]
         for template_id, terms in PRODUCT_ROUTES:
             if any(term in request for term in terms):
                 return "Products & E-commerce", template_id
+    if deliverable_type == "character":
+        for template_id, terms in CHARACTER_ROUTES:
+            if any(term in request for term in terms):
+                return "Characters & People", template_id
     return (
         CATEGORY_BY_DELIVERABLE.get(deliverable_type, "Other Use Cases"),
         PREFERRED_TEMPLATE_BY_DELIVERABLE.get(deliverable_type),

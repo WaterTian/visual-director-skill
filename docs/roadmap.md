@@ -4,9 +4,10 @@
 
 ### 已完成
 
-- 五个第一方模板及其最终 Prompt、效果图、SHA-256 和逐图复核。
+- 六个第一方模板及其最终 Prompt、效果图、SHA-256 和逐图复核。
 - 新增写实时装 Lookbook，验证同一成年人物在六套穿搭中的身份、人体和完整全身一致性。
 - 新增产品分解结构图，验证虚构硬件的九层部件层级、装配关系和无伪文字边界。
+- 新增静谧编辑人像，验证成年身份、端庄穿搭、坐姿人体、自然室内光和非性感化边界。
 - Visual Brief、模板/案例选择、Prompt 编译和 provider-neutral 生成请求。
 - 无付费 API 的内置图片素材路线与精确画布合成。
 - 文件 QC、人工视觉复核、批准门禁、资产 manifest 和安全 promotion。
@@ -35,9 +36,10 @@
 
 ### Completed
 
-- Five first-party templates with final prompts, images, SHA-256 records, and per-image review.
+- Six first-party templates with final prompts, images, SHA-256 records, and per-image review.
 - A realistic fashion lookbook validating one adult identity, anatomy, and complete full-body framing across six outfits.
 - An exploded product diagram validating nine-layer hierarchy, assembly plausibility, and a no-pseudo-text boundary for fictional hardware.
+- A quiet editorial portrait validating adult identity, modest styling, seated anatomy, natural interior light, and a non-sexualized presentation boundary.
 - Visual Brief, template/example selection, prompt compilation, and provider-neutral generation requests.
 - A no-paid-API built-in material route with exact-canvas composition.
 - File QC, human visual review, approval gates, asset manifests, and safe promotion.

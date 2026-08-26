@@ -1,12 +1,12 @@
 {
   "version": "0.1",
-  "source": {"kind": "first-party", "version": "0.3.0", "license": "MIT", "catalog_path": "data/cases.json"},
+  "source": {"kind": "first-party", "version": "0.4.0", "license": "MIT", "catalog_path": "data/cases.json"},
   "taxonomy": {
     "categories": ["Characters & People", "Products & E-commerce"],
-    "styles": ["Character", "Fashion", "Illustration", "Photography", "Product", "Realistic", "Technical"],
-    "scenes": ["Commerce", "Creative", "Fashion", "Story", "Tech"]
+    "styles": ["Character", "Editorial", "Fashion", "Illustration", "Photography", "Product", "Realistic", "Technical"],
+    "scenes": ["Commerce", "Creative", "Fashion", "Interior", "Story", "Tech"]
   },
-  "summary": {"record_count": 5, "approved_count": 5},
+  "summary": {"record_count": 6, "approved_count": 6},
   "cases": [
     {
       "id": 1,
@@ -71,6 +71,19 @@
       "prompt_path": "gallery/prompts/exploded-product-diagram-orbital-frame-one.md",
       "prompt_sha256": "6ec712b48813d3d56611bccefa720de5e3569fb75bd86250256d150fd66ebe8e",
       "image": {"path": "gallery/images/exploded-product-diagram-orbital-frame-one.png", "alt": "ORBITAL FRAME ONE exploded product diagram"},
+      "status": "approved_public_gallery"
+    },
+    {
+      "id": 6,
+      "title": "MIRA KANG Quiet Editorial Portrait",
+      "category": "Characters & People",
+      "styles": ["Photography", "Realistic", "Editorial"],
+      "scenes": ["Creative", "Interior"],
+      "featured": true,
+      "selection_text": "Photorealistic 9:16 quiet indoor editorial portrait of one original adult person seated naturally against a textured plaster wall, modest knit and overshirt layers, complete hands and lower-body context, soft window side light, restrained grain, off-camera gaze, generous negative space, and no sexualized styling or text.",
+      "prompt_path": "gallery/prompts/quiet-editorial-portrait-mira-kang.md",
+      "prompt_sha256": "019864f7f5236392193cd72593790c0548394864fffff3a5bb343e26aeb2fd02",
+      "image": {"path": "gallery/images/quiet-editorial-portrait-mira-kang.png", "alt": "MIRA KANG quiet editorial portrait"},
       "status": "approved_public_gallery"
     }
   ]

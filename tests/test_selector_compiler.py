@@ -28,6 +28,7 @@ class SelectorCompilerTests(unittest.TestCase):
             "character-edit-brief.json": "character-design-sheet",
             "exploded-product-diagram-brief.json": "exploded-product-diagram",
             "fashion-lookbook-brief.json": "realistic-fashion-lookbook",
+            "quiet-editorial-portrait-brief.json": "quiet-editorial-portrait",
             "hero-brief.json": "product-commerce-visual",
             "product-brief.json": "product-commerce-visual",
             "product-background-edit-brief.json": "product-commerce-visual",

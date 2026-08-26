@@ -1,0 +1,57 @@
+{
+  "version": "0.1",
+  "asset_id": "mira-quiet-interior-portrait",
+  "goal": "Create a quiet indoor editorial portrait of one fictional adult with natural body language and restrained visual treatment.",
+  "audience": "Editorial art directors seeking believable, non-glamour people imagery",
+  "deliverable": {
+    "type": "character",
+    "width": 941,
+    "height": 1672,
+    "format": "png",
+    "transparent_background": false
+  },
+  "content": {
+    "subject": "One fictional adult woman seated naturally against a warm gray plaster wall in a minimal interior",
+    "exact_text": [],
+    "must_include": [
+      "One clearly adult person",
+      "Both complete visible hands",
+      "Modest layered knit and overshirt wardrobe",
+      "Quiet seated pose with off-camera gaze",
+      "Useful wall and floor negative space"
+    ],
+    "must_avoid": [
+      "Sexualized styling or pose",
+      "Childlike appearance",
+      "Beauty-ad retouching",
+      "Cropped hands or distorted joints",
+      "Visible text, brands, or watermarks"
+    ]
+  },
+  "art_direction": {
+    "style": "Photorealistic quiet editorial portrait with subtle film grain and natural light",
+    "palette": ["warm gray", "ecru", "dove gray", "charcoal", "muted skin tones"],
+    "lighting": "Soft window side light with broad low-contrast room fill and gentle wall shadows",
+    "materials": ["natural skin", "ribbed knit", "washed cotton", "textured plaster", "concrete floor"]
+  },
+  "composition": {
+    "layout": "9:16 minimal interior portrait with a seated subject low and slightly right of center and generous negative space above",
+    "viewpoint": "Near-floor-height 85 mm editorial portrait perspective",
+    "focal_hierarchy": ["Calm adult presence", "Natural seated body language", "Quiet wall and floor negative space"]
+  },
+  "references": [],
+  "qa": {
+    "objective_checks": [
+      "Output is exactly 941x1672 PNG",
+      "Exactly one adult person appears",
+      "No text, logo, brand, or watermark appears"
+    ],
+    "visual_checks": [
+      "Hands, knees, socks, and clothing are complete and plausible",
+      "The wardrobe and pose are modest and non-sexualized",
+      "Skin, hair, textile, wall, and floor read as natural photography",
+      "The subject is visually distinct from any reference example"
+    ],
+    "approval_required": true
+  }
+}

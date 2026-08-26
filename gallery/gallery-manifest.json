@@ -103,6 +103,24 @@
       "first_party": true,
       "input_assets": [],
       "status": "approved_public_gallery"
+    },
+    {
+      "case_id": 6,
+      "id": "quiet-editorial-portrait-mira-kang",
+      "template_id": "quiet-editorial-portrait",
+      "image_path": "gallery/images/quiet-editorial-portrait-mira-kang.png",
+      "prompt_path": "gallery/prompts/quiet-editorial-portrait-mira-kang.md",
+      "image_sha256": "d69c6f58737ecb46d7c795cad75e35d932ad47c386a9584daabff6eca8449300",
+      "prompt_sha256": "019864f7f5236392193cd72593790c0548394864fffff3a5bb343e26aeb2fd02",
+      "width": 941,
+      "height": 1672,
+      "format": "PNG",
+      "mode": "RGB",
+      "provider_path": "codex-built-in-imagegen",
+      "paid_api": false,
+      "first_party": true,
+      "input_assets": [],
+      "status": "approved_public_gallery"
     }
   ]
 }

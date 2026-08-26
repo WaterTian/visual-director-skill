@@ -52,6 +52,23 @@ PRODUCT_ROUTES = (
 
 CHARACTER_ROUTES = (
     (
+        "tonal-studio-editorial-portrait",
+        (
+            "tonal studio portrait",
+            "warm tonal portrait",
+            "warm tonal studio editorial portrait",
+            "warm-tonal studio editorial portrait",
+            "warm-tonal studio editorial",
+            "male studio editorial",
+            "cocoa studio portrait",
+            "warm studio editorial portrait",
+            "暖调棚拍人像",
+            "男性棚拍编辑人像",
+            "棕色影棚人像",
+            "暖调影棚编辑人像",
+        ),
+    ),
+    (
         "realistic-hairstyle-variation-board",
         (
             "hairstyle variation",

@@ -2,6 +2,20 @@
 
 This project follows semantic versioning. / 本项目遵循语义化版本号。
 
+## 0.11.0 - 2026-08-26
+
+Adds a reviewed warm-tonal studio editorial-portrait workflow. / 新增已验收的暖调影棚编辑人像工作流。
+
+### Added / 新增
+
+- `tonal-studio-editorial-portrait` template for one fictional adult man with clear eyes, complete head-and-shoulders framing, natural age detail, skin and beard texture, readable brushed cotton and knit, and a controlled cocoa studio field. / 新增 `tonal-studio-editorial-portrait` 模板，包含一位虚构成年男性、清晰双眼、完整头肩边界、自然年龄细节、皮肤与胡须纹理、可读的磨毛棉布和针织材质，以及受控可可色影棚背景。
+- Character routing for tonal studio, warm tonal, male studio editorial, and cocoa-studio portrait requests. / 新增针对暖调影棚、暖色调、男性影棚编辑人像和可可色影棚人像请求的人物路由。
+- Final prompt, approved image, SHA-256 records, bilingual review, selector fixture, and ranking coverage. / 新增最终 Prompt、批准效果图、SHA-256、中英文复核、选择器夹具和排序覆盖。
+
+### Quality boundary / 质量边界
+
+- The public result uses no reference image, no real-person likeness, no paid API, no brand, no text, no sunglasses, and no beauty-retouch, luxury-campaign, or exaggerated-cinematic treatment. / 公开结果不使用参考图、真人相似性、付费 API、品牌、文字或墨镜，也不采用美颜精修、奢侈品广告化或夸张电影化表达。
+
 ## 0.10.0 - 2026-08-26
 
 Adds a reviewed concept-poster visual-plate workflow. / 新增已验收的概念海报视觉底板工作流。

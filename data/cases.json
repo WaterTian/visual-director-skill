@@ -1,12 +1,12 @@
 {
   "version": "0.1",
-  "source": {"kind": "first-party", "version": "0.10.0", "license": "MIT", "catalog_path": "data/cases.json"},
+  "source": {"kind": "first-party", "version": "0.11.0", "license": "MIT", "catalog_path": "data/cases.json"},
   "taxonomy": {
     "categories": ["Characters & People", "Posters & Typography", "Products & E-commerce"],
     "styles": ["Character", "Documentary", "Editorial", "Fashion", "Illustration", "Motion", "Photography", "Poster", "Product", "Realistic", "Technical"],
     "scenes": ["Commerce", "Creative", "Fashion", "Interior", "Story", "Tech", "Urban"]
   },
-  "summary": {"record_count": 12, "approved_count": 12},
+  "summary": {"record_count": 13, "approved_count": 13},
   "cases": [
     {
       "id": 1,
@@ -162,6 +162,19 @@
       "prompt_path": "gallery/prompts/concept-poster-visual-plate-solstice-void.md",
       "prompt_sha256": "f2a0b41d075f2837409bfde408bba1ed2b0cadabc5a47231c0a1d841bb54879a",
       "image": {"path": "gallery/images/concept-poster-visual-plate-solstice-void.png", "alt": "SOLSTICE VOID concept poster visual plate"},
+      "status": "approved_public_gallery"
+    },
+    {
+      "id": 13,
+      "title": "ARDEN SLOANE Tonal Studio Editorial Portrait",
+      "category": "Characters & People",
+      "styles": ["Photography", "Realistic", "Editorial"],
+      "scenes": ["Creative", "Interior"],
+      "featured": true,
+      "selection_text": "Tonal studio editorial portrait of one fictional 46-year-old man, clear brown eyes, natural pores, graying temples, salt-and-pepper beard, chestnut brushed-cotton overshirt and charcoal knit, a clean cocoa studio field, a broad warm key and subtle cool edge, visible fabric seam and beard hair, unbranded and no text.",
+      "prompt_path": "gallery/prompts/tonal-studio-editorial-portrait-arden-sloane.md",
+      "prompt_sha256": "49125c962d4c22e191d3e895e5e0b62a4f9a294b7b955332eac41487f8961f49",
+      "image": {"path": "gallery/images/tonal-studio-editorial-portrait-arden-sloane.png", "alt": "ARDEN SLOANE tonal studio editorial portrait"},
       "status": "approved_public_gallery"
     }
   ]

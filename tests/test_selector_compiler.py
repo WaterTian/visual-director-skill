@@ -33,6 +33,7 @@ class SelectorCompilerTests(unittest.TestCase):
             "quiet-editorial-portrait-brief.json": "quiet-editorial-portrait",
             "realistic-motion-editorial-brief.json": "realistic-motion-editorial",
             "realistic-hairstyle-variation-board-brief.json": "realistic-hairstyle-variation-board",
+            "tonal-studio-editorial-portrait-brief.json": "tonal-studio-editorial-portrait",
             "hero-brief.json": "product-commerce-visual",
             "product-brief.json": "product-commerce-visual",
             "product-background-edit-brief.json": "product-commerce-visual",

@@ -80,6 +80,18 @@ SPECIALIZED_CASE_TITLE_TERMS: tuple[tuple[str, tuple[str, ...]], ...] = (
             "理发",
         ),
     ),
+    (
+        "tonal studio",
+        (
+            "tonal studio",
+            "warm tonal studio",
+            "warm-tonal studio",
+            "cocoa studio",
+            "暖调棚拍",
+            "暖调影棚",
+            "棕色影棚",
+        ),
+    ),
 )
 
 CUE_PATTERNS: tuple[tuple[str, tuple[str, ...]], ...] = (

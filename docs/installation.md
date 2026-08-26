@@ -40,7 +40,7 @@ codex plugin list --json
 3. 新任务可以识别 `$visual-director`。
 4. Prompt-only 验证不会生成图片。
 5. `plugins/visual-director/` 中没有密钥、个人绝对路径、研究资料或未批准图片。
-6. `runtime/data/cases.json` 只包含十二个已批准第一方案例。
+6. `runtime/data/cases.json` 只包含十三个已批准第一方案例。
 
 ### 升级与卸载
 

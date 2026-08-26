@@ -260,6 +260,19 @@
       "provenance": {"kind": "first-party", "version": "0.9.0", "path": "gallery/prompts/realistic-hairstyle-variation-board-maris-vale.md", "license": "MIT"}
     },
     {
+      "id": "tonal-studio-editorial-portrait",
+      "title": {"en": "Tonal Studio Editorial Portrait", "zh": "暖调影棚编辑人像"},
+      "category": "Characters & People",
+      "styles": ["Photography", "Realistic", "Editorial"],
+      "scenes": ["Creative", "Interior"],
+      "tags": ["tonal-studio", "male-portrait", "natural-age-detail", "fabric", "beard", "controlled-color"],
+      "use_when": {"en": "Use for a restrained photorealistic head-and-shoulders portrait of one fictional adult man where controlled warm studio color, clear eyes, natural age detail, skin, beard, and wardrobe material must all remain credible without luxury-campaign polish.", "zh": "用于需要一位虚构成年男性的克制写实头肩影棚人像，并要求受控暖色、清晰双眼、自然年龄细节、皮肤、胡须和服装材质都可信，且不呈现奢侈品广告式精修。"},
+      "guidance": {"en": ["Declare one fictional adult identity, a specific adult age, clear-eye requirement, full crown-and-chin frame boundary, and no real-person reference before describing aesthetic detail.", "Use a plain seamless studio field, a small disciplined palette, broad warm key light, and only enough cool edge separation to preserve silhouette; let material evidence carry the realism.", "Name inspectable skin, beard, and wardrobe details such as pores, faint under-eye texture, individual beard hairs, brushed cotton, knit ribbing, and seams.", "Keep the resulting portrait observational and unbranded; exclude sunglasses, jewelry, campaign styling, beauty smoothing, and exaggerated color grading."], "zh": ["在描述美学细节前，先定义一位虚构成年身份、具体成年年龄、清晰双眼要求、完整头顶与下巴边界，以及不使用真人参考。", "使用简洁无缝影棚背景、小而克制的色板、宽柔暖主光和仅足以保留轮廓的冷边光；以材质证据而非泛化精致词建立真实感。", "明确可检查的皮肤、胡须和服装细节，例如毛孔、淡眼下纹理、单根胡须、磨毛棉布、针织罗纹和缝线。", "让人像保持观察式、无品牌表达；排除墨镜、珠宝、广告化摆拍、美颜磨皮和夸张调色。"]},
+      "pitfalls": {"en": ["plastic skin", "sunglasses obscuring eyes", "brand styling", "cropped crown or chin", "glamour retouch", "exaggerated color grade"], "zh": ["塑料肤质", "墨镜遮挡双眼", "品牌化造型", "头顶或下巴裁切", "精修摆拍", "夸张调色"]},
+      "example_cases": [13],
+      "provenance": {"kind": "first-party", "version": "0.11.0", "path": "gallery/prompts/tonal-studio-editorial-portrait-arden-sloane.md", "license": "MIT"}
+    },
+    {
       "id": "realistic-photography",
       "title": {"en": "Realistic Photography", "zh": "真实人物摄影"},
       "category": "Characters & People",

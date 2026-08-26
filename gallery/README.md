@@ -103,6 +103,15 @@ This gallery contains only first-party results whose prompts were refined, gener
 - 1024 × 1536, PNG/RGB, vertical typography-safe visual plate / 竖幅文字安全视觉底板
 - Complete folded-paper ring, one interior disc, controlled color and material hierarchy, practical typography-safe zones, no-text, and no-brand requirements passed visual review / 完整折纸环、单一内景圆盘、受控色彩与材质层级、可用文字安全区、无文字和无品牌要求已通过视觉复核
 
+## Tonal Studio Editorial Portrait / 暖调影棚编辑人像
+
+![ARDEN SLOANE tonal studio editorial portrait](images/tonal-studio-editorial-portrait-arden-sloane.png)
+
+- [Final prompt and review / 最终 Prompt 与复核](prompts/tonal-studio-editorial-portrait-arden-sloane.md)
+- Newly specified fictional adult identity with no real-person or external image reference / 全新设定的虚构成年身份，不使用真人或外部图片参考
+- 1023 × 1537, PNG/RGB, vertical warm-tonal head-and-shoulders studio portrait / 竖幅暖调头肩影棚人像
+- Clear eyes, complete crown and chin, natural pores, age detail, beard and clothing material, restrained unbranded studio treatment, and no-text requirements passed visual review / 清晰双眼、完整头顶与下巴、自然毛孔、年龄细节、胡须与服装材质、克制无品牌影棚表达和无文字要求已通过视觉复核
+
 ## Product Commerce Visual / 商品商业视觉
 
 ![AURORA MINI product commerce visual](images/product-commerce-visual-aurora-mini.png)

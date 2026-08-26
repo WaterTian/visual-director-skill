@@ -1,0 +1,30 @@
+{
+  "version": "0.1",
+  "asset_id": "tonal-studio-editorial-portrait-selection",
+  "goal": "Create a restrained photorealistic warm-tonal studio editorial portrait of one fictional mature adult man with natural age and fabric detail.",
+  "audience": "Editorial art directors seeking controlled color, material realism, and a non-promotional male portrait",
+  "deliverable": {"type": "character", "width": 1023, "height": 1537, "format": "png", "transparent_background": false},
+  "content": {
+    "subject": "One fictional 46-year-old man in an unbranded chestnut overshirt and charcoal knit against a cocoa studio field",
+    "exact_text": [],
+    "must_include": ["Exactly one clearly adult fictional man", "Both eyes clearly visible with calm direct gaze", "Complete face, hairline, short salt-and-pepper beard, neck, and head-and-shoulders context", "Natural pores, faint under-eye texture, individual beard hairs, and a small healed left-eyebrow notch", "Unbranded chestnut brushed-cotton overshirt over charcoal fine-gauge knit", "Plain chestnut-to-deep-cocoa seamless studio background with warm key and restrained cool edge separation"],
+    "must_avoid": ["Extra people, duplicated features, malformed anatomy, cropped crown or chin", "Sunglasses, jewelry, insignia, label, logo, text, or watermark", "Beauty smoothing, plastic skin, luxury-brand campaign, glamour posing, or exaggerated cinematic effects", "Real-person or celebrity likeness, collage, illustration, cartoon, anime, or CGI styling"]
+  },
+  "art_direction": {
+    "style": "Photorealistic restrained contemporary studio editorial",
+    "palette": ["deep chestnut", "cocoa", "charcoal", "soft warm skin", "subtle cool gray edge"],
+    "lighting": "Broad warm camera-left key, understated cool right edge separation, low sheen, and readable deep shadow",
+    "materials": ["natural skin pores", "salt-and-pepper beard hair", "brushed cotton", "fine-gauge knit", "matte seamless paper"]
+  },
+  "composition": {
+    "layout": "Vertical head-and-shoulders portrait with quiet negative backdrop and readable shoulder fabric",
+    "viewpoint": "Eye-level 85 mm studio portrait perspective",
+    "focal_hierarchy": ["Clear adult eyes and calm expression", "Natural skin, hair, and beard detail", "Chestnut overshirt and charcoal knit material", "Controlled cocoa studio field"]
+  },
+  "references": [],
+  "qa": {
+    "objective_checks": ["Output is exactly 1023x1537 PNG/RGB without alpha", "Exactly one adult person appears", "No visible text, logo, brand, or watermark appears"],
+    "visual_checks": ["Face, eyes, hairline, beard, neck, shoulders, and cropped boundaries are coherent", "Natural age detail, skin, beard, and fabric remain photographic without beauty smoothing", "Wardrobe and studio color treatment remain restrained, unbranded, and non-promotional", "The image is distinct from outdoor documentary, motion, rehearsal, craft, fashion-grid, and character-sheet imagery"],
+    "approval_required": true
+  }
+}

@@ -223,6 +223,24 @@
       "first_party": true,
       "input_assets": [],
       "status": "approved_public_gallery"
+    },
+    {
+      "case_id": 13,
+      "id": "tonal-studio-editorial-portrait-arden-sloane",
+      "template_id": "tonal-studio-editorial-portrait",
+      "image_path": "gallery/images/tonal-studio-editorial-portrait-arden-sloane.png",
+      "prompt_path": "gallery/prompts/tonal-studio-editorial-portrait-arden-sloane.md",
+      "image_sha256": "54e1154f343baabc24d1c3c93909654a5218500ae52ac40bc47174a09a2b8cde",
+      "prompt_sha256": "49125c962d4c22e191d3e895e5e0b62a4f9a294b7b955332eac41487f8961f49",
+      "width": 1023,
+      "height": 1537,
+      "format": "PNG",
+      "mode": "RGB",
+      "provider_path": "codex-built-in-imagegen",
+      "paid_api": false,
+      "first_party": true,
+      "input_assets": [],
+      "status": "approved_public_gallery"
     }
   ]
 }

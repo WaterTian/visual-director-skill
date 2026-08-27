@@ -8,67 +8,29 @@ Visual Director is a portable visual-production skill for Codex. It turns an amb
 
 `v0.12.0` · `MIT` · `14 reviewed workflows` · `14 approved gallery assets` · `no paid API required`
 
-## Gallery
+## Start here / 从这里开始
 
-| Character Design Sheet / 角色设定表 | Realistic Photography / 真实人物摄影 |
+| Your goal / 你的目标 | Recommended route / 推荐路径 | First action / 第一步 |
+|---|---|---|
+| Develop or adapt this project / 开发或改造本项目 | Repository-scoped Skill / 仓库级 Skill | Clone, run tests, then start `codex` from this repository. / clone、运行测试后，在仓库目录启动 `codex`。 |
+| Reuse it across projects / 跨项目复用 | Local Plugin / 本地 Plugin | Build the package, add this repository as a marketplace, install the plugin, then start a new task or CLI session. / 构建包、将仓库加入 marketplace、安装 Plugin，再新开任务或 CLI 会话。 |
+| Need exact copy or pixels / 需要精确文字或画布像素 | Exact-canvas route / 精确画布路线 | Generate visual material first; add final typography and composition deterministically. / 先生成视觉素材，再用确定性排版完成文字与画布。 |
+
+Visual Director is a decision and quality workflow, not a prompt dump or a paid image API wrapper. It can prepare generation work without a paid API, but image generation itself always needs the user's current authorization. / Visual Director 是决策与质量工作流，不是 Prompt 合集或付费生图 API 封装。它可以在不使用付费 API 的情况下准备生成工作，但实际生图始终需要当前用户授权。
+
+## Featured evidence / 已验收样例
+
+| Character direction / 人物方向 | Exact-layout direction / 精确版式方向 |
 |---|---|
-| ![MARA VENN character design sheet](gallery/images/character-design-sheet-mara-venn.png) | ![MARA VENN realistic environmental portrait](gallery/images/realistic-photography-mara-venn.png) |
-| [Prompt + review / Prompt 与复核](gallery/prompts/character-design-sheet-mara-venn.md) | [Prompt + review / Prompt 与复核](gallery/prompts/realistic-photography-mara-venn.md) |
+| ![ARDEN SLOANE tonal studio editorial portrait](gallery/images/tonal-studio-editorial-portrait-arden-sloane.png) | ![SOLSTICE VOID concept poster visual plate](gallery/images/concept-poster-visual-plate-solstice-void.png) |
+| [Tonal studio portrait: prompt + review / 暖调影棚人像：Prompt 与复核](gallery/prompts/tonal-studio-editorial-portrait-arden-sloane.md) | [Concept poster plate: prompt + review / 概念海报底板：Prompt 与复核](gallery/prompts/concept-poster-visual-plate-solstice-void.md) |
 
-| Realistic Fashion Lookbook / 写实时装 Lookbook | Product Commerce Visual / 商品商业视觉 |
+| Full-context character direction / 全身语境人物方向 | Product direction / 产品方向 |
 |---|---|
-| ![NOA REYES realistic six-look fashion lookbook](gallery/images/realistic-fashion-lookbook-noa-reyes.png) | ![AURORA MINI product commerce visual](gallery/images/product-commerce-visual-aurora-mini.png) |
-| [Prompt + review / Prompt 与复核](gallery/prompts/realistic-fashion-lookbook-noa-reyes.md) | [Prompt + review / Prompt 与复核](gallery/prompts/product-commerce-visual-aurora-mini.md) |
+| ![LEA ORREN minimal floor editorial portrait](gallery/images/minimal-floor-editorial-portrait-lea-orren.png) | ![ORBITAL FRAME ONE exploded product diagram](gallery/images/exploded-product-diagram-orbital-frame-one.png) |
+| [Minimal floor portrait: prompt + review / 极简落地人像：Prompt 与复核](gallery/prompts/minimal-floor-editorial-portrait-lea-orren.md) | [Exploded product: prompt + review / 产品分解结构：Prompt 与复核](gallery/prompts/exploded-product-diagram-orbital-frame-one.md) |
 
-| Exploded Product Diagram / 产品分解结构图 |
-|---|
-| ![ORBITAL FRAME ONE exploded product diagram](gallery/images/exploded-product-diagram-orbital-frame-one.png) |
-| [Prompt + review / Prompt 与复核](gallery/prompts/exploded-product-diagram-orbital-frame-one.md) |
-
-| Quiet Editorial Portrait / 静谧编辑人像 |
-|---|
-| ![MIRA KANG quiet editorial portrait](gallery/images/quiet-editorial-portrait-mira-kang.png) |
-| [Prompt + review / Prompt 与复核](gallery/prompts/quiet-editorial-portrait-mira-kang.md) |
-
-| Realistic Motion Editorial / 写实动态编辑摄影 |
-|---|
-| ![LEO NAVARRO realistic full-body motion editorial](gallery/images/realistic-motion-editorial-leo-navarro.png) |
-| [Prompt + review / Prompt 与复核](gallery/prompts/realistic-motion-editorial-leo-navarro.md) |
-
-| Documentary Craft Portrait / 写实手作纪实人像 |
-|---|
-| ![ANIKA ROWAN documentary craft portrait](gallery/images/documentary-craft-portrait-anika-rowan.png) |
-| [Prompt + review / Prompt 与复核](gallery/prompts/documentary-craft-portrait-anika-rowan.md) |
-
-| Documentary Music Rehearsal / 写实音乐排练纪实人像 |
-|---|
-| ![ELISE MOREAU documentary music rehearsal](gallery/images/documentary-music-rehearsal-elise-moreau.png) |
-| [Prompt + review / Prompt 与复核](gallery/prompts/documentary-music-rehearsal-elise-moreau.md) |
-
-| Mature Documentary Portrait / 成熟年龄纪实人像 |
-|---|
-| ![NORA VALE mature documentary portrait](gallery/images/mature-documentary-portrait-nora-vale.png) |
-| [Prompt + review / Prompt 与复核](gallery/prompts/mature-documentary-portrait-nora-vale.md) |
-
-| Realistic Hairstyle Variation Board / 写实发型变化咨询板 |
-|---|
-| ![MARIS VALE realistic hairstyle variation board](gallery/images/realistic-hairstyle-variation-board-maris-vale.png) |
-| [Prompt + review / Prompt 与复核](gallery/prompts/realistic-hairstyle-variation-board-maris-vale.md) |
-
-| Concept Poster Visual Plate / 概念海报视觉底板 |
-|---|
-| ![SOLSTICE VOID concept poster visual plate](gallery/images/concept-poster-visual-plate-solstice-void.png) |
-| [Prompt + review / Prompt 与复核](gallery/prompts/concept-poster-visual-plate-solstice-void.md) |
-
-| Tonal Studio Editorial Portrait / 暖调影棚编辑人像 |
-|---|
-| ![ARDEN SLOANE tonal studio editorial portrait](gallery/images/tonal-studio-editorial-portrait-arden-sloane.png) |
-| [Prompt + review / Prompt 与复核](gallery/prompts/tonal-studio-editorial-portrait-arden-sloane.md) |
-
-| Minimal Floor Editorial Portrait / 极简落地编辑人像 |
-|---|
-| ![LEA ORREN minimal floor editorial portrait](gallery/images/minimal-floor-editorial-portrait-lea-orren.png) |
-| [Prompt + review / Prompt 与复核](gallery/prompts/minimal-floor-editorial-portrait-lea-orren.md) |
+See the [complete 14-asset gallery / 完整 14 项 Gallery](gallery/README.md) for every approved image, final Prompt, and review record.
 
 ## 中文
 

@@ -4,6 +4,12 @@
 
 This gallery contains only first-party results whose prompts were refined, generated, visually reviewed, and approved for publication. Every image is bound to its final prompt, SHA-256, dimensions, input roles, and review status.
 
+## 如何使用 / How to use
+
+1. 先根据交付物选择相近的已验收方向，再打开该案例的最终 Prompt 与复核记录。/ First choose a nearby reviewed direction for the deliverable, then open its final Prompt and review record.
+2. 只借鉴与当前 Brief 共同需要的构图、光线、材质或版式线索；不得复制案例中的人物身份、主体、品牌、可见文字或水印。/ Reuse only composition, lighting, material, or layout cues also required by the current Brief; never copy a case identity, subject, brand, visible text, or watermark.
+3. 效果图用于人工比较，不是复现承诺。新的候选仍须通过文件 QC、逐项视觉复核、独立批准和 manifest 写入。/ Images support human comparison; they are not a reproducibility promise. Every new candidate still needs file QC, itemized visual review, independent approval, and manifest entry.
+
 ## Character Design Sheet / 人物角色设定表
 
 ![MARA VENN character design sheet](images/character-design-sheet-mara-venn.png)

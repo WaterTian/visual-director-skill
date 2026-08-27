@@ -9,6 +9,8 @@ Visual Director 分为四层：
 3. **执行层**：Prompt 编译器生成 provider-neutral 请求；生成可以交给当前 Codex 的内置图片能力或外部 handoff，核心不保存密钥。
 4. **质量层**：文件 QC、人工视觉复核、批准记录和 promotion 共同决定候选是否能成为正式资产。
 
+它不是图像模型或付费 API 代理。它负责把生成任务变成可审计的输入、选择、证据和落盘决策；实际生图由当前任务中已授权的能力完成。
+
 ```text
 VisualBrief
   ├─ TemplateSelection
@@ -21,6 +23,15 @@ VisualBrief
          ↓
   Approval → AssetManifest → Formal Asset
 ```
+
+### 权威来源 / Source of truth
+
+| 内容 | 权威文件 | 用途 |
+|---|---|---|
+| 输入与输出契约 | `schemas/` | 约束 Brief、选择、生成记录、QC 和 Gallery manifest 的结构。 |
+| 已验收工作流 | `data/templates.json`、`data/cases.json` | 模板选择和案例选择只读取这些第一方目录。 |
+| 可公开资产 | `gallery/gallery-manifest.json` | 公开白名单；哈希、尺寸、Prompt 与审核状态必须在此一致。 |
+| 过程证据 | `work/` | 私下保存候选与复核过程；不构成公开内容，不能被直接当成 Gallery 资产。 |
 
 ### 关键边界
 
@@ -43,6 +54,17 @@ Visual Director has four layers:
 2. **Decision:** template and example selectors read only the first-party catalogs and return explainable scores with at most three reviewed examples.
 3. **Execution:** the compiler creates a provider-neutral request. Generation can use the image capability available in the current Codex session or an external handoff; the core stores no keys.
 4. **Quality:** file QC, human visual review, approval records, and promotion determine whether a candidate can become a formal asset.
+
+It is not an image model or paid-API proxy. It turns generation work into auditable inputs, selection, evidence, and landing decisions; actual image generation is performed by a capability authorized in the current task.
+
+### Source of truth
+
+| Content | Authoritative files | Purpose |
+|---|---|---|
+| Input and output contracts | `schemas/` | Constrain the structure of Briefs, selections, generation records, QC, and the Gallery manifest. |
+| Reviewed workflows | `data/templates.json`, `data/cases.json` | Template and case selection read only these first-party catalogs. |
+| Public assets | `gallery/gallery-manifest.json` | Publication allowlist; hashes, dimensions, Prompt, and review state must agree here. |
+| Process evidence | `work/` | Holds private candidates and review process records; it is not public content and cannot directly become a Gallery asset. |
 
 ### Boundaries
 

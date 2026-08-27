@@ -24,11 +24,11 @@
 
 ### 下一阶段
 
-1. **人物角色优先**：继续选择与现有设定表、环境肖像和时装 Lookbook 明显不同的写实人物方向，一次只推进一张；产品方向仅在用户明确指定时扩展。
-2. 每张新图同步更新：最终 Prompt、效果图、尺寸、SHA-256、输入角色、QC 和案例目录。
-3. 增加角色连续性检查：脸部、发型、服装结构、左右细节、手部和多视图比例。
-4. 在第二台物理电脑完成 Plugin 安装、识别、Prompt-only 和 no-paid-API 验收。
-5. 达到以上门槛后再扩展海报、信息图和 UI，不提前声明未经实测的模板。
+1. **人物角色优先**：继续选择与现有设定表、环境肖像、时装 Lookbook、暖调影棚和落地编辑人像明显不同的写实方向；一次只推进一张，产品方向仅在用户明确指定时扩展。
+2. **每图闭环**：每张新图同步更新最终 Prompt、效果图、尺寸、SHA-256、输入角色、QC、独立批准和案例目录；任何一项缺失都不进入公开 Gallery。
+3. **连续性检查**：增加角色连续性检查，覆盖脸部、发型、服装结构、左右细节、手部和多视图比例；将测量和人工视觉判断分开记录。
+4. **可移植验证**：在第二台物理电脑完成 Plugin 构建、安装、发现、Prompt-only 和 no-paid-API 验收，并记录实际环境与结果。
+5. **谨慎扩展**：在上述门槛稳定后，再分别验证海报、信息图和 UI；每个新方向先有可公开的实测资产，再写入已验收范围。
 
 ### 完成定义
 
@@ -64,11 +64,11 @@
 
 ### Next
 
-1. Continue character work with realistic directions that differ clearly from the existing design sheet, environmental portrait, and fashion lookbook, one reviewed asset at a time; expand product work only when the user explicitly directs it.
-2. For every accepted image, update the final prompt, image, dimensions, SHA-256, input roles, QC, and catalog record together.
-3. Expand character-continuity checks for face, hair, costume construction, left-right details, hands, and multi-view proportions.
-4. Verify plugin installation, discovery, prompt-only behavior, and the no-paid-API boundary on a second physical computer.
-5. Add poster, infographic, and UI templates only after equivalent generation and review evidence exists.
+1. **Prioritize characters:** continue with realistic directions that differ clearly from the existing design sheet, environmental portrait, fashion lookbook, tonal studio, and floor editorial work. Advance one reviewed asset at a time; expand product work only when the user explicitly directs it.
+2. **Close every image:** update the final Prompt, image, dimensions, SHA-256, input roles, QC, independent approval, and catalog record together. A missing item blocks entry to the public Gallery.
+3. **Check continuity:** expand character-continuity checks for face, hair, costume construction, left-right details, hands, and multi-view proportions; record measured checks separately from human visual judgment.
+4. **Verify portability:** on a second physical computer, build and install the Plugin, verify discovery and prompt-only behavior, confirm the no-paid-API boundary, and record the actual environment and result.
+5. **Expand deliberately:** validate posters, infographics, and UI separately after the above gates are stable. Each new direction needs a public, tested asset before it enters the reviewed scope.
 
 ### Definition of done
 

@@ -259,6 +259,29 @@
       "first_party": true,
       "input_assets": [],
       "status": "approved_public_gallery"
+    },
+    {
+      "case_id": 15,
+      "id": "concept-design-process-board-crumple-lounge",
+      "template_id": "concept-design-process-board",
+      "image_path": "gallery/images/concept-design-process-board-crumple-lounge.png",
+      "prompt_path": "gallery/prompts/concept-design-process-board-crumple-lounge.md",
+      "image_sha256": "553917185cb6fc750092b8020f45df55e5e1f8ca3e24f9b381f7a4313a8c6681",
+      "prompt_sha256": "ea83eba532945a2ba86d6c45afdf0caa6b038380a3fc97d2b0425c19241edb23",
+      "width": 972,
+      "height": 1619,
+      "format": "PNG",
+      "mode": "RGB",
+      "provider_path": "codex-built-in-imagegen",
+      "paid_api": false,
+      "first_party": true,
+      "input_assets": [
+        {
+          "path": "first-party-private://crumple-chair-concept-board-v1",
+          "role": "project-created edit target and sole visual authority for the original chair identity and five-stage board concept"
+        }
+      ],
+      "status": "approved_public_gallery"
     }
   ]
 }

@@ -2,6 +2,20 @@
 
 This project follows semantic versioning. / 本项目遵循语义化版本号。
 
+## 0.13.0 - 2026-08-27
+
+Adds a reviewed industrial-design concept-process board workflow. / 新增已验收的工业设计概念过程板工作流。
+
+### Added / 新增
+
+- `concept-design-process-board` template for one original product identity shown through form study, ordered iteration, concept views, structure intent, material direction, and a clear concept-only boundary. / 新增 `concept-design-process-board` 模板，用于以形态研究、有序迭代、概念视图、结构意图、材质方向和明确的仅限概念边界展示一个原创产品身份。
+- Specialized infographic routing for concept-development boards, industrial-design boards, form evolution, material direction, and their Chinese equivalents. / 新增针对概念开发板、工业设计展板、形态演化、材质方向及相应中文请求的专用信息图路由。
+- Final edit Prompt, approved image, source and result SHA-256 records, bilingual review, selector fixture, and ranking coverage. / 新增最终编辑 Prompt、批准效果图、源图与结果 SHA-256、中英文复核、选择器夹具和排序覆盖。
+
+### Quality boundary / 质量边界
+
+- The public result uses one project-created first-party edit target and no paid API. Unsupported dimensions, seating angles, anthropometric figures, blueprint language, engineering validation, brands, and extra copy are excluded; `CONCEPT ONLY` states the intended use. / 公开结果使用一个由本项目创建的第一方编辑源图且不使用付费 API；排除未经支持的尺寸、座椅角度、人体测量数字、蓝图措辞、工程验证、品牌和额外文字，并以 `CONCEPT ONLY` 明确用途。
+
 ## 0.12.0 - 2026-08-26
 
 Adds a reviewed minimal floor editorial-portrait workflow. / 新增已验收的极简落地编辑人像工作流。

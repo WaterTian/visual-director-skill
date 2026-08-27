@@ -50,6 +50,30 @@ PRODUCT_ROUTES = (
     ),
 )
 
+INFOGRAPHIC_ROUTES = (
+    (
+        "concept-design-process-board",
+        (
+            "concept design process",
+            "concept development board",
+            "design process board",
+            "industrial design board",
+            "form study",
+            "form evolution",
+            "material direction",
+            "chair design process",
+            "概念设计过程",
+            "概念开发板",
+            "设计过程板",
+            "工业设计展板",
+            "形态研究",
+            "形态演化",
+            "材质方向",
+            "座椅设计过程",
+        ),
+    ),
+)
+
 CHARACTER_ROUTES = (
     (
         "minimal-floor-editorial-portrait",
@@ -290,6 +314,10 @@ def _target_route(deliverable_type: str, request: str) -> tuple[str, str | None]
         for template_id, terms in PRODUCT_ROUTES:
             if any(term in request for term in terms):
                 return "Products & E-commerce", template_id
+    if deliverable_type == "infographic":
+        for template_id, terms in INFOGRAPHIC_ROUTES:
+            if any(term in request for term in terms):
+                return "Charts & Infographics", template_id
     if deliverable_type == "character":
         for template_id, terms in CHARACTER_ROUTES:
             if any(term in request for term in terms):

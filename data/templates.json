@@ -1,6 +1,6 @@
 {
   "version": "0.1",
-  "updated_at": "2026-08-26T13:59:16Z",
+  "updated_at": "2026-08-27T12:00:00Z",
   "templates": [
     {
       "id": "character-design-sheet",
@@ -284,6 +284,19 @@
       "pitfalls": {"en": ["cropped hands or knees", "ambiguous seated anatomy", "sexualized styling", "childlike appearance", "furniture clutter", "heavy haze"], "zh": ["手部或膝部裁切", "坐姿人体含混", "性感化造型", "幼态外观", "家具杂乱", "浓重雾化"]},
       "example_cases": [14],
       "provenance": {"kind": "first-party", "version": "0.12.0", "path": "gallery/prompts/minimal-floor-editorial-portrait-lea-orren.md", "license": "MIT"}
+    },
+    {
+      "id": "concept-design-process-board",
+      "title": {"en": "Concept Design Process Board", "zh": "概念设计过程板"},
+      "category": "Charts & Infographics",
+      "styles": ["Infographic", "Product", "Technical", "Editorial"],
+      "scenes": ["Creative", "Tech"],
+      "tags": ["concept-development", "design-process", "form-study", "form-evolution", "structure-intent", "material-direction", "industrial-design"],
+      "use_when": {"en": "Use for an industrial-design concept board that must explain one original product's form study, iteration, viewing logic, structure intent, and material direction without claiming validated engineering.", "zh": "用于需要说明一个原创产品的形态研究、迭代、视图逻辑、结构意图和材质方向，同时不宣称工程验证的工业设计概念板。"},
+      "guidance": {"en": ["Lock one original concept identity and repeat its defining geometry consistently across the hero, evolution, orthographic-intent, structure, and material views.", "Separate concept communication from engineering authority: remove unsupported dimensions, tolerances, anthropometric figures, blueprint language, and validation claims.", "Use a disciplined modular grid, a large resolved hero, an ordered evolution strip, and only a small set of readable stage labels; reject tiny body copy and pseudo-text.", "Make structure and material panels visually plausible but label the entire artifact as concept-only unless verified source data exists."], "zh": ["锁定一个原创概念身份，并在英雄图、形态演化、视图意图、结构和材质方案中一致重复其关键几何。", "将概念表达与工程权威分离：删除未经支持的尺寸、公差、人体测量数字、蓝图措辞和验证声明。", "使用克制的模块网格、大幅完成态主图、有序演化条和少量可读阶段标签；拒绝微小正文和伪文字。", "结构与材质面板应在视觉上可信，但除非存在已验证源数据，否则整张图必须明确标为仅限概念。"]},
+      "pitfalls": {"en": ["inconsistent product geometry", "fabricated dimensions", "pseudo-engineering", "tiny unreadable copy", "random wireframes", "copied portfolio styling"], "zh": ["产品几何不一致", "虚构尺寸", "伪工程化", "微小难读文字", "随机线框", "复制作品集风格"]},
+      "example_cases": [15],
+      "provenance": {"kind": "first-party", "version": "0.13.0", "path": "gallery/prompts/concept-design-process-board-crumple-lounge.md", "license": "MIT"}
     },
     {
       "id": "realistic-photography",

@@ -1,0 +1,74 @@
+{
+  "version": "0.1",
+  "asset_id": "crumple-lounge-concept-design-process-board",
+  "goal": "Explain one original lounge-chair concept through a clear industrial-design development board without presenting generated ideas as validated engineering.",
+  "audience": "Industrial-design reviewers comparing form evolution, concept views, structure intent, and material direction",
+  "deliverable": {
+    "type": "infographic",
+    "width": 972,
+    "height": 1619,
+    "format": "png",
+    "transparent_background": false
+  },
+  "content": {
+    "subject": "One original faceted lounge-chair concept shown through five coherent stages on a vertical industrial-design development board",
+    "exact_text": [
+      "CRUMPLE LOUNGE",
+      "CONCEPT DEVELOPMENT",
+      "01 FORM STUDY",
+      "02 ITERATION",
+      "03 ERGONOMIC INTENT",
+      "04 STRUCTURE CONCEPT",
+      "05 MATERIAL DIRECTION",
+      "CONCEPT ONLY"
+    ],
+    "must_include": [
+      "One consistent original faceted lounge-chair identity",
+      "Five ordered concept-development stages",
+      "A large resolved hero chair",
+      "A five-step form-evolution strip",
+      "Front, side, and top concept views without measurements",
+      "A conceptual internal frame and two restrained material directions"
+    ],
+    "must_avoid": [
+      "Dimensions, seating angles, tolerances, or anthropometric numbers",
+      "Blueprint, patent, construction, validation, or certification claims",
+      "Pseudo-text, extra labels, brands, logos, signatures, or watermarks",
+      "Inconsistent chair geometry across views",
+      "Copied real products or recognisable portfolio work"
+    ]
+  },
+  "art_direction": {
+    "style": "Premium industrial-design portfolio board combining photorealistic clay-model renders, graphite concept drawings, and restrained editorial layout",
+    "palette": ["warm ivory", "bone", "graphite", "soft gray", "muted vermilion accent"],
+    "lighting": "Soft neutral studio light with quiet museum-catalogue precision",
+    "materials": ["matte mineral composite", "woven gray textile", "dark tubular frame", "warm archival paper"]
+  },
+  "composition": {
+    "layout": "Portrait modular board with a large upper-right hero, compact upper-left studies, one ordered evolution strip, concept views, a structure-and-material row, and a final detail row",
+    "viewpoint": "Consistent three-quarter product views supported by clean front, side, and top concept views",
+    "focal_hierarchy": ["Resolved hero chair", "Five-stage process flow", "Consistent chair geometry", "Material and structure intent", "Concept-only boundary"]
+  },
+  "references": [
+    {
+      "uri": "first-party-private://crumple-chair-concept-board-v1",
+      "role": "composition",
+      "notes": "Project-created edit target and sole visual authority for the original faceted chair identity and five-stage board concept; not distributed as an approved public asset."
+    }
+  ],
+  "qa": {
+    "objective_checks": [
+      "Output is exactly 972x1619 PNG/RGB without alpha",
+      "Every specified text string appears exactly once",
+      "No other visible words, numerals, dimensions, logo, brand, signature, or watermark appears"
+    ],
+    "visual_checks": [
+      "The faceted arm geometry, tall folded back, inset cushion, and stable base remain coherent across every process view",
+      "The five stages read in order with clear hierarchy, generous spacing, and no illegible body copy",
+      "The conceptual internal frame visually fits the shell but does not imply validated construction documentation",
+      "Mineral shell, woven textile, tubular frame, paper, and shadows remain materially credible",
+      "The result is visibly distinct from a product advertisement, exploded product diagram, or engineering blueprint"
+    ],
+    "approval_required": true
+  }
+}

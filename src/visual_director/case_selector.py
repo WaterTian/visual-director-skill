@@ -68,6 +68,25 @@ EXAMPLE_PRIORITY_BAND = 10
 
 SPECIALIZED_CASE_TITLE_TERMS: tuple[tuple[str, tuple[str, ...]], ...] = (
     (
+        "concept design process",
+        (
+            "concept design process",
+            "concept development",
+            "design process board",
+            "industrial design board",
+            "form study",
+            "form evolution",
+            "material direction",
+            "概念设计过程",
+            "概念开发",
+            "设计过程板",
+            "工业设计展板",
+            "形态研究",
+            "形态演化",
+            "材质方向",
+        ),
+    ),
+    (
         "hairstyle",
         (
             "hairstyle",

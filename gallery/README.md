@@ -136,6 +136,15 @@ This gallery contains only first-party results whose prompts were refined, gener
 - 1672 × 941, PNG/RGB
 - Geometry, materials, exact text, and semantic callouts passed visual review / 几何、材质、逐字文字和语义标注已通过视觉复核
 
+## Concept Design Process Board / 概念设计过程板
+
+![CRUMPLE LOUNGE concept design process board](images/concept-design-process-board-crumple-lounge.png)
+
+- [Final prompt and review / 最终 Prompt 与复核](prompts/concept-design-process-board-crumple-lounge.md)
+- Project-created first-party edit target; original source is not distributed as an approved Gallery asset / 使用本项目创建的第一方编辑源图；原始源图不作为已批准 Gallery 资产发布
+- 972 × 1619, PNG/RGB, vertical industrial-design process board / 竖幅工业设计过程板
+- Exact title and stage labels, one coherent chair identity, five-step form evolution, concept views, frame and material intent, clear hierarchy, and no unsupported measurements or engineering claims passed visual review / 准确标题与阶段标签、统一座椅身份、五步形态演化、概念视图、骨架与材质意图、清晰层级以及无未经支持的尺寸或工程声明均通过视觉复核
+
 ## Publication rule / 发布规则
 
 `gallery-manifest.json` 是效果图白名单。自动测试会核对图片与 Prompt 哈希、尺寸、格式、输入角色、案例目录和审核状态。未写入 manifest 的图片、未通过候选和本地缓存不得进入 Gallery。

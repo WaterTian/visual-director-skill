@@ -1,12 +1,12 @@
 {
   "version": "0.1",
-  "source": {"kind": "first-party", "version": "0.12.0", "license": "MIT", "catalog_path": "data/cases.json"},
+  "source": {"kind": "first-party", "version": "0.13.0", "license": "MIT", "catalog_path": "data/cases.json"},
   "taxonomy": {
-    "categories": ["Characters & People", "Posters & Typography", "Products & E-commerce"],
-    "styles": ["Character", "Documentary", "Editorial", "Fashion", "Illustration", "Motion", "Photography", "Poster", "Product", "Realistic", "Technical"],
+    "categories": ["Characters & People", "Charts & Infographics", "Posters & Typography", "Products & E-commerce"],
+    "styles": ["Character", "Documentary", "Editorial", "Fashion", "Illustration", "Infographic", "Motion", "Photography", "Poster", "Product", "Realistic", "Technical"],
     "scenes": ["Commerce", "Creative", "Fashion", "Interior", "Story", "Tech", "Urban"]
   },
-  "summary": {"record_count": 14, "approved_count": 14},
+  "summary": {"record_count": 15, "approved_count": 15},
   "cases": [
     {
       "id": 1,
@@ -188,6 +188,19 @@
       "prompt_path": "gallery/prompts/minimal-floor-editorial-portrait-lea-orren.md",
       "prompt_sha256": "499292c7092588afcb3c539e661c03c6cf249073251be98d557bd051175f6791",
       "image": {"path": "gallery/images/minimal-floor-editorial-portrait-lea-orren.png", "alt": "LEA ORREN minimal floor editorial portrait"},
+      "status": "approved_public_gallery"
+    },
+    {
+      "id": 15,
+      "title": "CRUMPLE LOUNGE Concept Design Process Board",
+      "category": "Charts & Infographics",
+      "styles": ["Infographic", "Product", "Technical", "Editorial"],
+      "scenes": ["Creative", "Tech"],
+      "featured": true,
+      "selection_text": "Vertical industrial-design concept development board for one original faceted lounge chair, with a large resolved hero, compact form studies, five-step silhouette evolution, clean front side and top concept views, one fitted tubular-frame concept, two material directions, exact stage labels, warm archival paper, graphite rules, restrained vermilion accents, and an explicit concept-only boundary without dimensions or validation claims.",
+      "prompt_path": "gallery/prompts/concept-design-process-board-crumple-lounge.md",
+      "prompt_sha256": "ea83eba532945a2ba86d6c45afdf0caa6b038380a3fc97d2b0425c19241edb23",
+      "image": {"path": "gallery/images/concept-design-process-board-crumple-lounge.png", "alt": "CRUMPLE LOUNGE concept design process board"},
       "status": "approved_public_gallery"
     }
   ]

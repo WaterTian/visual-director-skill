@@ -21,6 +21,7 @@ uv run python scripts/search-cases.py --id 11 --full-prompt
 uv run python scripts/search-cases.py --id 12 --full-prompt
 uv run python scripts/search-cases.py --id 13 --full-prompt
 uv run python scripts/search-cases.py --id 14 --full-prompt
+uv run python scripts/search-cases.py --id 15 --full-prompt
 uv run python scripts/select-cases.py examples/hero-brief.json --top 3
 ```
 

@@ -6,7 +6,7 @@ Visual Director 是一个可移植的 Codex 视觉生产 Skill。它把模糊的
 
 Visual Director is a portable visual-production skill for Codex. It turns an ambiguous image request into a testable Visual Brief, selects a reviewed first-party template, compiles a precise prompt, and protects formal assets with file checks, visual review, and approval gates.
 
-`v0.12.0` · `MIT` · `14 reviewed workflows` · `14 approved gallery assets` · `no paid API required`
+`v0.13.0` · `MIT` · `15 reviewed workflows` · `15 approved gallery assets` · `no paid API required`
 
 ## Start here / 从这里开始
 
@@ -30,7 +30,12 @@ Visual Director is a decision and quality workflow, not a prompt dump or a paid 
 | ![LEA ORREN minimal floor editorial portrait](gallery/images/minimal-floor-editorial-portrait-lea-orren.png) | ![ORBITAL FRAME ONE exploded product diagram](gallery/images/exploded-product-diagram-orbital-frame-one.png) |
 | [Minimal floor portrait: prompt + review / 极简落地人像：Prompt 与复核](gallery/prompts/minimal-floor-editorial-portrait-lea-orren.md) | [Exploded product: prompt + review / 产品分解结构：Prompt 与复核](gallery/prompts/exploded-product-diagram-orbital-frame-one.md) |
 
-See the [complete 14-asset gallery / 完整 14 项 Gallery](gallery/README.md) for every approved image, final Prompt, and review record.
+| Industrial-design process direction / 工业设计过程方向 |
+|---|
+| ![CRUMPLE LOUNGE concept design process board](gallery/images/concept-design-process-board-crumple-lounge.png) |
+| [Concept design process board: prompt + review / 概念设计过程板：Prompt 与复核](gallery/prompts/concept-design-process-board-crumple-lounge.md) |
+
+See the [complete 15-asset gallery / 完整 15 项 Gallery](gallery/README.md) for every approved image, final Prompt, and review record.
 
 ## 中文
 
@@ -57,7 +62,7 @@ Built-in Image Generation or External Handoff
 File QC → Visual Review → Approval → Formal Asset
 ```
 
-当前公开版只声明已经实际验收的十四个方向：
+当前公开版只声明已经实际验收的十五个方向：
 
 1. `character-design-sheet`：人物身份、服装、左右细节和多视图一致性。
 2. `realistic-photography`：原创角色的真实摄影转化、自然皮肤、手部和环境可信度。
@@ -73,6 +78,7 @@ File QC → Visual Review → Approval → Formal Asset
 12. `tonal-studio-editorial-portrait`：虚构成年男性的暖调影棚编辑人像、自然年龄细节、皮肤胡须与服装材质、清晰双眼和非广告化边界。
 13. `minimal-floor-editorial-portrait`：虚构成年女性的极简落地坐姿、完整双手与双膝、端庄叠穿、留白和真实室内材质。
 14. `product-commerce-visual`：产品几何、材质、文案空间、语义标注和精确画布合成。
+15. `concept-design-process-board`：原创产品的形态研究、阶段迭代、视图意图、结构概念和材质方向，并明确排除未经验证的工程结论。
 
 其他视觉类型可以使用通用 Brief、Prompt 编译和 QC 能力，但在新增效果图、最终 Prompt 与测试通过前，不会被标为“已验收模板”。
 
@@ -173,7 +179,7 @@ visual-director-skill/
 
 ### Reviewed scope
 
-The public catalog currently claims fourteen reviewed workflows:
+The public catalog currently claims fifteen reviewed workflows:
 
 1. `character-design-sheet`: identity, wardrobe, left-right details, anatomy, and multi-view consistency.
 2. `realistic-photography`: believable photographic translation of an original character, including skin, hands, wardrobe, and environment.
@@ -189,6 +195,7 @@ The public catalog currently claims fourteen reviewed workflows:
 12. `tonal-studio-editorial-portrait`: a fictional adult male in a warm-tonal studio editorial portrait, with natural age detail, skin, beard and wardrobe material, clear eyes, and a non-advertising boundary.
 13. `minimal-floor-editorial-portrait`: a fictional adult woman's minimalist floor-seated posture, complete hands and knees, modest layered wardrobe, negative space, and real interior materials.
 14. `product-commerce-visual`: product geometry, materials, copy space, semantic callouts, and exact-canvas composition.
+15. `concept-design-process-board`: form study, staged iteration, viewing intent, structure concept, and material direction for one original product, with unsupported engineering claims explicitly excluded.
 
 Other visual requests can still use the generic Brief, prompt compiler, and QC contracts. They are not labeled as reviewed templates until a final prompt, approved image, and tests are added.
 

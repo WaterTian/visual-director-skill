@@ -299,6 +299,19 @@
       "provenance": {"kind": "first-party", "version": "0.13.0", "path": "gallery/prompts/concept-design-process-board-crumple-lounge.md", "license": "MIT"}
     },
     {
+      "id": "realistic-micro-expression-board",
+      "title": {"en": "Realistic Micro-Expression Board", "zh": "写实微表情板"},
+      "category": "Characters & People",
+      "styles": ["Photography", "Realistic", "Character"],
+      "scenes": ["Creative", "Story"],
+      "tags": ["micro-expression", "emotion", "facial-performance", "identity-consistency", "controlled-variable", "3x3-grid", "young-asian-adult"],
+      "use_when": {"en": "Use for a photorealistic performance-reference board where one fictional young Asian adult identity, camera, light, hair, and wardrobe must remain stable while only subtle facial action changes across equal cells.", "zh": "用于需要在多个等比例人像格中保持同一虚构亚洲年轻成年身份、机位、光线、发型和服装稳定，仅让细微面部动作变化的写实表演参考板。"},
+      "guidance": {"en": ["Lock a concise fictional adult identity before naming emotions: age, face geometry, one asymmetry marker, hair, clothing, crop, backdrop, and light.", "Translate each emotion into observable eyelid, brow, gaze, mouth-corner, lip-pressure, cheek, and jaw cues instead of relying on abstract emotion adjectives.", "Use a strict equal-cell grid and state that facial expression is the sole intended variable; keep head angle, shoulder scale, lens, catchlights, and exposure fixed.", "Review every cell in sequence for identity continuity, expression legibility, natural skin, and restrained acting; keep labels out of the generated image unless deterministic typography is added later."], "zh": ["在命名情绪前锁定精简的虚构成年身份：年龄、面部几何、一个不对称标记、发型、服装、裁切、背景和光线。", "把每种情绪转成可观察的眼睑、眉部、视线、嘴角、唇部压力、面颊和下颌线索，而不是只依赖抽象情绪词。", "使用严格的等格网格，并明确面部表情是唯一允许变化的变量；固定头部角度、肩部比例、镜头、眼部高光和曝光。", "按顺序逐格检查身份连续性、表情可读性、自然肤质和克制表演；除非后续使用确定性排版，否则不在生成图中加入标签。"]},
+      "pitfalls": {"en": ["identity drift", "age drift", "expression too subtle to read", "theatrical grimace", "beauty retouching", "changed head pose", "misleading labels"], "zh": ["身份漂移", "年龄漂移", "表情细微到不可辨", "戏剧化鬼脸", "美颜精修", "头部姿态变化", "误导性标签"]},
+      "example_cases": [16],
+      "provenance": {"kind": "first-party", "version": "0.14.0", "path": "gallery/prompts/realistic-micro-expression-board-jiayi-ren.md", "license": "MIT"}
+    },
+    {
       "id": "realistic-photography",
       "title": {"en": "Realistic Photography", "zh": "真实人物摄影"},
       "category": "Characters & People",

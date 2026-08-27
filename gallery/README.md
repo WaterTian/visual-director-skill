@@ -127,6 +127,15 @@ This gallery contains only first-party results whose prompts were refined, gener
 - 941 × 1672, PNG/RGB, vertical floor-seated minimalist indoor editorial portrait / 竖幅落地坐姿极简室内编辑人像
 - Complete crown, hands, knees, modest layered wardrobe, natural skin and textile material, quiet negative space, and non-sexualized requirements passed visual review / 完整头顶、双手、双膝、端庄叠穿、自然皮肤与织物材质、安静留白和非性感化要求已通过视觉复核
 
+## Realistic Micro-Expression Board / 写实微表情板
+
+![JIAYI REN realistic micro-expression board](images/realistic-micro-expression-board-jiayi-ren.png)
+
+- [Final prompt and review / 最终 Prompt 与复核](prompts/realistic-micro-expression-board-jiayi-ren.md)
+- New fictional young Asian adult identity with no real-person or external image reference / 全新虚构亚洲年轻成年身份，不使用真人或外部图片参考
+- 1254 × 1254, PNG/RGB, 3 × 3 head-and-shoulders expression grid / 3 × 3 头肩微表情网格
+- Nine stable identity cells, restrained readable expressions, constant studio conditions, natural skin and eye detail, no glamour treatment, and no-text requirements passed visual review / 九格身份稳定、表情克制且可读、影棚条件恒定、皮肤与眼部细节自然、无广告精修和无文字要求已通过视觉复核
+
 ## Product Commerce Visual / 商品商业视觉
 
 ![AURORA MINI product commerce visual](images/product-commerce-visual-aurora-mini.png)

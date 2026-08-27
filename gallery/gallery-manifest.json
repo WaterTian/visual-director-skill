@@ -282,6 +282,24 @@
         }
       ],
       "status": "approved_public_gallery"
+    },
+    {
+      "case_id": 16,
+      "id": "realistic-micro-expression-board-jiayi-ren",
+      "template_id": "realistic-micro-expression-board",
+      "image_path": "gallery/images/realistic-micro-expression-board-jiayi-ren.png",
+      "prompt_path": "gallery/prompts/realistic-micro-expression-board-jiayi-ren.md",
+      "image_sha256": "465417f095ec04a8c13f0a09481277c4b476876025f54a39856f349185b344ac",
+      "prompt_sha256": "f9a92dbd6fa1f50d80dadde4d9955cb8a05682e17db0ba24ed7df735ea8978f0",
+      "width": 1254,
+      "height": 1254,
+      "format": "PNG",
+      "mode": "RGB",
+      "provider_path": "codex-built-in-imagegen",
+      "paid_api": false,
+      "first_party": true,
+      "input_assets": [],
+      "status": "approved_public_gallery"
     }
   ]
 }

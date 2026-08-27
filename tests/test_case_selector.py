@@ -47,6 +47,7 @@ class CaseSelectorTests(unittest.TestCase):
             "product-background-edit-brief.json": [1, 3, 2],
             "quiet-editorial-portrait-brief.json": [6, 3, 8],
             "realistic-hairstyle-variation-board-brief.json": [11, 3, 4],
+            "realistic-micro-expression-board-brief.json": [16, 3, 2],
             "realistic-motion-editorial-brief.json": [7, 3, 4],
             "tonal-studio-editorial-portrait-brief.json": [13, 3, 7],
             "minimal-floor-editorial-portrait-brief.json": [14, 6, 3],

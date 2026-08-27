@@ -1,0 +1,17 @@
+{
+  "version": "0.1",
+  "asset_id": "realistic-micro-expression-board-selection",
+  "goal": "Create a controlled photorealistic micro-expression board that keeps one fictional young Asian adult identity stable while only facial expression changes across nine cells.",
+  "audience": "Character art directors, storyboard artists, and performance-reference teams who need a restrained expression study",
+  "deliverable": {"type": "character", "width": 1254, "height": 1254, "format": "png", "transparent_background": false},
+  "content": {
+    "subject": "Nine head-and-shoulders appearances of one fictional 25-year-old East Asian woman, with micro-expression as the only intended variable",
+    "exact_text": [],
+    "must_include": ["Exactly nine equal head-and-shoulders cells in a 3 by 3 grid", "One stable clearly adult fictional young East Asian identity across all cells", "The same low ponytail, left-cheek mole, charcoal crew-neck top, eye-level crop, studio lighting, and gray backdrop", "Nine readable restrained states: neutral, guarded attention, cautious curiosity, restrained amusement, quiet relief, contained worry, disappointment, controlled anger, and near-tears composure", "Natural skin pores, fine facial hair, stable catchlights, and credible eye moisture"],
+    "must_avoid": ["Identity drift, apparent-age change, face-shape change, mole movement, hairstyle change, wardrobe change, or altered background", "Childlike appearance, glamour styling, beauty smoothing, visible makeup, celebrity likeness, or sexualized presentation", "Open-mouth yelling, theatrical grimaces, comedy faces, bared teeth, or streaming tears", "Extra people, hands, props, text, labels, numbers, logos, brands, or watermarks", "Cartoon, anime, illustration, CGI, or irregular collage styling"]
+  },
+  "art_direction": {"style": "Photorealistic restrained casting-room expression study", "palette": ["medium gray", "charcoal", "natural black hair", "warm light-beige skin"], "lighting": "One identical large soft camera-left key with gentle camera-right fill and neutral exposure", "materials": ["natural skin pores", "individual hair strands", "matte charcoal knit", "seamless studio paper"]},
+  "composition": {"layout": "Precise 3-column by 3-row grid of equal head-and-shoulders portraits with narrow clean gutters", "viewpoint": "Eye-level 85 mm studio portrait perspective with aligned eyes, head angle, shoulders, and scale", "focal_hierarchy": ["Stable young adult identity", "Subtle eye, brow, mouth-corner, and jaw changes", "Constant crop and studio light", "Clean comparison-grid structure"]},
+  "references": [],
+  "qa": {"objective_checks": ["Output is exactly 1254x1254 PNG/RGB without alpha", "Exactly nine appearances of one adult identity appear", "No visible text, logo, brand, or watermark appears"], "visual_checks": ["Face geometry, adult age, mole placement, hair, clothing, crop, eye height, light, and background remain stable across every cell", "All nine requested micro-expression states are readable in row-major order without exaggerated acting", "Eyes, brows, mouth corners, jaw, skin texture, catchlights, and eye moisture remain naturally photographic", "The board reads as a controlled performance reference and is clearly distinct from a hairstyle board, beauty campaign, or emoji chart"], "approval_required": true}
+}

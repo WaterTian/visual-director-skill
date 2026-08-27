@@ -16,9 +16,9 @@ class VisualBriefValidationTests(unittest.TestCase):
     def setUpClass(cls) -> None:
         cls.schema = json.loads((ROOT / "schemas" / "visual-brief.schema.json").read_text())
 
-    def test_eighteen_valid_fixtures(self) -> None:
+    def test_nineteen_valid_fixtures(self) -> None:
         valid_paths = sorted((ROOT / "tests" / "fixtures").glob("*.json"))
-        self.assertEqual(18, len(valid_paths))
+        self.assertEqual(19, len(valid_paths))
         for path in valid_paths:
             with self.subTest(path=path.name):
                 document = json.loads(path.read_text())

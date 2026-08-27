@@ -2,6 +2,20 @@
 
 This project follows semantic versioning. / 本项目遵循语义化版本号。
 
+## 0.14.0 - 2026-08-27
+
+Adds a reviewed realistic micro-expression workflow for a young Asian adult character. / 新增已验收的亚洲年轻成年角色写实微表情工作流。
+
+### Added / 新增
+
+- `realistic-micro-expression-board` template for nine equal head-and-shoulders cells that keep one fictional young Asian adult identity, hair, wardrobe, camera, backdrop, and lighting stable while only subtle facial action changes. / 新增 `realistic-micro-expression-board` 模板，用于在九个等比例头肩格中保持同一虚构亚洲年轻成年身份、发型、服装、机位、背景和光线稳定，仅改变细微面部动作。
+- Character routing for micro-expression, expression-board, facial-performance, emotion-board, same-face-expression, and corresponding Chinese requests. / 新增针对微表情、表情板、面部表演、情绪板、同一张脸表情及相应中文请求的专用人物路由。
+- Final Prompt, approved 3 × 3 image, SHA-256 records, bilingual review, selector fixture, and ranking coverage. / 新增最终 Prompt、批准的 3 × 3 效果图、SHA-256、中英文复核、选择器夹具和排序覆盖。
+
+### Quality boundary / 质量边界
+
+- The public result uses one fictional 25-year-old Asian adult woman, no real-person or external image reference, no paid API, no text or brand, and no childlike, sexualized, glamour-retouched, theatrical, cartoon, or illustration treatment. / 公开结果使用一位虚构 25 岁亚洲成年女性，不使用真人或外部图片参考、付费 API、文字或品牌，也不采用幼态化、性感化、广告精修、戏剧化、卡通或插画表达。
+
 ## 0.13.0 - 2026-08-27
 
 Adds a reviewed industrial-design concept-process board workflow. / 新增已验收的工业设计概念过程板工作流。

@@ -1,12 +1,12 @@
 {
   "version": "0.1",
-  "source": {"kind": "first-party", "version": "0.13.0", "license": "MIT", "catalog_path": "data/cases.json"},
+  "source": {"kind": "first-party", "version": "0.14.0", "license": "MIT", "catalog_path": "data/cases.json"},
   "taxonomy": {
     "categories": ["Characters & People", "Charts & Infographics", "Posters & Typography", "Products & E-commerce"],
     "styles": ["Character", "Documentary", "Editorial", "Fashion", "Illustration", "Infographic", "Motion", "Photography", "Poster", "Product", "Realistic", "Technical"],
     "scenes": ["Commerce", "Creative", "Fashion", "Interior", "Story", "Tech", "Urban"]
   },
-  "summary": {"record_count": 15, "approved_count": 15},
+  "summary": {"record_count": 16, "approved_count": 16},
   "cases": [
     {
       "id": 1,
@@ -201,6 +201,19 @@
       "prompt_path": "gallery/prompts/concept-design-process-board-crumple-lounge.md",
       "prompt_sha256": "ea83eba532945a2ba86d6c45afdf0caa6b038380a3fc97d2b0425c19241edb23",
       "image": {"path": "gallery/images/concept-design-process-board-crumple-lounge.png", "alt": "CRUMPLE LOUNGE concept design process board"},
+      "status": "approved_public_gallery"
+    },
+    {
+      "id": 16,
+      "title": "JIAYI REN Realistic Micro-Expression Board",
+      "category": "Characters & People",
+      "styles": ["Photography", "Realistic", "Character"],
+      "scenes": ["Creative", "Story"],
+      "featured": true,
+      "selection_text": "Photorealistic square 3 by 3 micro-expression performance board with exactly nine equal head-and-shoulders cells of one fictional 25-year-old East Asian adult woman, stable facial geometry, left-cheek mole, low ponytail, charcoal crew-neck top, aligned eye-level 85 mm studio crop, medium-gray backdrop, fixed soft light, and nine restrained states from neutral through curiosity, amusement, relief, worry, disappointment, controlled anger, and near-tears composure without text or glamour styling.",
+      "prompt_path": "gallery/prompts/realistic-micro-expression-board-jiayi-ren.md",
+      "prompt_sha256": "f9a92dbd6fa1f50d80dadde4d9955cb8a05682e17db0ba24ed7df735ea8978f0",
+      "image": {"path": "gallery/images/realistic-micro-expression-board-jiayi-ren.png", "alt": "JIAYI REN realistic nine-state micro-expression board"},
       "status": "approved_public_gallery"
     }
   ]

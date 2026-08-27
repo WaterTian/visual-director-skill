@@ -76,6 +76,26 @@ INFOGRAPHIC_ROUTES = (
 
 CHARACTER_ROUTES = (
     (
+        "realistic-micro-expression-board",
+        (
+            "micro-expression",
+            "micro expression",
+            "expression board",
+            "expression sheet",
+            "facial expression study",
+            "emotion board",
+            "facial performance",
+            "same face expressions",
+            "微表情",
+            "表情板",
+            "表情表",
+            "面部表情研究",
+            "情绪表情",
+            "同一张脸表情",
+            "角色表演参考",
+        ),
+    ),
+    (
         "minimal-floor-editorial-portrait",
         (
             "floor-seated editorial",

@@ -68,6 +68,24 @@ EXAMPLE_PRIORITY_BAND = 10
 
 SPECIALIZED_CASE_TITLE_TERMS: tuple[tuple[str, tuple[str, ...]], ...] = (
     (
+        "micro-expression",
+        (
+            "micro-expression",
+            "micro expression",
+            "expression board",
+            "expression sheet",
+            "facial expression",
+            "emotion board",
+            "facial performance",
+            "微表情",
+            "表情板",
+            "表情表",
+            "面部表情",
+            "情绪表情",
+            "角色表演",
+        ),
+    ),
+    (
         "concept design process",
         (
             "concept design process",

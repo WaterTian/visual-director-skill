@@ -68,6 +68,26 @@ EXAMPLE_PRIORITY_BAND = 10
 
 SPECIALIZED_CASE_TITLE_TERMS: tuple[tuple[str, tuple[str, ...]], ...] = (
     (
+        "emotion-beat triptych",
+        (
+            "emotion-beat triptych",
+            "emotion beat triptych",
+            "emotional triptych",
+            "three-frame emotion",
+            "three frame emotion",
+            "emotional progression",
+            "screen acting",
+            "consecutive film frames",
+            "情绪转折三联画",
+            "情绪三联画",
+            "三格情绪",
+            "三帧情绪",
+            "情绪推进",
+            "电影式表演",
+            "连续分镜",
+        ),
+    ),
+    (
         "micro-expression",
         (
             "micro-expression",

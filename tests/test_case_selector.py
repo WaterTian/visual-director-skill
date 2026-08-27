@@ -37,6 +37,7 @@ class CaseSelectorTests(unittest.TestCase):
     def test_ranking_is_stable_for_supported_briefs(self) -> None:
         expected = {
             "character-edit-brief.json": [2, 3, 4],
+            "cinematic-emotion-beat-triptych-brief.json": [17, 3, 2],
             "documentary-craft-portrait-brief.json": [8, 3, 9],
             "exploded-product-diagram-brief.json": [5, 1, 4],
             "fashion-lookbook-brief.json": [4, 3, 7],

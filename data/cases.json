@@ -1,12 +1,12 @@
 {
   "version": "0.1",
-  "source": {"kind": "first-party", "version": "0.14.0", "license": "MIT", "catalog_path": "data/cases.json"},
+  "source": {"kind": "first-party", "version": "0.15.0", "license": "MIT", "catalog_path": "data/cases.json"},
   "taxonomy": {
     "categories": ["Characters & People", "Charts & Infographics", "Posters & Typography", "Products & E-commerce"],
     "styles": ["Character", "Documentary", "Editorial", "Fashion", "Illustration", "Infographic", "Motion", "Photography", "Poster", "Product", "Realistic", "Technical"],
     "scenes": ["Commerce", "Creative", "Fashion", "Interior", "Story", "Tech", "Urban"]
   },
-  "summary": {"record_count": 16, "approved_count": 16},
+  "summary": {"record_count": 17, "approved_count": 17},
   "cases": [
     {
       "id": 1,
@@ -214,6 +214,19 @@
       "prompt_path": "gallery/prompts/realistic-micro-expression-board-jiayi-ren.md",
       "prompt_sha256": "f9a92dbd6fa1f50d80dadde4d9955cb8a05682e17db0ba24ed7df735ea8978f0",
       "image": {"path": "gallery/images/realistic-micro-expression-board-jiayi-ren.png", "alt": "JIAYI REN realistic nine-state micro-expression board"},
+      "status": "approved_public_gallery"
+    },
+    {
+      "id": 17,
+      "title": "YUNA KAI Cinematic Emotion-Beat Triptych",
+      "category": "Characters & People",
+      "styles": ["Photography", "Realistic", "Character", "Editorial"],
+      "scenes": ["Story", "Interior"],
+      "featured": true,
+      "selection_text": "Photorealistic horizontal 3 by 2 cinematic emotion-beat triptych with exactly three equal portrait-oriented panels of one fictional 26-year-old East Asian adult woman seated beside one rain-streaked late-night train window, stable right-eye mole, chin-length black bob, navy wool coat, gray shirt, eye-level 70 mm crop, continuous cool window light and warm carriage reflection, progressing from contained shock through processing grief to resolved composure without streaming tears, final smile, text, brands, or campaign styling.",
+      "prompt_path": "gallery/prompts/cinematic-emotion-beat-triptych-yuna-kai.md",
+      "prompt_sha256": "8efc5666c18bb6438391e6e2d3dc07c9e5dbcb39977669f7a0e8f3bfc90b0564",
+      "image": {"path": "gallery/images/cinematic-emotion-beat-triptych-yuna-kai.png", "alt": "YUNA KAI cinematic three-frame emotion-beat triptych"},
       "status": "approved_public_gallery"
     }
   ]

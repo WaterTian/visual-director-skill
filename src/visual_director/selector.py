@@ -76,6 +76,26 @@ INFOGRAPHIC_ROUTES = (
 
 CHARACTER_ROUTES = (
     (
+        "cinematic-emotion-beat-triptych",
+        (
+            "cinematic emotion beat",
+            "emotion beat triptych",
+            "emotional triptych",
+            "three-frame emotion",
+            "three frame emotion",
+            "emotional progression",
+            "screen acting reference",
+            "consecutive film frames",
+            "情绪转折三联画",
+            "情绪三联画",
+            "三格情绪",
+            "三帧情绪",
+            "情绪推进",
+            "电影式表演",
+            "连续分镜表演",
+        ),
+    ),
+    (
         "realistic-micro-expression-board",
         (
             "micro-expression",

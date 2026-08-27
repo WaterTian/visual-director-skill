@@ -300,6 +300,24 @@
       "first_party": true,
       "input_assets": [],
       "status": "approved_public_gallery"
+    },
+    {
+      "case_id": 17,
+      "id": "cinematic-emotion-beat-triptych-yuna-kai",
+      "template_id": "cinematic-emotion-beat-triptych",
+      "image_path": "gallery/images/cinematic-emotion-beat-triptych-yuna-kai.png",
+      "prompt_path": "gallery/prompts/cinematic-emotion-beat-triptych-yuna-kai.md",
+      "image_sha256": "6b70da6eb8491a27cdbe2dcb5246aa77e73ffe6ceba2f37c04052205b6629f28",
+      "prompt_sha256": "8efc5666c18bb6438391e6e2d3dc07c9e5dbcb39977669f7a0e8f3bfc90b0564",
+      "width": 1536,
+      "height": 1024,
+      "format": "PNG",
+      "mode": "RGB",
+      "provider_path": "codex-built-in-imagegen",
+      "paid_api": false,
+      "first_party": true,
+      "input_assets": [],
+      "status": "approved_public_gallery"
     }
   ]
 }

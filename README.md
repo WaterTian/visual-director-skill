@@ -6,7 +6,7 @@ Visual Director 是一个可移植的 Codex 视觉生产 Skill。它把模糊的
 
 Visual Director is a portable visual-production skill for Codex. It turns an ambiguous image request into a testable Visual Brief, selects a reviewed first-party template, compiles a precise prompt, and protects formal assets with file checks, visual review, and approval gates.
 
-`v0.14.0` · `MIT` · `16 reviewed workflows` · `16 approved gallery assets` · `no paid API required`
+`v0.15.0` · `MIT` · `17 reviewed workflows` · `17 approved gallery assets` · `no paid API required`
 
 ## Start here / 从这里开始
 
@@ -35,12 +35,12 @@ Visual Director is a decision and quality workflow, not a prompt dump or a paid 
 | ![CRUMPLE LOUNGE concept design process board](gallery/images/concept-design-process-board-crumple-lounge.png) |
 | [Concept design process board: prompt + review / 概念设计过程板：Prompt 与复核](gallery/prompts/concept-design-process-board-crumple-lounge.md) |
 
-| Facial-performance direction / 面部表演方向 |
-|---|
-| ![JIAYI REN realistic micro-expression board](gallery/images/realistic-micro-expression-board-jiayi-ren.png) |
-| [Micro-expression board: prompt + review / 写实微表情板：Prompt 与复核](gallery/prompts/realistic-micro-expression-board-jiayi-ren.md) |
+| Controlled facial-performance direction / 受控面部表演方向 | Cinematic emotional-continuity direction / 电影式情绪连续性方向 |
+|---|---|
+| ![JIAYI REN realistic micro-expression board](gallery/images/realistic-micro-expression-board-jiayi-ren.png) | ![YUNA KAI cinematic emotion-beat triptych](gallery/images/cinematic-emotion-beat-triptych-yuna-kai.png) |
+| [Micro-expression board: prompt + review / 写实微表情板：Prompt 与复核](gallery/prompts/realistic-micro-expression-board-jiayi-ren.md) | [Emotion-beat triptych: prompt + review / 情绪转折三联画：Prompt 与复核](gallery/prompts/cinematic-emotion-beat-triptych-yuna-kai.md) |
 
-See the [complete 16-asset gallery / 完整 16 项 Gallery](gallery/README.md) for every approved image, final Prompt, and review record.
+See the [complete 17-asset gallery / 完整 17 项 Gallery](gallery/README.md) for every approved image, final Prompt, and review record.
 
 ## 中文
 
@@ -67,7 +67,7 @@ Built-in Image Generation or External Handoff
 File QC → Visual Review → Approval → Formal Asset
 ```
 
-当前公开版只声明已经实际验收的十六个方向：
+当前公开版只声明已经实际验收的十七个方向：
 
 1. `character-design-sheet`：人物身份、服装、左右细节和多视图一致性。
 2. `realistic-photography`：原创角色的真实摄影转化、自然皮肤、手部和环境可信度。
@@ -85,6 +85,7 @@ File QC → Visual Review → Approval → Formal Asset
 14. `product-commerce-visual`：产品几何、材质、文案空间、语义标注和精确画布合成。
 15. `concept-design-process-board`：原创产品的形态研究、阶段迭代、视图意图、结构概念和材质方向，并明确排除未经验证的工程结论。
 16. `realistic-micro-expression-board`：同一亚洲年轻成年身份在九格中的稳定性，并以眼周、眉部、嘴角、下颌和视线作为唯一受控表情变量。
+17. `cinematic-emotion-beat-triptych`：同一亚洲年轻成年身份在连续场景中的稳定性，以及克制震惊、消化悲伤和恢复镇定的三段式情绪推进。
 
 其他视觉类型可以使用通用 Brief、Prompt 编译和 QC 能力，但在新增效果图、最终 Prompt 与测试通过前，不会被标为“已验收模板”。
 
@@ -185,7 +186,7 @@ visual-director-skill/
 
 ### Reviewed scope
 
-The public catalog currently claims sixteen reviewed workflows:
+The public catalog currently claims seventeen reviewed workflows:
 
 1. `character-design-sheet`: identity, wardrobe, left-right details, anatomy, and multi-view consistency.
 2. `realistic-photography`: believable photographic translation of an original character, including skin, hands, wardrobe, and environment.
@@ -203,6 +204,7 @@ The public catalog currently claims sixteen reviewed workflows:
 14. `product-commerce-visual`: product geometry, materials, copy space, semantic callouts, and exact-canvas composition.
 15. `concept-design-process-board`: form study, staged iteration, viewing intent, structure concept, and material direction for one original product, with unsupported engineering claims explicitly excluded.
 16. `realistic-micro-expression-board`: one young Asian adult identity held stable across nine cells, with observable eye, brow, mouth-corner, jaw, and gaze changes as the only controlled expression variables.
+17. `cinematic-emotion-beat-triptych`: one young Asian adult identity held continuous in one setting while restrained shock, processing grief, and resolved composure progress across three consecutive frames.
 
 Other visual requests can still use the generic Brief, prompt compiler, and QC contracts. They are not labeled as reviewed templates until a final prompt, approved image, and tests are added.
 

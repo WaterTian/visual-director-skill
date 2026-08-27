@@ -1,0 +1,17 @@
+{
+  "version": "0.1",
+  "asset_id": "cinematic-emotion-beat-triptych-selection",
+  "goal": "Create a photorealistic three-frame cinematic emotion beat that preserves one fictional young Asian adult identity and one train setting while restrained performance progresses from shock through grief to composure.",
+  "audience": "Character directors, storyboard artists, and screen-performance teams who need an inspectable emotional continuity reference",
+  "deliverable": {"type": "character", "width": 1536, "height": 1024, "format": "png", "transparent_background": false},
+  "content": {
+    "subject": "Three consecutive head-and-upper-torso frames of one fictional 26-year-old East Asian woman seated beside one rain-streaked late-night train window",
+    "exact_text": [],
+    "must_include": ["Exactly three equal portrait-oriented panels in one horizontal triptych", "One stable clearly adult fictional young East Asian identity across all panels", "The same right-eye mole, chin-length black bob, navy wool coat, gray crew-neck top, seat, and rain-streaked window", "A restrained left-to-right progression from contained shock to processing grief to resolved composure", "Consistent cool window light, subtle warm carriage reflection, realistic skin, wool, glass, and eye moisture"],
+    "must_avoid": ["Identity drift, apparent-age change, face-shape change, mole movement, hairstyle change, wardrobe change, or location change", "Childlike appearance, mature appearance, glamour styling, beauty smoothing, visible makeup, celebrity likeness, or sexualized presentation", "Streaming tears, open-mouth sobbing, screaming, theatrical grimaces, melodrama, or a smile in the final panel", "Extra people, hands near the face, phones, props, text, subtitles, signage, logos, brands, or watermarks", "Cartoon, anime, illustration, CGI, poster design, duplicated panel, or irregular collage styling"]
+  },
+  "art_direction": {"style": "Naturalistic low-light cinematic photography with restrained screen acting", "palette": ["navy", "stone gray", "rain blue", "restrained amber"], "lighting": "One consistent soft cool window source from camera-right with a faint warm carriage reflection from camera-left", "materials": ["natural skin pores", "moist eyes", "dark wool", "cotton knit", "rain-streaked glass", "train-seat textile"]},
+  "composition": {"layout": "Three equal portrait-oriented panels side by side with narrow matte-black gutters", "viewpoint": "Eye-level 70 mm head-and-upper-torso framing with nearly fixed head angle, camera distance, and shoulder scale", "focal_hierarchy": ["Stable young adult identity", "Three-step emotional progression", "Face and eye performance", "Continuous train setting and low-light atmosphere"]},
+  "references": [],
+  "qa": {"objective_checks": ["Output is exactly 1536x1024 PNG/RGB without alpha", "Exactly three appearances of one adult identity appear", "No visible text, logo, brand, or watermark appears"], "visual_checks": ["Face geometry, adult age, mole placement, bob, clothing, crop, seat, window, light direction, and color remain stable across all panels", "Contained shock, processing grief, and resolved composure read clearly from left to right without exaggerated acting or a final smile", "Eyes, brows, lips, jaw, skin, wool, seat textile, wet glass, catchlights, and eye moisture remain naturally photographic", "The artifact reads as consecutive frames from one restrained film scene rather than a campaign, music-video poster, beauty shoot, meme, or generic collage"], "approval_required": true}
+}

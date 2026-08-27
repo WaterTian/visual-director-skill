@@ -42,7 +42,7 @@ codex plugin list --json
 3. 新任务可以识别 `$visual-director`。
 4. Prompt-only 验证不会生成图片。
 5. `plugins/visual-director/` 中没有密钥、个人绝对路径、研究资料或未批准图片。
-6. `runtime/data/cases.json` 只包含十六个已批准第一方案例，且 Plugin 内不含 `.png`、`.jpg`、`.webp` 等 Gallery 栅格图。
+6. `runtime/data/cases.json` 只包含十七个已批准第一方案例，且 Plugin 内不含 `.png`、`.jpg`、`.webp` 等 Gallery 栅格图。
 
 ### 升级与卸载
 
@@ -97,7 +97,7 @@ Start a new Codex task or CLI session after installation, then invoke `$visual-d
 3. A new task recognizes `$visual-director`.
 4. The prompt-only check does not generate an image.
 5. `plugins/visual-director/` contains no secrets, machine-specific paths, research material, or unapproved images.
-6. `runtime/data/cases.json` contains only the sixteen approved first-party examples, and the Plugin contains no `.png`, `.jpg`, or `.webp` Gallery rasters.
+6. `runtime/data/cases.json` contains only the seventeen approved first-party examples, and the Plugin contains no `.png`, `.jpg`, or `.webp` Gallery rasters.
 
 ### Upgrade and removal
 

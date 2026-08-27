@@ -4,7 +4,7 @@
 
 ### 已完成
 
-- 十六个第一方模板及其最终 Prompt、效果图、SHA-256 和逐图复核。
+- 十七个第一方模板及其最终 Prompt、效果图、SHA-256 和逐图复核。
 - 新增写实时装 Lookbook，验证同一成年人物在六套穿搭中的身份、人体和完整全身一致性。
 - 新增产品分解结构图，验证虚构硬件的九层部件层级、装配关系和无伪文字边界。
 - 新增静谧编辑人像，验证成年身份、端庄穿搭、坐姿人体、自然室内光和非性感化边界。
@@ -18,6 +18,7 @@
 - 新增极简落地编辑人像，验证虚构成年女性的完整双手与双膝、可信坐姿、端庄叠穿、皮肤与织物细节、安静留白和非性感化边界。
 - 新增概念设计过程板，验证原创折面座椅的形态研究、五步迭代、概念视图、结构意图、材质方向、准确阶段标签和非工程验证边界。
 - 新增写实微表情板，验证同一亚洲年轻成年身份在九格中的连续性，以及以眼周、眉部、嘴角、下颌和视线为唯一变化变量的克制情绪表达。
+- 新增电影式情绪转折三联画，验证同一亚洲年轻成年身份、车厢场景和低照度光线的连续性，以及从克制震惊到消化悲伤再到恢复镇定的三段式表演。
 - Visual Brief、模板/案例选择、Prompt 编译和 provider-neutral 生成请求。
 - 无付费 API 的内置图片素材路线与精确画布合成。
 - 文件 QC、人工视觉复核、批准门禁、资产 manifest 和安全 promotion。
@@ -26,7 +27,7 @@
 
 ### 下一阶段
 
-1. **人物角色优先**：继续选择与现有设定表、环境肖像、时装 Lookbook、暖调影棚、落地编辑人像和微表情板明显不同的写实方向；测试人物默认优先使用亚洲年轻成年女性，一次只推进一张，产品方向仅在用户明确指定时扩展。
+1. **人物角色优先**：继续选择与现有设定表、环境肖像、时装 Lookbook、暖调影棚、落地编辑人像、微表情板和情绪三联画明显不同的写实方向；测试人物默认优先使用亚洲年轻成年女性，一次只推进一张，产品方向仅在用户明确指定时扩展。
 2. **每图闭环**：每张新图同步更新最终 Prompt、效果图、尺寸、SHA-256、输入角色、QC、独立批准和案例目录；任何一项缺失都不进入公开 Gallery。
 3. **连续性检查**：增加角色连续性检查，覆盖脸部、发型、服装结构、左右细节、手部和多视图比例；将测量和人工视觉判断分开记录。
 4. **可移植验证**：在第二台物理电脑完成 Plugin 构建、安装、发现、Prompt-only 和 no-paid-API 验收，并记录实际环境与结果。
@@ -46,7 +47,7 @@
 
 ### Completed
 
-- Sixteen first-party templates with final prompts, images, SHA-256 records, and per-image review.
+- Seventeen first-party templates with final prompts, images, SHA-256 records, and per-image review.
 - A realistic fashion lookbook validating one adult identity, anatomy, and complete full-body framing across six outfits.
 - An exploded product diagram validating nine-layer hierarchy, assembly plausibility, and a no-pseudo-text boundary for fictional hardware.
 - A quiet editorial portrait validating adult identity, modest styling, seated anatomy, natural interior light, and a non-sexualized presentation boundary.
@@ -60,6 +61,7 @@
 - A minimal floor editorial portrait validating a fictional adult woman's complete hands and knees, credible seated pose, modest layered wardrobe, skin and textile detail, calm negative space, and a non-sexualized boundary.
 - A concept design process board validating an original faceted chair's form study, five-step iteration, concept views, structure intent, material direction, exact stage labels, and non-engineering boundary.
 - A realistic micro-expression board validating one young Asian adult identity across nine cells and restrained emotional performance through controlled eye, brow, mouth-corner, jaw, and gaze changes.
+- A cinematic emotion-beat triptych validating one young Asian adult identity, train setting, and low-light continuity while performance progresses from contained shock through processing grief to resolved composure.
 - Visual Brief, template/example selection, prompt compilation, and provider-neutral generation requests.
 - A no-paid-API built-in material route with exact-canvas composition.
 - File QC, human visual review, approval gates, asset manifests, and safe promotion.
@@ -68,7 +70,7 @@
 
 ### Next
 
-1. **Prioritize characters:** continue with realistic directions that differ clearly from the existing design sheet, environmental portrait, fashion lookbook, tonal studio, floor editorial, and micro-expression work. Prefer young Asian adult women for test subjects by default, advance one reviewed asset at a time, and expand product work only when the user explicitly directs it.
+1. **Prioritize characters:** continue with realistic directions that differ clearly from the existing design sheet, environmental portrait, fashion lookbook, tonal studio, floor editorial, micro-expression, and emotion-triptych work. Prefer young Asian adult women for test subjects by default, advance one reviewed asset at a time, and expand product work only when the user explicitly directs it.
 2. **Close every image:** update the final Prompt, image, dimensions, SHA-256, input roles, QC, independent approval, and catalog record together. A missing item blocks entry to the public Gallery.
 3. **Check continuity:** expand character-continuity checks for face, hair, costume construction, left-right details, hands, and multi-view proportions; record measured checks separately from human visual judgment.
 4. **Verify portability:** on a second physical computer, build and install the Plugin, verify discovery and prompt-only behavior, confirm the no-paid-API boundary, and record the actual environment and result.

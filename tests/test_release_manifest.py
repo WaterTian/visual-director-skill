@@ -60,7 +60,7 @@ class ReleaseManifestTests(unittest.TestCase):
             document = json.loads(outputs[0][0])
             checksum_bytes = outputs[0][1]
             self.assertEqual("visual-director", document["plugin"]["name"])
-            self.assertEqual("0.14.0", document["plugin"]["version"])
+            self.assertEqual("0.15.0", document["plugin"]["version"])
             self.assertEqual("WaterTian", document["plugin"]["author"])
             self.assertEqual("WaterTian", document["plugin"]["developer"])
             self.assertGreater(document["package"]["file_count"], 50)

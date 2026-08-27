@@ -312,6 +312,19 @@
       "provenance": {"kind": "first-party", "version": "0.14.0", "path": "gallery/prompts/realistic-micro-expression-board-jiayi-ren.md", "license": "MIT"}
     },
     {
+      "id": "cinematic-emotion-beat-triptych",
+      "title": {"en": "Cinematic Emotion-Beat Triptych", "zh": "电影式情绪转折三联画"},
+      "category": "Characters & People",
+      "styles": ["Photography", "Realistic", "Character", "Editorial"],
+      "scenes": ["Story", "Interior"],
+      "tags": ["emotion-beat", "triptych", "facial-performance", "screen-acting", "identity-consistency", "scene-continuity", "young-asian-adult"],
+      "use_when": {"en": "Use for a photorealistic three-frame story beat where one fictional young Asian adult identity, wardrobe, camera, setting, and light must remain continuous while a restrained emotional transition unfolds.", "zh": "用于需要在三个连续画面中保持同一虚构亚洲年轻成年身份、服装、镜头、场景和光线连续，同时推进克制情绪转折的写实叙事三联画。"},
+      "guidance": {"en": ["Define one continuous scene and one fictional adult identity before describing the emotional arc; lock a visible asymmetry marker, hair, wardrobe, seat or support, camera, and motivated light.", "Translate each beat into small observable changes in eye aperture, gaze height, inner-brow tension, lip separation, jaw set, breath, and shoulder release.", "Use equal sequential frames with a stable facial axis, crop, focal length, background geometry, exposure, and color so the artifact reads as time rather than three unrelated portraits.", "Keep the final beat emotionally truthful: composure may retain sadness or tension and must not default to a smile, triumph, glamour pose, or campaign finish."], "zh": ["在描述情绪弧线前，先锁定一个连续场景和一个虚构成年身份，并明确可见不对称标记、发型、服装、座位或支撑、镜头和有动机的光线。", "把每个情绪节点转成眼睛开合、视线高度、内眉张力、嘴唇分离、下颌、呼吸和肩部释放等细小可观察变化。", "使用等宽连续画面，并固定面部轴线、裁切、焦段、背景几何、曝光和色彩，使作品读成时间推进而不是三张无关人像。", "保持最终节点的情绪真实：镇定仍可保留悲伤或紧张，不应默认变成微笑、胜利、广告姿态或宣传式收尾。"]},
+      "pitfalls": {"en": ["identity drift", "setting drift", "camera drift", "unclear emotional order", "melodramatic crying", "final-frame smile", "campaign color grade"], "zh": ["身份漂移", "场景漂移", "镜头漂移", "情绪顺序不清", "戏剧化哭泣", "末格微笑", "广告化调色"]},
+      "example_cases": [17],
+      "provenance": {"kind": "first-party", "version": "0.15.0", "path": "gallery/prompts/cinematic-emotion-beat-triptych-yuna-kai.md", "license": "MIT"}
+    },
+    {
       "id": "realistic-photography",
       "title": {"en": "Realistic Photography", "zh": "真实人物摄影"},
       "category": "Characters & People",

@@ -136,6 +136,15 @@ This gallery contains only first-party results whose prompts were refined, gener
 - 1254 × 1254, PNG/RGB, 3 × 3 head-and-shoulders expression grid / 3 × 3 头肩微表情网格
 - Nine stable identity cells, restrained readable expressions, constant studio conditions, natural skin and eye detail, no glamour treatment, and no-text requirements passed visual review / 九格身份稳定、表情克制且可读、影棚条件恒定、皮肤与眼部细节自然、无广告精修和无文字要求已通过视觉复核
 
+## Cinematic Emotion-Beat Triptych / 电影式情绪转折三联画
+
+![YUNA KAI cinematic emotion-beat triptych](images/cinematic-emotion-beat-triptych-yuna-kai.png)
+
+- [Final prompt and review / 最终 Prompt 与复核](prompts/cinematic-emotion-beat-triptych-yuna-kai.md)
+- New fictional young Asian adult identity with no real-person or external image reference / 全新虚构亚洲年轻成年身份，不使用真人或外部图片参考
+- 1536 × 1024, PNG/RGB, horizontal triptych with three equal portrait frames / 横向三联画，包含三个等宽竖向画面
+- Identity, mole, bob, wardrobe, train seat, rainy window, camera, and low-light continuity remain stable while shock, grief, and composure progress without melodrama or a final smile / 身份、痣、短发、服装、车厢座位、雨窗、镜头和低照度连续稳定，震惊、悲伤与镇定逐步推进且没有戏剧化哭泣或末格微笑
+
 ## Product Commerce Visual / 商品商业视觉
 
 ![AURORA MINI product commerce visual](images/product-commerce-visual-aurora-mini.png)
